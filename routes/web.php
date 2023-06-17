@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route; 
+use App\Http\Controllers\NotificationsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProyectoController;
 use App\Http\Controllers\UserController;
@@ -13,7 +14,6 @@ use App\Http\Controllers\StoriesController;
 use App\Http\Controllers\GaleriaController;
 use App\Http\Controllers\TerminalController;
 use App\Http\Controllers\ProtocoloController;
-use App\Http\Controllers\NotificationsController;
 use App\Http\Controllers\ImagenController;
 use App\Http\Controllers\PagosController;
 use App\Http\Controllers\SpotifyController;
@@ -89,13 +89,13 @@ Route::post("/editar-protocolo", [ProtocoloController::class, 'update'])->name('
 Route::get("/eliminar-protocolo", [ProtocoloController::class, 'index']);
 Route::post("/eliminar-protocolo", [ProtocoloController::class, 'destroy'])->name('eliminar-protocolo');
 
-Route::get('/cuenta', 'UserController@index')->middleware('auth');
-Route::get('/notificaciones', 'NotificationsController@index')->middleware('auth')->name("notificaciones");
-Route::get('/ver-notificacion-{id}', 'NotificationsController@show')->middleware('auth');
-Route::get('/nueva-notificacion', 'NotificationsController@create')->middleware('auth');
-Route::post('/nueva-notificacion', 'NotificationsController@save')->middleware('auth')->name("nueva-notificacion");
-Route::get('/responder-notificacion-{id}', 'NotificationsController@responder')->middleware('auth');
-Route::post('/responder-notificacion', 'NotificationsController@save')->middleware('auth')->name("responder-notificacion");
+Route::get('/cuenta', [UserController::class, 'index'])->middleware('auth');
+Route::get('/notificaciones', [NotificationsController::class, 'index'])->middleware('auth')->name("notificaciones");
+Route::get('/ver-notificacion-{id}', [NotificationsController::class, 'show'])->middleware('auth');
+Route::get('/nueva-notificacion', [NotificationsController::class, 'create'])->middleware('auth');
+Route::post('/nueva-notificacion', [NotificationsController::class, 'save'])->middleware('auth')->name("nueva-notificacion");
+Route::get('/responder-notificacion-{id}', [NotificationsController::class, 'responder'])->middleware('auth');
+Route::post('/responder-notificacion', [NotificationsController::class, 'save'])->middleware('auth')->name("responder-notificacion");
 
 Route::get('/descripcion', [UserController::class, 'edit'])->middleware('auth');
 Route::post("/descripcion", [UserController::class, 'update'])->name('descripcion');
