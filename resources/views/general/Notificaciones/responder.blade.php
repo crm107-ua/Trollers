@@ -19,8 +19,8 @@
       <div class="row justify-content-center">
         <div class="col-md-6 pt-4">
           <h4 class="text-white mb-4" data-aos="fade-up">Responde una notificación</h4>
-          <h5 class="text-white mb-4" data-aos="fade-up">Redacción del {{App\User::where("id",Auth::user()->id)->get()[0]->cargo  }}</h5>
-          <h5 class="text-white mb-4" data-aos="fade-up">Excelentísimo señor {{App\User::where("id",Auth::user()->id)->get()[0]->name  }}</h5>
+          <h5 class="text-white mb-4" data-aos="fade-up">Redacción del {{App\Models\User::where("id",Auth::user()->id)->get()[0]->cargo  }}</h5>
+          <h5 class="text-white mb-4" data-aos="fade-up">Excelentísimo señor {{App\Models\User::where("id",Auth::user()->id)->get()[0]->name  }}</h5>
           <form action="{{ route('responder-notificacion') }}" method="post" enctype="multipart/form-data">
             @csrf 
                 <div class="form-group">

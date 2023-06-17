@@ -36,10 +36,10 @@
             {{ $notificacion[0]->cabecera }}
               </h1><br>
                 <p>
-                  Escrita por el {{App\User::where("id",$notificacion[0]->id_origen)->get()[0]->cargo  }}
+                  Escrita por el {{App\Models\User::where("id",$notificacion[0]->id_origen)->get()[0]->cargo  }}
                 </p>
                 <p>
-                  Dirigida al {{App\User::where("id",$notificacion[0]->id_destino)->get()[0]->cargo  }}
+                  Dirigida al {{App\Models\User::where("id",$notificacion[0]->id_destino)->get()[0]->cargo  }}
                 </p>
                 @if($notificacion[0]->grupal)
                 <p>

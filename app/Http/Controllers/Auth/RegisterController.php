@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use DB;
 use Hash;
 use Exception;
-use App\User;
+use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;

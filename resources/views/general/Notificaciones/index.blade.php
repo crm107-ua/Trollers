@@ -50,9 +50,9 @@
                       <tr>
                         <td data-title='Ministerio'>
                             @if($notificacion->leido)
-                            {{ App\User::where("id",$notificacion->id_origen)->get()[0]->cargo  }}
+                            {{ App\Models\User::where("id",$notificacion->id_origen)->get()[0]->cargo  }}
                             @else
-                            <b>{{ App\User::where("id",$notificacion->id_origen)->get()[0]->cargo  }}</b>
+                            <b>{{ App\Models\User::where("id",$notificacion->id_origen)->get()[0]->cargo  }}</b>
                             @endif
                         </td>
                         <td data-title='Asunto'>
@@ -98,9 +98,9 @@
                       <tr>
                         <td data-title='Destino'>
                             @if($reciente->leido)
-                            {{ App\User::where("id",$reciente->id_destino)->get()[0]->cargo  }}
+                            {{ App\Models\User::where("id",$reciente->id_destino)->get()[0]->cargo  }}
                             @else
-                            <b>{{ App\User::where("id",$reciente->id_destino)->get()[0]->cargo  }}</b>
+                            <b>{{ App\Models\User::where("id",$reciente->id_destino)->get()[0]->cargo  }}</b>
                             @endif
                         </td>
                         <td data-title='Asunto'>
