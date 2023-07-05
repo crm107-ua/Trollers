@@ -33,6 +33,8 @@
       gtag('config', 'UA-162026543-1');
     </script>
 
+    <!-- Bidvertiser2084826 -->
+
     <!-- Google Adsense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7315335954466454" crossorigin="anonymous"></script>
 
