@@ -133,9 +133,3 @@ Route::get('lang/{lang}', function ($lang) {
   Session::put('lang', $lang);
   return Redirect::back();
 })->middleware('web')->name('change_lang');
-
-
-Route::get('/streaming', [WebrtcStreamingController::class, 'index']);
-Route::get('/streaming/{streamId}', [WebrtcStreamingController::class, 'consumer']);
-Route::post('/stream-offer', [WebrtcStreamingController::class, 'makeStreamOffer']);
-Route::post('/stream-answer', [WebrtcStreamingController::class, 'makeStreamAnswer']);
