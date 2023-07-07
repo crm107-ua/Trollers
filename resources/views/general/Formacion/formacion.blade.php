@@ -34,7 +34,7 @@
                           <div class="img-wrap row justify-content-center"><img src="images/perfiles/{{$usuario->imagen}}" alt="Image" width="260px" height="260px"></div><br>
                           <h2 class="mt-0 mb-4 row justify-content-center" style="color:white;">{{$usuario->name}}</h2>
                           <h2 class="mt-0 mb-4 ml-1 row justify-content-center" style="color:white;">{{$usuario->cargo}}</h2>                                                
-                          @if($usuario->id == 2)
+                          @if($usuario->id == 3)
                           <div class="img-wrap row justify-content-center">
                             <video class="mt-0 mb-3" id="video" playsinline loop autoplay preload muted>
                               <source src="./archivos/animaciones/guerra_activo.mov" type="video/mp4" />
@@ -58,7 +58,7 @@
                           </div>
                           @endif
 
-                          @if($usuario->id == 3)
+                          @if($usuario->id == 2)
                           <div class="row justify-content-center">
                             <a href="./archivos/escudos/MI.png"><img src="./archivos/escudos/MI.png" style="margin:20px;" alt="Image" width="150px" height="150px"></a>
                             <a href="./archivos/escudos/PT.png"><img src="./archivos/escudos/PT.png" style="margin:20px;" alt="Image" width="150px" height="150px"></a>
