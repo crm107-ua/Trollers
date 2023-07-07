@@ -195,7 +195,7 @@ class NotificationsController extends Controller
         }
 
         if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-        && $imageFileType != "gif" ) {
+        && $imageFileType != "gif" && $imageFileType != "pdf" && $imageFileType != "mp4") {
             $uploadOk = 0;
         }
     
