@@ -22,7 +22,7 @@
             <span>ACCEDIENDO A SERVICIOS DE INTELIGENCIA</span>
         </p>
         <p>
-            <span>SERVICIO DE INFRAESTRUCTURAS DIGITALES © TROLLERS 2021</span>
+            <span>SERVICIO DE INFRAESTRUCTURAS DIGITALES &copy; 2013 - {{now()->year}}</span>
         </p>
         <p>
             <span>AUTENTICANDO DESDE EL {{strtoupper(Auth::user()->cargo)}}</span>
