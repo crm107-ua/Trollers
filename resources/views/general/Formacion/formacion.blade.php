@@ -33,7 +33,7 @@
                         <div class="col-md-12">
                           <div class="img-wrap row justify-content-center"><img src="images/perfiles/{{$usuario->imagen}}" alt="Image" width="260px" height="260px"></div><br>
                           <h2 class="mt-0 mb-4 row justify-content-center" style="color:white;">{{$usuario->name}}</h2>
-                          <h2 class="mt-0 mb-4 ml-1 row justify-content-center" style="color:white;">{{$usuario->cargo}}</h2>                                                
+                          <h2 class="mt-0 mb-4 ml-1 row justify-content-center" style="color:white;"><?php echo $usuario->cargo ?></h2>                                                
                           @if($usuario->id == 3)
                           <div class="img-wrap row justify-content-center">
                             <video class="mt-0 mb-3" id="video" playsinline loop autoplay preload muted>
