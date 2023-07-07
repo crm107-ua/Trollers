@@ -170,7 +170,7 @@ class UserController extends Controller
      */
     public function show()
     {
-        $usuarios = User::orderBy('name')->get();
+        $usuarios = User::orderBy('id')->get();
         return view('general.Formacion.formacion', compact('usuarios'));
     }
 
