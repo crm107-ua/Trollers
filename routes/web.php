@@ -19,6 +19,7 @@ use App\Http\Controllers\PagosController;
 use App\Http\Controllers\SpotifyController;
 use App\Http\Controllers\Biblioteca;
 use App\Http\Controllers\WebrtcStreamingController;
+use App\Http\Controllers\TestController;
 
 
 /*
@@ -125,6 +126,8 @@ Route::get('/renovar', [HomeController::class, 'show']);
 Route::get('/spotify', [SpotifyController::class, 'index']);
 Route::get('/spotify-biblioteca', [Biblioteca::class, 'index']);
 Route::get('/timeline', [HomeController::class, 'timeline']);
+
+Route::get('/test', [TestController::class, 'index']);
 
 Route::get('/callback', [SpotifyController::class, 'create']);
 Route::get('/callback_2', [Biblioteca::class, 'create']);
