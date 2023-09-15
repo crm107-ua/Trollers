@@ -292,6 +292,8 @@
       <span class="design"></span>
       <span class="text">d) No tiene ninguna relación con España.</span>
     </label>
+    <p style="color:white; margin-top:40px; text-align:center;"><a style="color:white;" href="/archivos/documentacion/control_acceso.pdf">Ver control de acceso 2023 - 2024</a></p>
+
 </div>
   
 
@@ -301,6 +303,7 @@
 </div>
     </div>
     </main>
+    
 
   @include('general.Links.scripts')
   @include('general.Tests.scripts')

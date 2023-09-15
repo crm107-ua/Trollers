@@ -4,22 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TestController extends Controller
+class StreamController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('general.Tests.index');
-    }
-
-    /**
-     * Display a listing of the resource.
-     */
-    public function congreso()
-    {
-        return view('general.Emiciclo.index');
+        //
     }
 
     /**

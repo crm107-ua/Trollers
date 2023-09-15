@@ -16,11 +16,12 @@
       <li><a href="/test">Test</a></li>
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
-      <li><a href="/minecraft">Minecraft</a></li>
+      <li><a href="/congreso">Congreso</a></li>
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
       <li><a href="/calendario">{{trans('messages.calendar')}}</a></li>
       <li><a href="/spotify">Spotify Wrapped</a></li>
+      <li><a href="/minecraft">Minecraft</a></li>
       <li><a href="/boe">BOE</a></li>
       <li><a href="/mw3">MW3</a></li>
       <li><a href="https://www.instagram.com/trollers.es/"><span class="icon-instagram"></span></a></li>

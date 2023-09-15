@@ -128,6 +128,7 @@ Route::get('/spotify-biblioteca', [Biblioteca::class, 'index']);
 Route::get('/timeline', [HomeController::class, 'timeline']);
 
 Route::get('/test', [TestController::class, 'index']);
+Route::get('/congreso', [TestController::class, 'congreso']);
 
 Route::get('/callback', [SpotifyController::class, 'create']);
 Route::get('/callback_2', [Biblioteca::class, 'create']);
