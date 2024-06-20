@@ -98,8 +98,6 @@ class NotificationsController extends Controller
                             'imagen' => $_FILES["fileToUpload"]["name"],
                             'grupal' => true
                         ]);
-                        $remitente = User::where("id",$usuario->id)->first();
-                        $this->enviar_email($remitente,$cabecera, $mensaje, $_FILES["fileToUpload"]["name"]);
                 }
             }
         }else{
@@ -114,8 +112,6 @@ class NotificationsController extends Controller
                     'imagen' => $_FILES["fileToUpload"]["name"]
                 ]);
             }
-            $remitente = User::where("id",$id_destino)->first();
-            $this->enviar_email($remitente,$cabecera, $mensaje, $_FILES["fileToUpload"]["name"]);
         }
 
         return redirect()->route('notificaciones');
