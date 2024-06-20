@@ -49,10 +49,10 @@ Highcharts.chart('container', {
                 members: 'Eduardo, Jose, Ramón, Martín, Manuel'
             },
             {
-                name: 'GRUPO MIXTO',
+                name: 'GRUPO MIXTO - COALICIÓN TROLLER AVANZA',
                 y: 60,
                 color: '#FC29CF',
-                label: 'GRUPO MIXTO - COALICIÓN TROLLER AVANZA',
+                label: 'GRUPO MIXTO',
                 members: 'María, Alex, Alejandro'
             },
         ],
