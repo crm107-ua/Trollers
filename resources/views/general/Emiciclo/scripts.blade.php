@@ -11,7 +11,7 @@ Highcharts.chart('container', {
         }
     },
     subtitle: {
-        text: '350 diputados',
+        text: '380 diputados',
         style: {
             color: 'white' // Letras blancas
         }
@@ -28,32 +28,32 @@ Highcharts.chart('container', {
         keys: ['name', 'y', 'color', 'label', 'members'],
         data: [
             {
-                name: 'CNT',
-                y: 125,
+                name: 'CNT - LIBERA POPULUM',
+                y: 100,
                 color: '#3A3B2E',
                 label: 'CNT',
                 members: 'Pepe, Robles, Roberto, Juan, Ruben'
             },
             {
-                name: 'VERDES',
-                y: 125,
-                color: '#48D517',
-                label: 'VERDES',
-                members: 'Eduardo, Jose, Ramón, Martín, Manuel' // Lista de miembros de VERDES
-            },
-            {
-                name: 'G.INDEPENDIENTE',
-                y: 90,
+                name: 'G.INDEPENDIENTE - SE ACABÓ LA FIESTA',
+                y: 120,
                 color: '#297FFC',
                 label: 'G.INDEPENDIENTE',
-                members: 'Carlos Luis, Toni, Stivo' // Lista de miembros de G.INDEPENDIENTE
+                members: 'Carlos Luis, Toni, Stivo, Micluti, Ezequiel, David'
+            },
+            {
+                name: 'VERDES EAJ-PNV ASO',
+                y: 100,
+                color: '#48D517',
+                label: 'VERDES',
+                members: 'Eduardo, Jose, Ramón, Martín, Manuel'
             },
             {
                 name: 'GRUPO MIXTO',
-                y: 10,
+                y: 60,
                 color: '#FC29CF',
-                label: 'GRUPO MIXTO',
-                members: 'Grupo Mixto, Coalición Troller Avanza' // Lista de miembros de GRUPO MIXTO
+                label: 'GRUPO MIXTO - COALICIÓN TROLLER AVANZA',
+                members: 'María, Alex, Alejandro'
             },
         ],
         dataLabels: {
