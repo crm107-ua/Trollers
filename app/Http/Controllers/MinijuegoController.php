@@ -13,7 +13,7 @@ class MinijuegoController extends Controller
      */
     public function index()
     {
-        $citas = Minijuego::inRandomOrder()->get();
+        $citas = Minijuego::select('id', 'name')->inRandomOrder()->get();
         $users = User::all();
         return view('general.Minijuego.index', compact('citas', 'users'));
     }
