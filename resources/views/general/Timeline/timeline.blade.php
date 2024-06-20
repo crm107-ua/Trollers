@@ -112,11 +112,51 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="timeline-item" data-text="El     ahora">
-                            <div class="timeline__content"><img class="timeline__img" src="/images/timeline/12.jpg" />
+                        <div class="timeline-item" data-text="COVID - DELLAWERE">
+                            <div class="timeline__content"><img class="timeline__img" src="/images/fotos/IMG_20200201_214407_113.jpg" />
                                 <h2 class="timeline__content-title">2020</h2>
-                                <p class="timeline__content-desc">Actualmente estamos viviendo una de nuestras mejores etapas, somos un gran grupo.<br>
-                                    Seguimos haciendo historia.</p>
+                                <p class="timeline__content-desc">Inicios marcados por reuniones en San Miguel, repletas de risas, boleros y Sport 1… hasta el confinamiento. <br><br> Tras el viaje de negocios del ministro de Hacienda, el grupo se encontró ante la incapacidad de llevar a cabo reuniones físicas. Afortunadamente, las medidas se relajaron en el periodo estival, con grandes sesiones de Chipotle y poleo.<br><br>
+                                    Destacar uno de los proyectos más importantes (si no el que más) hasta la fecha: el Morfeo, por el cual se aprueba el ceremonial ante la defunción de un Troller, firmado por todos los integrantes hasta la fecha (cuyos documentos se encuentran perfectamente salvagaurdados en la “Big 2”).
+                                    <br><br>Se abren muchos horizontes, con un éxodo importante, hacia la metrópolis, de varios componentes del grupo.
+                                    <br><br>Se cierra el año sin fiestas, pero con la esperanza de renacer más “hardbass” que nunca.                                    
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-text="Año neutro">
+                            <div class="timeline__content"><img class="timeline__img" src="/images/fotos/85B2D886-80DF-46DB-ADBD-1D4A49149289.jpeg" />
+                                <h2 class="timeline__content-title">2021</h2>
+                                <p class="timeline__content-desc">Caseteos esporádicos en el Gran Chaparral y quedadas truncadas por las nuevas restricciones Covid.
+                                    <br><br>No obstante, destacar un gran acontecimiento: Martín cumple su mayoría de edad legal, llevando al grupo a una fase de maduración social.                                                                  
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-text="Año de la Gala I">
+                            <div class="timeline__content"><img class="timeline__img" src="/images/fotos/cff8dcf0-6143-45a6-923c-d59b474c62c7.jpg" />
+                                <h2 class="timeline__content-title">2022</h2>
+                                <p class="timeline__content-desc">Tras el bache que supuso las restricciones a quedar, resurgimos con una batería de planes variopintos: la 1era Gala Troller, con risas, Martini, premios y banquete casero; la Operación Caballo Blanco, repleto de rechistes, fianzas, muebles de papel y Cachirul; y el Medusa Festival, arrasado por el Huracán Gymrat.
+                                    <br><br>Contamos con la fortuna de recuperar nuestras preciadas fiestas de Moros y Cristianos, cumpliendo en ellas como manda la tradición ibense.
+                                    <br><br>Destacar la entrada de don Eze Díaz, integrante con una tendencia a la reunión Troller exponencial: si una semana quedaba un día, al mes siguiente ni lo olías.                                                                               
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-text="Año X">
+                            <div class="timeline__content"><img class="timeline__img" src="/images/fotos/avis23.png" />
+                                <h2 class="timeline__content-title">2023</h2>
+                                <p class="timeline__content-desc">¡Ay el Euroavis! La decadencia propiciada por un politiqueo en clave de Sol.
+                                    <br><br>Año marcado por las nuevas integraciones y la creación de embajadas, con las primeras féminas Troller. Creación del Grupo Mixto-Coalición Avanza, estrenado con la entrada de María García, Alejandro Moltó, Alejandro Gisbert y Lucía Sánchez (que nos abandonó a finales del año en curso).<br><br>Don Juan Lozano se incorpora a la CNT.
+                                    <br><br>Marbella, Madrid y Toulouse como nuevas bases de operación.
+                                    <br><br>El Real Michi se respeta, donde el negro a veces comparece, se toma una infusión de melisa, y se va.
+                                    <br><br>El ministro de Economía no se halla conforme al modus operandi, abandonando la formación.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-text="Actualidad">
+                            <div class="timeline__content"><img class="timeline__img" src="/images/fotos/avis2024.jpeg" />
+                                <h2 class="timeline__content-title">2023</h2>
+                                <p class="timeline__content-desc">Periodo en curso, iniciado con un creciente interés por el fútbol del 10% de los integrantes. 
+                                    <br><br>El distrito alcoyano acude a la zona de actuación con mucha asiduidad, acentuando la verdad que está ante los ojos de todo el mundo: el grupo Troller es un hogar, y aquel que entra en contacto queda prendado de sus enigmáticos componentes.
+                                    <br><br>Dos sorprendentes reintegraciones: David Bernabéu e Iván Gabriel Micluti.
+                                    </p>
                             </div>
                         </div>
                     </div>
