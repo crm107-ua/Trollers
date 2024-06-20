@@ -21,7 +21,7 @@
         <div class="col-md-6 pt-4">
         <div class="row pt-4 mb-3 text-center">
           <div class="col-12">
-            <h2 class="text-white mb-4" id="header">¿Quien dice qué?</h2>
+            <h2 class="text-white mb-4" id="header">¿Quién dice qué?</h2>
           </div>
         </div>
         <div id="cita"></div>

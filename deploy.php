@@ -27,9 +27,9 @@ add('writable_dirs',
     ]);
 
 // Indicamos el usuario de despliegue en el servidor
-host('trollers.server')
+host('ssh.carlosrobles.es')
     ->set('remote_user', 'deploy')
-    //->set('port', '4851')
+    ->set('port', '4851')
     ->set('identity_file','~/deploy')
     ->set('deploy_path', '/var/www/html/trollers');
 
