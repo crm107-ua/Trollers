@@ -16,6 +16,7 @@
       <li><a href="/test">Test</a></li>
       <!-- <li><a href="/enigma">Enigma</a></li> -->
       <li><a href="/timeline">Timeline</a></li>
+      <li><a href="/minijuego">Minijuego</a></li>
       <li><a href="/congreso">Congreso</a></li>
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
@@ -36,7 +37,7 @@
       <li><a href="/terminal">Terminal</a></li>
       <li><a href="/netflix">Netflix</a></li>
       <li><a href="/protocolos">{{trans('messages.pro')}}</a></li>
-      <li><a href="/manager">Manager Pro</a></li>
+      <!--  <li><a href="/manager">Manager Pro</a></li> -->
       @if(Auth::user()->rol==1)
       <li><a href="/crear-evento">{{trans('messages.addev')}}</a></li>
       <!-- <li><a href="/galeria-privada">{{trans('messages.gap')}}</a></li> -->

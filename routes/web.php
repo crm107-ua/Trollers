@@ -20,6 +20,7 @@ use App\Http\Controllers\SpotifyController;
 use App\Http\Controllers\Biblioteca;
 use App\Http\Controllers\WebrtcStreamingController;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\MinijuegoController;
 
 
 /*
@@ -126,6 +127,8 @@ Route::get('/renovar', [HomeController::class, 'show']);
 Route::get('/spotify', [SpotifyController::class, 'index']);
 Route::get('/spotify-biblioteca', [Biblioteca::class, 'index']);
 Route::get('/timeline', [HomeController::class, 'timeline']);
+
+Route::get('/minijuego', [MinijuegoController::class, 'index']);
 
 Route::get('/test', [TestController::class, 'index']);
 Route::get('/congreso', [TestController::class, 'congreso']);
