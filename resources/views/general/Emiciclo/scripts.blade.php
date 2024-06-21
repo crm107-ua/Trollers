@@ -5,13 +5,13 @@ Highcharts.chart('container', {
         backgroundColor: 'black', // Fondo negro
     },
     title: {
-        text: 'Congreso de Trollers 2023',
+        text: 'Congreso de Trollers 2024',
         style: {
             color: 'white' // Letras blancas
         }
     },
     subtitle: {
-        text: '380 diputados',
+        text: '19 diputados',
         style: {
             color: 'white' // Letras blancas
         }
@@ -29,28 +29,28 @@ Highcharts.chart('container', {
         data: [
             {
                 name: 'CNT - LIBERA POPULUM',
-                y: 100,
+                y: 5,
                 color: '#3A3B2E',
                 label: 'CNT',
                 members: 'Pepe, Robles, Roberto, Juan, Ruben'
             },
             {
                 name: 'G.INDEPENDIENTE - SE ACABÓ LA FIESTA',
-                y: 120,
+                y: 6,
                 color: '#297FFC',
                 label: 'G.INDEPENDIENTE',
                 members: 'Carlos Luis, Toni, Stivo, Micluti, Ezequiel, David'
             },
             {
                 name: 'VERDES EAJ-PNV ASO',
-                y: 100,
+                y: 5,
                 color: '#48D517',
                 label: 'VERDES',
                 members: 'Eduardo, Jose, Ramón, Martín, Manuel'
             },
             {
                 name: 'GRUPO MIXTO - COALICIÓN TROLLER AVANZA',
-                y: 60,
+                y: 3,
                 color: '#FC29CF',
                 label: 'GRUPO MIXTO',
                 members: 'María, Alex, Alejandro'
