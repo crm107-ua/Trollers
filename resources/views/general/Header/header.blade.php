@@ -14,7 +14,7 @@
     <ul class="js-clone-nav">
       <li><a href="/">{{trans('messages.home')}}</a></li>
       <li><a href="/test">Test</a></li>
-      <!-- <li><a href="/enigma">Enigma</a></li> -->
+      <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
       <li><a href="/minijuego">Minijuego</a></li>
       <li><a href="/congreso">Congreso</a></li>
