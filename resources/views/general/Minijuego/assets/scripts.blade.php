@@ -1,6 +1,7 @@
 <script>
 
 let currentcitaIndex = 0;
+let totalPuntos = 0;
 
 function loadcita() {
     const citaElement = document.getElementById('cita');
@@ -59,11 +60,15 @@ function checkAnswer(selectedId) {
     const currentcita = citas[currentcitaIndex];
     if (selectedId === currentcita.id_user) {
         gameContainer.classList.add('correct');
+        puntos.textContent = `Puntuación: ${totalPuntos += 10}`;
         setTimeout(() => {
             gameContainer.classList.remove('correct');
         }, 1000);
     } else {
         gameContainer.classList.add('incorrect');
+        if (totalPuntos > 0) {
+            puntos.textContent = `Puntuación: ${totalPuntos -= 10}`;
+        }
         setTimeout(() => {
             gameContainer.classList.remove('incorrect');
         }, 1000);
@@ -72,6 +77,8 @@ function checkAnswer(selectedId) {
     setTimeout(loadcita, 1000);
 }
 
+const puntos = document.getElementById('puntos');
+puntos.textContent = `Puntuación: ${totalPuntos}`;
 document.addEventListener('DOMContentLoaded', loadcita);
 
 </script>

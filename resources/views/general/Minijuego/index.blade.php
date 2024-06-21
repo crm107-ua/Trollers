@@ -24,7 +24,10 @@
             <h2 class="text-white mb-4" id="header">¿Quién dice qué?</h2>
           </div>
         </div>
-        <div id="cita"></div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <div id="cita"></div>
+          <span id="puntos" style="margin-bottom: 15px; color: white;"></span>
+        </div>
         <div class="options">
             <div class="option" onclick="checkAnswer(1)">
                 <img src="default.jpg">
