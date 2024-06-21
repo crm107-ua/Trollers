@@ -14,8 +14,7 @@ class EnigmaController extends Controller
      */
     public function index()
     {
-        $codes = Enigma::all();
-        return view('general.Enigma.index',compact('codes'));
+        return view('general.Enigma.index');
     }
 
     /**
