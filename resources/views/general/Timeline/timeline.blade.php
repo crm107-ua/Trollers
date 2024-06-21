@@ -152,7 +152,7 @@
                         </div>
                         <div class="timeline-item" data-text="Actualidad">
                             <div class="timeline__content"><img class="timeline__img" src="/images/fotos/avis2024.jpeg" />
-                                <h2 class="timeline__content-title">2023</h2>
+                                <h2 class="timeline__content-title">2024</h2>
                                 <p class="timeline__content-desc">Periodo en curso, iniciado con un creciente interés por el fútbol del 10% de los integrantes. 
                                     <br><br>El distrito alcoyano acude a la zona de actuación con mucha asiduidad, acentuando la verdad que está ante los ojos de todo el mundo: el grupo Troller es un hogar, y aquel que entra en contacto queda prendado de sus enigmáticos componentes.
                                     <br><br>Dos sorprendentes reintegraciones: David Bernabéu e Iván Gabriel Micluti.
