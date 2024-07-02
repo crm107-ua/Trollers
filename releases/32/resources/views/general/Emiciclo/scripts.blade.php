@@ -29,10 +29,10 @@ Highcharts.chart('container', {
         data: [
             {
                 name: 'CNT - LIBERA POPULUM',
-                y: 5,
+                y: 6,
                 color: '#3A3B2E',
                 label: 'CNT',
-                members: 'Pepe, Robles, Roberto, Juan, Ruben'
+                members: 'Pepe, Robles, Roberto, Jose, Juan, Ruben'
             },
             {
                 name: 'G.INDEPENDIENTE - SE ACABÓ LA FIESTA',
@@ -43,10 +43,10 @@ Highcharts.chart('container', {
             },
             {
                 name: 'VERDES EAJ-PNV ASO',
-                y: 5,
+                y: 4,
                 color: '#48D517',
                 label: 'VERDES',
-                members: 'Eduardo, Jose, Ramón, Martín, Manuel'
+                members: 'Eduardo, Ramón, Martín, Manuel'
             },
             {
                 name: 'GRUPO MIXTO - COALICIÓN TROLLER AVANZA',
