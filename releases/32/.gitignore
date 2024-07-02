@@ -21,3 +21,5 @@ yarn-error.log
 /.vscode
 /shared
 .dep
+../../shared/
+shared/
