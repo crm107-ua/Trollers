@@ -4,7 +4,6 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7315335954466454" crossorigin="anonymous"></script>
 <body>
   <div class="site-wrap" >
-
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -13,6 +12,29 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c98a850788e18857eca73df9ddff62da',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c98a850788e18857eca73df9ddff62da/invoke.js"></script>
+
+<script type="text/javascript">
+        atOptions = {
+                'key' : 'c98a850788e18857eca73df9ddff62da',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+        };
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c98a850788e18857eca73df9ddff62da/invoke.js"></script>
+
 
     @include('general.Header.header')
     <main class="main-content">
@@ -29,7 +51,6 @@
 
 
         <div class="row align-items-stretch">
-
           @foreach($imagenes as $imagen)
           <div class="col-6 col-md-6 col-lg-6 " data-aos="fade-up">
             <a href="images/fotos/{{$imagen->name}}" class="d-block photo-item" data-fancybox="gallery">

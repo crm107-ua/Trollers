@@ -12,14 +12,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
 
+ <script type="text/javascript">
+	atOptions = {
+		'key' : 'c98a850788e18857eca73df9ddff62da',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c98a850788e18857eca73df9ddff62da/invoke.js"></script>
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c98a850788e18857eca73df9ddff62da',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/c98a850788e18857eca73df9ddff62da/invoke.js"></script>
+
+
   @include('general.Header.header')
 
-   <div class="row pt-4 text-center">
-        <div class="col-12">
-          <h2 class="text-white mb-4" id="header">{{ trans('messages.gab') }}</h2>
-        </div>
-  </div>
-  
   <main class="main-content">
     <div class="container-fluid photos">
       <div class="row justify-content-center">
@@ -27,6 +45,7 @@
         <div class="col-md-6 pt-4">
 
           <div class="row">
+
               @foreach($usuarios as $usuario)
               <div class="col-md-12" style="margin-bottom:40px;" data-aos="fade-up">
                     <div class="d-flex blog-entry align-items-start">
