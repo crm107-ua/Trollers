@@ -11,7 +11,7 @@ Highcharts.chart('container', {
         }
     },
     subtitle: {
-        text: '19 diputados',
+        text: '18 diputados',
         style: {
             color: 'white' // Letras blancas
         }
