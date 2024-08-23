@@ -39,7 +39,7 @@ Highcharts.chart('container', {
                 y: 6,
                 color: '#297FFC',
                 label: 'G.INDEPENDIENTE',
-                members: 'Carlos Luis, Toni, Stivo, Micluti, Ezequiel, David'
+                members: 'Carlos Luis, Stivo, Micluti, Ezequiel, David'
             },
             {
                 name: 'VERDES EAJ-PNV ASO',
