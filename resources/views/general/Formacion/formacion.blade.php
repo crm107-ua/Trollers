@@ -28,6 +28,9 @@
 
           <div class="row">
               @foreach($usuarios as $usuario)
+                @if($usuario->id == 1000) <!-- Usuario grupal -->
+                    @continue
+                @endif
               <div class="col-md-12" style="margin-bottom:40px;" data-aos="fade-up">
                     <div class="d-flex blog-entry align-items-start">
                         <div class="col-md-12">

@@ -46,6 +46,11 @@
                 <div></div>
             </div>
         </div>
+        <div class="cercle" onclick="checkAnswer(5)">
+          <div class="rainbow-background">
+            <span class="circle-text">Grupal</span>
+          </div>
+        </div>
     </div>
     </div>
   </div>
