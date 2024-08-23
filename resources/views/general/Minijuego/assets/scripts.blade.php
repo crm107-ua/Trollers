@@ -12,7 +12,8 @@ function loadcita() {
 
 function loadOptions(id_user) {
     const options = document.querySelectorAll('.option');
-    let shuffledUsers = shuffleArray(users.filter(user => user.id !== id_user));
+    let filteredUsers = users.filter(user => user.id !== 1000 && user.id !== id_user);
+    let shuffledUsers = shuffleArray(filteredUsers);
     let correctOption = users.find(user => user.id === id_user);
     
     let optionElements = Array.from(options);
