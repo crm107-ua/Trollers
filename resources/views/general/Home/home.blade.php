@@ -34,8 +34,9 @@
                         <strong>Jugadores conectados:</strong> {{ $serverStatus['players'] }} / {{ $serverStatus['maxPlayers'] }} <br>
                         <strong>Nombre:</strong> {{ $serverStatus['motd'] }} <br>
                         <strong>Versión:</strong> {{ $serverStatus['version'] }} <br>
-                        <strong>Ping:</strong> <b style="color:greenyellow">{{ $serverStatus['ping'] }} ms</b>
-                    </div>
+                        <strong>Ping:</strong> <b style="color:greenyellow">{{ $serverStatus['ping'] }} ms</b><br>
+                        <strong style="background: linear-gradient(45deg, #dfc647, #FF7979, #FFD93D, #ff857c); background-size: 400%; animation: gradientAnimationHome 5s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-style: italic;">Disponible para PC y Móvil</strong>
+                      </div>
                 </div>
             @endif
 
