@@ -41,7 +41,48 @@ class HomeController extends Controller
         $imagenes = Image::orderBy('id', 'DESC')->get();
         $alerta = Alerta::orderBy('id', 'DESC')->first();
         $edit = false;
-        return view('general.Home.home', compact('imagenes', 'edit', 'alerta'));
+        $serverStatus = $this->queryMinecraftServer('minecraft.trollers.es', 25565);
+
+        return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus'));
+    }
+
+    // Funcion para consultar el servidor de Minecraft
+    private function queryMinecraftServer($ip, $port = 25565)
+    {
+        try {
+            $startTime = microtime(true);
+
+            $socket = @fsockopen($ip, $port, $errno, $errstr, 1.5);
+
+            if (!$socket) {
+                return false;
+            }
+
+            fwrite($socket, "\xFE\x01");
+            $response = fread($socket, 1024);
+            fclose($socket);
+
+            $ping = round((microtime(true) - $startTime) * 1000);
+
+            if ($response == null || substr($response, 0, 1) != "\xFF") {
+                return false;
+            }
+
+            $response = substr($response, 3);
+            $response = mb_convert_encoding($response, 'UTF-8', 'UCS-2');
+            $data = explode("\x00", $response);
+
+            return [
+                'version' => $data[2],
+                'motd' => $data[3],
+                'players' => (int)$data[4],
+                'maxPlayers' => (int)$data[5],
+                'ping' => $ping,
+                'online' => true
+            ];
+        } catch (Exception $e) {
+            return false;
+        }
     }
 
     /**
