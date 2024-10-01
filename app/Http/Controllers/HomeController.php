@@ -42,7 +42,6 @@ class HomeController extends Controller
         $alerta = Alerta::orderBy('id', 'DESC')->first();
         $edit = false;
         $serverStatus = $this->queryMinecraftServer('minecraft.trollers.es', 25565);
-        
         return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus'));
     }
 
@@ -74,7 +73,6 @@ class HomeController extends Controller
 
             return [
                 'version' => $data[2],
-                'motd' => $data[3],
                 'players' => (int)$data[4],
                 'maxPlayers' => (int)$data[5],
                 'ping' => $ping,
