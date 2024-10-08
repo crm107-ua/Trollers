@@ -17,6 +17,14 @@ class StreamController extends Controller
     }
 
     /**
+     * Mostrar la página del visor con el stream actual.
+     */
+    public function show()
+    {
+        return view('general.Stream.view');
+    }
+
+    /**
      * Iniciar el stream, cambiar el estado a activo y ejecutar FFmpeg.
      */
     public function startStream() {

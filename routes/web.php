@@ -132,6 +132,7 @@ Route::get('/timeline', [HomeController::class, 'timeline']);
 Route::get('/minijuego', [MinijuegoController::class, 'index']);
 
 Route::get('/tv', [StreamController::class, 'index'])->name('tv');
+Route::get('/view', [StreamController::class, 'view'])->name('view');
 Route::post('/start-tv', [StreamController::class, 'startStream'])->name('start-tv');
 Route::post('/end-tv', [StreamController::class, 'endStream'])->name('end-tv');
 

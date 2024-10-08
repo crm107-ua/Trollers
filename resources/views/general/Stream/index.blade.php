@@ -71,7 +71,7 @@
                 .then((stream) => {
                     videoElement.srcObject = stream;
 
-                    // Establecer la conexión WebSocket con el servidor usando el dominio
+                    // Establecer la conexión WebSocket con el servidor
                     const ws = new WebSocket('wss://www.trollers.es/websocket'); // Cambiar a tu dominio
 
                     ws.onopen = () => {
