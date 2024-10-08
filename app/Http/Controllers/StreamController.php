@@ -26,7 +26,7 @@ class StreamController extends Controller
         $stream->save();
 
         // Ejecutar FFmpeg para convertir el stream a RTMP
-        exec('ffmpeg -re -i /tmp/stream-video.webm -c:v libx264 -preset fast -f flv rtmp://localhost/live/stream > /dev/null 2>/dev/null &');
+        exec('ffmpeg -re -i /tmp/stream-video.webm -c:v libx264 -preset fast -f hls -hls_time 10 -hls_list_size 0 -f hls /var/www/html/stream/hls/stream.m3u8 > /dev/null 2>/dev/null &');
 
         return redirect()->route('tv');
     }
