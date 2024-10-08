@@ -21,6 +21,7 @@ use App\Http\Controllers\Biblioteca;
 use App\Http\Controllers\WebrtcStreamingController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\MinijuegoController;
+use App\Http\Controllers\StreamController;
 
 
 /*
@@ -129,6 +130,10 @@ Route::get('/spotify-biblioteca', [Biblioteca::class, 'index']);
 Route::get('/timeline', [HomeController::class, 'timeline']);
 
 Route::get('/minijuego', [MinijuegoController::class, 'index']);
+
+Route::get('/tv', [StreamController::class, 'index'])->name('tv');
+Route::post('/start-tv', [StreamController::class, 'startStream'])->name('start-tv');
+Route::post('/end-tv', [StreamController::class, 'endStream'])->name('end-tv');
 
 Route::get('/test', [TestController::class, 'index']);
 Route::get('/congreso', [TestController::class, 'congreso']);
