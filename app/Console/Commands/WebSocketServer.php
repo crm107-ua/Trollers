@@ -40,9 +40,11 @@ class WebSocketServer extends Command implements MessageComponentInterface
     public function onMessage(ConnectionInterface $from, $msg) {
         // Guardar el stream de video en un archivo temporal
         file_put_contents("/tmp/stream-video.webm", $msg, FILE_APPEND);
+        
         foreach ($this->clients as $client) {
             if ($from !== $client) {
-                $client->send($msg); // Enviar el stream a otros clientes conectados
+                // Enviar el stream a otros clientes conectados como datos binarios
+                $client->send($msg, true); // El segundo parámetro indica que se envían datos binarios
             }
         }
     }
