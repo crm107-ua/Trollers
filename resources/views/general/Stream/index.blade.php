@@ -72,7 +72,7 @@
                     videoElement.srcObject = stream;
 
                     // Establecer la conexión WebSocket con el servidor usando el dominio
-                    const ws = new WebSocket('wss://trollers.es/websocket'); // Cambiar a tu dominio
+                    const ws = new WebSocket('wss://www.trollers.es/websocket'); // Cambiar a tu dominio
 
                     ws.onopen = () => {
                         const mediaRecorder = new MediaRecorder(stream, {
