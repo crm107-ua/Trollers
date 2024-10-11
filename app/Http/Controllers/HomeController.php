@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 use DB;
 use App\Models\Image;
 use App\Models\Alerta;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Cache;
 
 
 class HomeController extends Controller
@@ -25,8 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        // API KEY: hfWSPJL12u33yaBzC2Wz6F9KUQreKLC1fe75WtLI
-        // ACCOUNT ID: f5cd7a863462508bae57556e99b2c0e9
+
     }
 
     /**
@@ -37,12 +38,25 @@ class HomeController extends Controller
      */
     public function show()
     {
-
         $imagenes = Image::orderBy('id', 'DESC')->get();
         $alerta = Alerta::orderBy('id', 'DESC')->first();
         $edit = false;
         $serverStatus = $this->queryMinecraftServer('minecraft.trollers.es', 25565);
-        return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus'));
+        $isLive = $this->isStreamLive();
+        return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus', 'isLive'));
+    }
+
+    /**
+     * Check if the stream is live.
+     *
+     * @return bool
+     */
+    private function isStreamLive()
+    {
+        return Cache::remember('stream_status', 5, function () {
+            $response = Http::get('https://tv.trollers.es/api/status');
+            return $response->successful() ? $response->json()['online'] : false;
+        });
     }
 
     // Funcion para consultar el servidor de Minecraft

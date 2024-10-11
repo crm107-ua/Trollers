@@ -19,7 +19,40 @@
       <div class="container-fluid photos">
         <div class="row pt-4 mb-5 text-center">
           <div class="col-12">
-            <h2 class="text-white mb-4" id="header">Bienvenid<span style="background: linear-gradient(45deg, #F6E58D, #FF7979, #FFD93D, #FFA8A1); background-size: 400%; animation: gradientAnimationHome 5s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@</span></h2>
+            @if(!$isLive)
+              <h2 class="text-white mb-4" id="header">Bienvenid
+                <span style="background: linear-gradient(45deg, #F6E58D, #FF7979, #FFD93D, #FFA8A1); background-size: 400%; animation: gradientAnimationHome 5s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@</span>
+              </h2>
+            @else
+            <h2 class="text-white mb-2" id="header" style="cursor: pointer;">
+              <a href="https://tv.trollers.es/">
+                <div class="background-video w-background-video w-background-video-atom">
+                    <video id="video" autoplay loop muted playsinline data-object-fit="cover" data-wf-ignore="true"></video>
+                    <img src="https://drive.carlosrobles.es/apps/files_sharing/publicpreview/sqpiK7t6T3pd4ne?file=/&fileId=27200&x=3024&y=1964&a=true&etag=25feda7786ba70536b2914cd6459bd4a" alt="Trollers tv" class="trollers-image" />
+                </div>
+              </a>
+              <style>
+                  .trollers-image {
+                      position: absolute; /* Para superponerla sobre el video */
+                      top: 30%;
+                      left: 50%;
+                      transform: translate(-50%, -50%); /* Centrar la imagen */
+                      max-width: 30%; /* Ajustar el ancho máximo a un 20% */
+                      height: auto; /* Mantener la proporción */
+                      z-index: 10; /* Asegurarse de que esté por encima del video */
+                  }
+          
+                  /* Media query para pantallas más pequeñas */
+                  @media (max-width: 768px) { /* Cambia 768px según el breakpoint deseado */
+                      .trollers-image {
+                          max-width: 80%; /* Aumenta el tamaño en dispositivos móviles */
+                      }
+                  }
+              </style>
+          </h2>
+          
+                       
+            @endif
             <?php /* <!-- @include('general.Home.countdown') --> */ ?> 
             @if($alerta->alternative)
               @include('general.Home.info.index')
