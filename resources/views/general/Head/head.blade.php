@@ -23,21 +23,6 @@
 
     <link rel="stylesheet" href="../css/style.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162026543-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-162026543-1');
-    </script>
-
-    <!-- Bidvertiser2084826 -->
-
-    <!-- Google Adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7315335954466454" crossorigin="anonymous"></script>
-
     <link rel="icon" type="image/png" href="../favicon/Logo2021.png">
 
     <link rel="canonical" href="<?= Request::url() ?>" />

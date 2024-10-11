@@ -24,7 +24,7 @@
             @if($alerta->alternative)
               @include('general.Home.info.index')
             @endif
-            @if($serverStatus)
+            @if($serverStatus ?? false)
                 @include('general.Home.minecraft')
             @endif
           </div>
