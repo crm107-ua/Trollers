@@ -119,6 +119,8 @@ class HomeController extends Controller
         $imagenes = Image::orderBy('id', 'DESC')->get();
         $alerta = Alerta::orderBy('id', 'DESC')->first();
         $edit = true;
-        return view('general.Home.home', compact('imagenes', 'edit', 'alerta'));
+        $serverStatus = $this->queryMinecraftServer('minecraft.trollers.es', 25565);
+        $isLive = $this->isStreamLive();
+        return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus', 'isLive'));
     }
 }

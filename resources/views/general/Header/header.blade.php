@@ -21,6 +21,7 @@
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
       <li><a href="/calendario">{{trans('messages.calendar')}}</a></li>
+      <li><a href="https://tv.trollers.es">Trollers TV</a></li>
       <li><a href="/spotify">Spotify Wrapped</a></li>
       <li><a href="/boe">BOE</a></li>
       <li><a href="/mw3">MW3</a></li>

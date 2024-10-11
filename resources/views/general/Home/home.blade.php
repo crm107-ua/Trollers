@@ -20,8 +20,7 @@
         <div class="row pt-4 mb-5 text-center">
           <div class="col-12">
             @if(!$isLive)
-              <h2 class="text-white mb-4" id="header">Bienvenid
-                <span style="background: linear-gradient(45deg, #F6E58D, #FF7979, #FFD93D, #FFA8A1); background-size: 400%; animation: gradientAnimationHome 5s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@</span>
+              <h2 class="text-white mb-2" id="header">Bienvenid<span style="background: linear-gradient(45deg, #F6E58D, #FF7979, #FFD93D, #FFA8A1); background-size: 400%; animation: gradientAnimationHome 5s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@</span>
               </h2>
             @else
             <h2 class="text-white mb-2" id="header" style="cursor: pointer;">
@@ -49,15 +48,13 @@
                       }
                   }
               </style>
-          </h2>
-          
-                       
+          </h2>                  
             @endif
             <?php /* <!-- @include('general.Home.countdown') --> */ ?> 
             @if($alerta->alternative)
               @include('general.Home.info.index')
             @endif
-            @if($serverStatus ?? false)
+            @if($serverStatus)
                 @include('general.Home.minecraft')
             @endif
           </div>
