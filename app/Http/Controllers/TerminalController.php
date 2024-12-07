@@ -13,8 +13,7 @@ class TerminalController extends Controller
      */
     public function index()
     {
-        $ciudad = $this->detect_city();
-        return view('general.Terminal.terminal.index',compact('ciudad'));
+        return view('general.Terminal.terminal.index');
     }
 
     /**

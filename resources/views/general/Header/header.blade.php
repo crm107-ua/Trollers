@@ -17,11 +17,11 @@
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
       <li><a href="/minijuego">Minijuego</a></li>
-      <li><a href="/congreso">Congreso</a></li>
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
       <li><a href="/calendario">{{trans('messages.calendar')}}</a></li>
-      <li><a href="https://tv.trollers.es">Trollers TV</a></li>
+      <li><a href="https://tv.trollers.es" target="_blank">Trollers TV</a></li>
+      <li><a href="/trollers-gpt">Trollers GPT</a></li>
       <li><a href="/spotify">Spotify Wrapped</a></li>
       <li><a href="/boe">BOE</a></li>
       <li><a href="/mw3">MW3</a></li>
@@ -35,7 +35,6 @@
       @else
         <li><a href="/notificaciones">{{trans('messages.not')}} ({{$notificaciones}})</a></li>
       @endif
-      <li><a href="/terminal">Terminal</a></li>
       <li><a href="/netflix">Netflix</a></li>
       <li><a href="/protocolos">{{trans('messages.pro')}}</a></li>
       <!--  <li><a href="/manager">Manager Pro</a></li> -->

@@ -83,7 +83,11 @@ Route::get("/galeria-privada", [GaleriaController::class, 'index'])->middleware(
 Route::get("/galeria-privada/{id}", [GaleriaController::class, 'index'])->middleware('auth')->middleware('admin');
 Route::post("/eliminar-privada", [GaleriaController::class, 'destroy'])->name('eliminar-privada');
 
-Route::get('/terminal', [TerminalController::class, 'index'])->name('terminal')->middleware('auth');
+Route::get('/trollers-gpt', [TerminalController::class, 'index'])->name('trollers-gpt');
+Route::get('/api/key', function () {
+  return response()->json(['key' => env('AI_API_KEY')]);
+});
+
 Route::get('/protocolos', [ProtocoloController::class, 'index'])->name('protocolos')->middleware('auth');
 Route::get("/crear-protocolo", [ProtocoloController::class, 'create'])->middleware('auth')->middleware('admin');
 Route::post("/crear-protocolo", [ProtocoloController::class, 'store'])->name('crear-protocolo');
@@ -131,7 +135,6 @@ Route::get('/timeline', [HomeController::class, 'timeline']);
 Route::get('/minijuego', [MinijuegoController::class, 'index']);
 
 Route::get('/test', [TestController::class, 'index']);
-Route::get('/congreso', [TestController::class, 'congreso']);
 
 Route::get('/callback', [SpotifyController::class, 'create']);
 Route::get('/callback_2', [Biblioteca::class, 'create']);

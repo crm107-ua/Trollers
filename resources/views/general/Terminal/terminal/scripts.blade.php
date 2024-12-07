@@ -1,134 +1,189 @@
 <script>
-// setup vars
-var currentLine = "";
-var typeSpeed = 70;
-var pauseLength = 1000;
+  // setup vars
+  var typeSpeed = 30;  // Reduce the speed for faster typing
+  var pauseLength = 1000;
+  let jsonData = null;
+  let apiKey = null;
 
-// get ref to DOM Elements
-var cursor = $("#cursor");
-var animate = $(".animate");
-var input = $("#inputcmd");
-var output = $("#output");
-
-// set up Event Listeners
-input.keypress(keypressInput);
-$("#terminal-window").click(openKeyboard);
-
-// hide text so we can animate it
-animate.each(function(index) {
-  $(this).addClass("hide");
-});
-
-// make first call to printCharaters() for animation
-var temp = setTimeout(printCharaters, typeSpeed);
-
-// this function animates printing of text inside DOMS with the .animate class.
-function printCharaters() {
-  // check if current line array is empty
-  if (currentLine.length == 0) {
-    // stop cursor from blinking
-    cursor.removeClass("blink");
-
-    // get first line of text and add it to an array
-    currentLine = animate.first().text().split("");
-    currentLine = currentLine.reverse();
-
-    // remove text from dom and unhide element
-    animate.first().html("");
-    animate.first().removeClass("hide");
-    cursor.appendTo(animate.first());
-  }
-
-  // animate typing
-  animate.first().append(currentLine.pop()).append(cursor);
-
-  // check if we just popped the last element of the array off
-  if (currentLine.length == 0) {
-    // remove animated DOM Element from animation
-    animate.first().removeClass("animate");
-    // get new list of DOM Elements to animate
-    animate = $(".animate");
-    // make cursor blink at the end-of-line.
-    cursor.addClass("blink");
-
-    // Animate next DOM Element if any remain
-    if (animate.length > 0) {
-      setTimeout(printCharaters, pauseLength);
-    } else {
-      // all text in the DOM Elements have been animated
-      input.after(cursor);
-      input.focus();
-    }
-  } else {
-    // Animate next character in DOM Element
-    setTimeout(printCharaters, typeSpeed);
-  }
-}
-
-function keypressInput(e) {
-  // received enter key, send cmd and clear input
-  if (e.keyCode == 13) {
-    var command = input.text();
-    output.html(proccessCMD(command));
-    input.html("");
-    e.preventDefault();
-  }
-}
-
-function proccessCMD(cmd) {
-  cmd = cmd.trim().toLowerCase();
-  switch (cmd.split(" ")[0]) {
-    case "/help":
-      return "Comandos activos:<br>" + 
-             "/date: Se obtiene la fecha actual <br>"+
-             "/for x [cadena_de_repeticion]<br>"+
-             "/sum x y<br>"+
-             "/res x y<br>"+
-             "/div x y<br>"+
-             "/mult x y<br>"
-             ;
-      break; 
-    case "/date":
-      var f = new Date();
-      return f.getDate() + "-"+ (f.getMonth()+1)+ "-" +f.getFullYear();
-      break;
-    case "/sum":
-      return parseFloat(cmd.split(" ")[1])+parseFloat(cmd.split(" ")[2]);
-      break;
-    case "/res":
-      return parseFloat(cmd.split(" ")[1])-parseFloat(cmd.split(" ")[2]);
-      break;
-    case "/div":
-      return parseFloat(cmd.split(" ")[1])/parseFloat(cmd.split(" ")[2]);
-      break;
-    case "/mult":
-      return parseFloat(cmd.split(" ")[1])*parseFloat(cmd.split(" ")[2]);
-      break;
-    case "/for":
-      var cadena = "";
-      if(parseInt(cmd.split(" ")[1]) <= 100){
-        if(cmd.split(" ")[2]==''){
-          for (let index = 1; index <= parseInt(cmd.split(" ")[1]); index++) {
-            cadena += index + " ";
-          }
-        }else{
-          for (let index = 1; index <= parseInt(cmd.split(" ")[1]); index++) {
-            cadena += cmd.split(" ")[2] + " ";
-          }
-        }
-      }else{
-        cadena="No te pases de listo";
+  fetch('/api/key')
+    .then(response => response.json())
+    .then(data => {
+      apiKey = data.key;
+  })
+  .catch(error => console.error("Error fetching API key:", error));
+  
+  // Load JSON data from the URL
+  fetch('https://www.trollers.es/archivos/gpt/trainer_data.json')
+    .then(response => response.json())
+    .then(data => {
+      jsonData = data;
+    })
+    .catch(error => console.error("Error loading JSON data:", error));
+  
+  // get ref to DOM Elements
+  var input = $("#inputcmd");
+  var output = $("#output");
+  
+  // set up Event Listeners
+  input.keypress(keypressInput);
+  $("#terminal-window").click(openKeyboard);
+  
+  function keypressInput(e) {
+    if (e.keyCode == 13) {
+      var question = input.text().trim();
+      if (question) {
+        appendMessage("assistant", "Cargando...", true);  // Show loading message with loading style
+        processQuestion(question).then(response => {
+          appendMessage("user", question);
+          appendMessage("assistant", response);
+        }).catch(error => {
+          appendMessage("assistant", "Error: " + error.message);
+        });
+      } else {
+        appendMessage("assistant", "Por favor, escribe una pregunta.");
       }
-      return cadena;
-      break;
-    default:
-      return "Comando no reconocido. Escribe /help para abrir el asistente.";
-      break;
+      input.html("");
+      e.preventDefault();
+    }
   }
+  
+  function openKeyboard() {
+    input.focus();
+  }
+  
+  function appendMessage(role, text, isLoading = false) {
+  const messageClass = isLoading ? "loading" : role; // Asigna la clase 'loading' si está cargando
+  const message = $(`<div class="message ${messageClass}"></div>`);
+  output.append(message);
+
+  if (isLoading) {
+    message.text(text); // Muestra el texto "Cargando..." sin animación
+  } else {
+    animateText(message, text).then(() => {
+      // Una vez que se termina de escribir el texto, elimina los mensajes "loading"
+      $(".message.loading").remove();
+    });
+  }
+
+  output.scrollTop(output.prop("scrollHeight"));
 }
 
-//open iOS keyboard
-function openKeyboard(){
-  input.focus();
-}
-</script>
+  function animateText(element, text) {
+    return new Promise((resolve) => {
+      let index = 0;
+      let formattedText = ""; // Texto acumulado con saltos de línea procesados
+
+      function type() {
+        if (index < text.length) {
+          const char = text.charAt(index);
+
+          // Agregar el carácter al texto acumulado
+          if (char === "\n") {
+            formattedText += "<br>"; // Reemplazar saltos de línea con <br>
+          } else {
+            formattedText += char; // Agregar cualquier otro carácter normalmente
+          }
+
+          // Actualizar el contenido del elemento
+          element.html(formattedText);
+
+          index++;
+          setTimeout(type, typeSpeed); // Llamar recursivamente para el siguiente carácter
+        } else {
+          resolve(); // Resuelve la promesa cuando se completa la animación
+        }
+      }
+      type();
+    });
+  }
+
+  
+  // Process the question and format the response
+  async function processQuestion(question) {
+    // Verifica si ya se cargaron los datos JSON
+    if (jsonData) {
+      // Prepara el mensaje para la API con el JSON y la pregunta
+      const messages = [
+        {"role": "system", "content": "Eres un experto en la historia de Trollers, te llamas Trollers GPT y estas en versión Beta. Responde basándote en el contexto proporcionado."},
+        {"role": "user", "content": `Aquí tienes información para aprender:\n${JSON.stringify(jsonData)}`},
+        {"role": "user", "content": question}
+      ];
+  
+      // Configuración de la solicitud a la API
+      const url = "https://api.x.ai/v1/chat/completions";
+      const headers = {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${apiKey}`      
+      };
+  
+      const data = {
+        "model": "grok-beta",
+        "messages": messages,
+        "temperature": 0.7
+      };
+  
+      try {
+        let response = await fetch(url, {
+          method: "POST",
+          headers: headers,
+          body: JSON.stringify(data)
+        });
+  
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+  
+        let json = await response.json();
+        return formatResponse(json.choices[0].message.content);  // Formatted response
+      } catch (error) {
+        throw error;
+      }
+    } else {
+      return "Esperando la carga de los datos JSON...";
+    }
+  }
+  
+  // Function to format text with bold and line breaks
+  function formatResponse(text) {
+    // Convert **bold** to <strong>bold</strong>
+    text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    // Convert newlines to <br> tags
+    text = text.replace(/\n/g, "<br>");
+    return text;
+  }
+  
+  </script>
+  
+  <style>
+  #output {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    white-space: pre-wrap;  /* Para que respete los espacios y saltos de línea */
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .message.user {
+    text-align: right;
+    color: #0f0;
+  }
+  
+  .message.assistant {
+    text-align: left;
+    color: #0ff;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #ffa500; /* Color naranja */
+  }
+  
+  </style>
+  
