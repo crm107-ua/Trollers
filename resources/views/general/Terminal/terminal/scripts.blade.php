@@ -1,6 +1,9 @@
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.min.js" integrity="sha512-lvWiOP+aMKHllm4THsjzNleVuGOh0WGniJ3lgu/nvCbex1LlaQSxySUjAu/LTJw9FhnSL/PVYoQcckg1Q03+fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
   // setup vars
-  var typeSpeed = 30;  // Reduce the speed for faster typing
+  var typeSpeed = 20;  // Reduce the speed for faster typing
   var pauseLength = 1000;
   let jsonData = null;
   let apiKey = null;
@@ -52,51 +55,55 @@
   }
   
   function appendMessage(role, text, isLoading = false) {
-  const messageClass = isLoading ? "loading" : role; // Asigna la clase 'loading' si está cargando
+  const messageClass = isLoading ? "loading" : role;
   const message = $(`<div class="message ${messageClass}"></div>`);
   output.append(message);
 
   if (isLoading) {
-    message.text(text); // Muestra el texto "Cargando..." sin animación
+    message.text(text);
   } else {
     animateText(message, text).then(() => {
-      // Una vez que se termina de escribir el texto, elimina los mensajes "loading"
       $(".message.loading").remove();
+      MathJax.typesetPromise(); // Procesa las fórmulas matemáticas
     });
   }
 
   output.scrollTop(output.prop("scrollHeight"));
 }
 
-  function animateText(element, text) {
+
+function animateText(element, text) {
     return new Promise((resolve) => {
-      let index = 0;
-      let formattedText = ""; // Texto acumulado con saltos de línea procesados
+        let index = 0;
+        let formattedText = ""; // Texto acumulado con saltos de línea procesados
 
-      function type() {
-        if (index < text.length) {
-          const char = text.charAt(index);
+        function type() {
+            if (index < text.length) {
+                const char = text.charAt(index);
 
-          // Agregar el carácter al texto acumulado
-          if (char === "\n") {
-            formattedText += "<br>"; // Reemplazar saltos de línea con <br>
-          } else {
-            formattedText += char; // Agregar cualquier otro carácter normalmente
-          }
+                // Agregar el carácter al texto acumulado
+                if (char === "\n") {
+                    formattedText += "<br>"; // Reemplazar saltos de línea con <br>
+                } else {
+                    formattedText += char; // Agregar cualquier otro carácter normalmente
+                }
 
-          // Actualizar el contenido del elemento
-          element.html(formattedText);
+                // Actualizar el contenido del elemento
+                element.html(formattedText);
 
-          index++;
-          setTimeout(type, typeSpeed); // Llamar recursivamente para el siguiente carácter
-        } else {
-          resolve(); // Resuelve la promesa cuando se completa la animación
+                // Procesar fórmulas matemáticas dinámicamente
+                MathJax.typesetPromise([element[0]]).then(() => {
+                    // Continúa animando el texto después de procesar las fórmulas
+                    index++;
+                    setTimeout(type, typeSpeed);
+                });
+            } else {
+                resolve(); // Resuelve la promesa cuando se completa la animación
+            }
         }
-      }
-      type();
+        type();
     });
-  }
-
+}
   
   // Process the question and format the response
   async function processQuestion(question) {
