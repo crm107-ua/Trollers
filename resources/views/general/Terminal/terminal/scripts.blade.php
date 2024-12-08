@@ -35,7 +35,7 @@
     if (e.keyCode == 13) {
       var question = input.text().trim();
       if (question) {
-        appendMessage("assistant", "Cargando...", true);  // Show loading message with loading style
+        appendMessage("assistant", "Cargando...", true);
         processQuestion(question).then(response => {
           appendMessage("user", question);
           appendMessage("assistant", response);
@@ -111,7 +111,7 @@ function animateText(element, text) {
     if (jsonData) {
       // Prepara el mensaje para la API con el JSON y la pregunta
       const messages = [
-        {"role": "system", "content": "Eres un experto en la historia de Trollers, te llamas Trollers GPT y estas en versión Beta. Responde basándote en el contexto proporcionado."},
+        {"role": "system", "content": "Eres un experto en la historia de Trollers, una organizacion secreta repleta de secretos oficiales, te llamas Trollers GPT y estas en versión Beta. Responde basándote en el contexto proporcionado y muy sarcásticamente."},
         {"role": "user", "content": `Aquí tienes información para aprender:\n${JSON.stringify(jsonData)}`},
         {"role": "user", "content": question}
       ];
