@@ -85,7 +85,9 @@ Route::post("/eliminar-privada", [GaleriaController::class, 'destroy'])->name('e
 
 Route::get('/trollers-gpt', [TerminalController::class, 'index'])->name('trollers-gpt');
 Route::get('/api/key', function () {
-  return response()->json(['key' => env('AI_API_KEY')]);
+  $keys = explode(',', env('XAI_API_KEYS1'));
+  $randomKey = $keys[array_rand($keys)];
+  return response()->json(['key' => $randomKey]);
 });
 
 Route::get('/protocolos', [ProtocoloController::class, 'index'])->name('protocolos')->middleware('auth');
