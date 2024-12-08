@@ -5,7 +5,7 @@ body, #inputcmd{
 }
 
 #terminal-window {
-  padding: 60px;
+  padding: 30px;
 }
 
 
