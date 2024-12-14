@@ -30,7 +30,9 @@
   var output = $("#output");
 
   // Inicializar con mensaje de contraseña
-  output.text("Introduce la contraseña para acceder al terminal").addClass("password");
+  $(document).ready(function() {
+        appendMessage("assistant", "Introduce la contraseña para acceder al terminal.");
+  });
   input.focus();
 
   // set up Event Listeners
@@ -217,11 +219,5 @@
     font-style: italic;
     color: #ffa500;
   }
-
-  .password{
-    font-style: italic;
-    color: #ffb676 !important;
-  }
-  
   </style>
   
