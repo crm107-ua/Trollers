@@ -27,7 +27,7 @@
             <span>TROLLERS GPT (1.0 BETA)</span>
         </p>
         <p>
-            <span class="animate">> </span><span autofocus contenteditable="true" id="inputcmd"></span>
+            <span class="animate"> > </span><span autofocus contenteditable="true" id="inputcmd"></span>
         </p>
         <p><span id="output" >{!! $output ?? '' !!}</span></p>
     </div>

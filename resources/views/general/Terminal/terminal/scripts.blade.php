@@ -3,18 +3,20 @@
 
 <script>
   // setup vars
-  var typeSpeed = 20;  // Reduce the speed for faster typing
+  const expectedPasswordHash = "0b0197edf9687a0c2186d96caba2fc006f2086f6bd86e561ca436d6f00b47751";
+  var typeSpeed = 20; // Reduce the speed for faster typing
   var pauseLength = 1000;
   let jsonData = null;
   let apiKey = null;
+  let isLocked = true;
 
   fetch('/api/key')
     .then(response => response.json())
     .then(data => {
       apiKey = data.key;
-  })
-  .catch(error => console.error("Error fetching API key:", error));
-  
+    })
+    .catch(error => console.error("Error fetching API key:", error));
+
   // Load JSON data from the URL
   fetch('https://www.trollers.es/archivos/gpt/trainer_data.json')
     .then(response => response.json())
@@ -22,57 +24,87 @@
       jsonData = data;
     })
     .catch(error => console.error("Error loading JSON data:", error));
-  
+
   // get ref to DOM Elements
   var input = $("#inputcmd");
   var output = $("#output");
-  
+
+  // Inicializar con mensaje de contraseña
+  output.text("Introduce la contraseña para acceder al terminal").addClass("password");
+  input.focus();
+
   // set up Event Listeners
-  input.keypress(keypressInput);
-  $("#terminal-window").click(openKeyboard);
-  
-  function keypressInput(e) {
-    if (e.keyCode == 13) {
-      var question = input.text().trim();
-      if (question) {
-        appendMessage("assistant", "Cargando...", true);
-        processQuestion(question).then(response => {
-          appendMessage("user", question);
-          appendMessage("assistant", response);
-        }).catch(error => {
-          appendMessage("assistant", "Error: " + error.message);
-        });
-      } else {
-        appendMessage("assistant", "Por favor, escribe una pregunta.");
-      }
-      input.html("");
+  input.keypress(handleInput);
+  $("#terminal-window").click(() => input.focus());
+
+  function handleInput(e) {
+    if (isLocked && e.keyCode === 13) {
+      // Manejar ingreso de contraseña
+      const inputText = input.text().trim();
+      sha256(inputText).then((inputHash) => {
+        if (inputHash === expectedPasswordHash) {
+          isLocked = false; // Desbloquear terminal
+          output.text("");  
+          output.removeClass("password");
+          appendMessage("assistant", "Acceso concedido. Bienvenido.");
+          enableTerminal(); // Habilitar terminal
+        } else {
+          output.text("");
+          appendMessage("assistant", "Contraseña incorrecta. Inténtalo de nuevo.");
+        }
+        input.text(""); // Limpiar el campo
+      });
       e.preventDefault();
     }
   }
-  
-  function openKeyboard() {
-    input.focus();
-  }
-  
-  function appendMessage(role, text, isLoading = false) {
-  const messageClass = isLoading ? "loading" : role;
-  const message = $(`<div class="message ${messageClass}"></div>`);
-  output.append(message);
 
-  if (isLoading) {
-    message.text(text);
-  } else {
-    animateText(message, text).then(() => {
-      $(".message.loading").remove();
-      MathJax.typesetPromise(); // Procesa las fórmulas matemáticas
+  function enableTerminal() {
+    input.text("");
+    input.keypress((e) => {
+      if (e.keyCode === 13) {
+        var question = input.text().trim();
+        if (question) {
+          appendMessage("assistant", "Cargando...", true);
+          processQuestion(question).then(response => {
+            appendMessage("user", question);
+            appendMessage("assistant", response);
+          }).catch(error => {
+            appendMessage("assistant", "Error: " + error.message);
+          });
+        } else {
+          appendMessage("assistant", "Por favor, escribe una pregunta.");
+        }
+        input.text(""); // Limpiar el campo
+        e.preventDefault();
+      }
     });
   }
 
-  output.scrollTop(output.prop("scrollHeight"));
-}
+  async function sha256(message) {
+    const msgBuffer = new TextEncoder().encode(message);
+    const hashBuffer = await crypto.subtle.digest("SHA-256", msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+  }
 
+  function appendMessage(role, text, isLoading = false) {
+    const messageClass = isLoading ? "loading" : role;
+    const message = $(`<div class="message ${messageClass}"></div>`);
+    output.append(message);
 
-function animateText(element, text) {
+    if (isLoading) {
+      message.text(text);
+    } else {
+      animateText(message, text).then(() => {
+        $(".message.loading").remove();
+        MathJax.typesetPromise(); // Procesa las fórmulas matemáticas
+      });
+    }
+
+    output.scrollTop(output.prop("scrollHeight"));
+  }
+
+  function animateText(element, text) {
     return new Promise((resolve) => {
         let index = 0;
         let formattedText = ""; // Texto acumulado con saltos de línea procesados
@@ -104,44 +136,41 @@ function animateText(element, text) {
         type();
     });
 }
-  
-  // Process the question and format the response
+
   async function processQuestion(question) {
     // Verifica si ya se cargaron los datos JSON
     if (jsonData) {
-      // Prepara el mensaje para la API con el JSON y la pregunta
       const messages = [
         {"role": "system", "content": "Eres un experto en la historia de Trollers, una organizacion secreta repleta de secretos oficiales, te llamas Trollers GPT y estas en versión Beta. Responde basándote en el contexto proporcionado y muy sarcásticamente."},
         {"role": "user", "content": `Aquí tienes información para aprender:\n${JSON.stringify(jsonData)}`},
         {"role": "user", "content": question}
       ];
-  
-      // Configuración de la solicitud a la API
+
       const url = "https://api.x.ai/v1/chat/completions";
       const headers = {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${apiKey}`      
+        "Authorization": `Bearer ${apiKey}`
       };
-  
+
       const data = {
         "model": "grok-beta",
         "messages": messages,
         "temperature": 0.7
       };
-  
+
       try {
         let response = await fetch(url, {
           method: "POST",
           headers: headers,
           body: JSON.stringify(data)
         });
-  
+
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
-  
+
         let json = await response.json();
-        return formatResponse(json.choices[0].message.content);  // Formatted response
+        return formatResponse(json.choices[0].message.content);
       } catch (error) {
         throw error;
       }
@@ -149,17 +178,14 @@ function animateText(element, text) {
       return "Esperando la carga de los datos JSON...";
     }
   }
-  
-  // Function to format text with bold and line breaks
+
   function formatResponse(text) {
-    // Convert **bold** to <strong>bold</strong>
     text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-    // Convert newlines to <br> tags
     text = text.replace(/\n/g, "<br>");
     return text;
   }
-  
-  </script>
+</script>
+
   
   <style>
   #output {
@@ -189,7 +215,12 @@ function animateText(element, text) {
   
   .loading {
     font-style: italic;
-    color: #ffa500; /* Color naranja */
+    color: #ffa500;
+  }
+
+  .password{
+    font-style: italic;
+    color: #ffb676 !important;
   }
   
   </style>
