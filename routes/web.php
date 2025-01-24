@@ -84,12 +84,12 @@ Route::get("/galeria-privada/{id}", [GaleriaController::class, 'index'])->middle
 Route::post("/eliminar-privada", [GaleriaController::class, 'destroy'])->name('eliminar-privada');
 
 Route::get('/trollers-gpt', [TerminalController::class, 'index'])->name('trollers-gpt');
-Route::get('/api/key', function () {
-  $keys = explode(',', env('XAI_API_KEYS1'));
-  $weightedKeys = array_merge([$keys[0]], array_slice($keys, 1), array_slice($keys, 1));
-  $randomKey = $weightedKeys[array_rand($weightedKeys)];
-  return response()->json(['key' => $randomKey]);
-});
+// Route::get('/api/key', function () {
+//   $keys = explode(',', env('XAI_API_KEYS1'));
+//   $weightedKeys = array_merge([$keys[0]], array_slice($keys, 1), array_slice($keys, 1));
+//   $randomKey = $weightedKeys[array_rand($weightedKeys)];
+//   return response()->json(['key' => $randomKey]);
+// });
 
 Route::get('/protocolos', [ProtocoloController::class, 'index'])->name('protocolos')->middleware('auth');
 Route::get("/crear-protocolo", [ProtocoloController::class, 'create'])->middleware('auth')->middleware('admin');
@@ -134,6 +134,8 @@ Route::get('/renovar', [HomeController::class, 'show']);
 Route::get('/spotify', [SpotifyController::class, 'index']);
 Route::get('/spotify-biblioteca', [Biblioteca::class, 'index']);
 Route::get('/timeline', [HomeController::class, 'timeline']);
+
+Route::get('/hits-trollers', [SpotifyController::class, 'getHitsTrollers']);
 
 Route::get('/minijuego', [MinijuegoController::class, 'index']);
 

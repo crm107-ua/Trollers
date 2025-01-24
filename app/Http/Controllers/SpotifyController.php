@@ -58,4 +58,9 @@ class SpotifyController extends Controller
 
     }
 
+    public function getHitsTrollers()
+    {
+        return view('general.HitsTrollers.index');
+    }
+
 }

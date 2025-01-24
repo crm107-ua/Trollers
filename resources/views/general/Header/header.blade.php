@@ -17,16 +17,23 @@
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
       <li><a href="/minijuego">Minijuego</a></li>
+      <style>
+          @media (min-width: 9000px) {
+              .hits-trollers-link {
+                  display: none;
+              }
+          }
+      </style>
+      <li class="hits-trollers-link"><a href="/hits-trollers">Hits Trollers</a></li>
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
       <li><a href="/calendario">{{trans('messages.calendar')}}</a></li>
       <li><a href="https://tv.trollers.es" target="_blank">Trollers TV</a></li>
-      <li><a href="/trollers-gpt">Trollers GPT</a></li>
+      {{-- <li><a href="/trollers-gpt">Trollers GPT</a></li> --}}
       <li><a href="/spotify">Spotify Wrapped</a></li>
       <li><a href="/boe">BOE</a></li>
       <li><a href="/mw3">MW3</a></li>
       <li><a href="https://www.instagram.com/trollers.es/"><span class="icon-instagram"></span></a></li>
-      <!-- <li><a href="proyectos">Versiones</a></li> -->
       @if(Auth::check())
       <?php $notificaciones = \App\Models\Notificacion::get()->where("id_destino",Auth::user()->id)->where("leido",false)->count();?> 
       <li><a href="/cuenta">{{Auth::user()->name}}</a></li>
