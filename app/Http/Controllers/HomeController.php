@@ -41,9 +41,40 @@ class HomeController extends Controller
         $imagenes = Image::orderBy('id', 'DESC')->get();
         $alerta = Alerta::orderBy('id', 'DESC')->first();
         $edit = false;
-        $serverStatus = $this->queryMinecraftServer('minecraft.trollers.es', 25565);
+        $serverStatus = $this->queryMinecraftServer('minecraft.trollers.es', 25593);
         $isLive = $this->isStreamLive();
-        return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus', 'isLive'));
+        [$toBuy, $toSell] = $this->getRecommendations($this->getMarketPrices());
+
+        return view('general.Home.home', compact('imagenes', 'edit', 'alerta', 'serverStatus', 'isLive' , 'toBuy', 'toSell'));
+    }
+
+    private function getMarketPrices(): array
+    {
+        $response = Http::get('https://api2.warera.io/trpc/itemTrading.getPrices');
+
+        if (!$response->successful()) {
+            return [];
+        }
+
+        $json = $response->json();
+
+        return $json['result']['data'] ?? [];
+    }
+
+    private function getRecommendations(array $prices, float $buyThreshold = 0.1, float $sellThreshold = 5.0): array
+    {
+        $toBuy = [];
+        $toSell = [];
+
+        foreach ($prices as $item => $price) {
+            if ($price < $buyThreshold) {
+                $toBuy[$item] = $price;
+            } elseif ($price > $sellThreshold) {
+                $toSell[$item] = $price;
+            }
+        }
+
+        return [$toBuy, $toSell];
     }
 
     /**

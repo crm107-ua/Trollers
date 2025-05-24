@@ -57,9 +57,6 @@
             @if($serverStatus)
                 @include('general.Home.minecraft')
             @endif
-            @if($toBuy && $toSell)
-                @include('general.Home.warera')
-            @endif
           </div>
         </div>
 
