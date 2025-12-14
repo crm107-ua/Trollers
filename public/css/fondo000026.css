@@ -1,0 +1,68 @@
+.container {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/402/253/non_2x/starry-night-sky-space-galaxy-seamless-pattern-vector.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: 100% 247%;
+    color: white;
+    text-align: center;
+    padding-right: 38px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.lista {
+    display: inline-block;
+    font-size: 0.5em;
+    list-style-type: none;
+    letter-spacing: .400rem;
+    text-transform: uppercase;
+    padding: .35rem;
+}
+
+.lista2 {
+    display: block;
+    font-size: 2.5rem;
+}
+
+.message {
+    font-size: 4rem;
+}
+
+#content {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji {
+    padding: 0 .45rem;
+}
+
+p {
+    letter-spacing: .200rem;
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        margin-right: 50%;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    .lista {
+        letter-spacing: .100rem;
+        font-size: 0.825rem;
+        padding: .35rem;
+    }
+    p {
+        letter-spacing: .100rem;
+    }
+    .lista2 {
+        font-size: 1.375rem;
+    }
+}

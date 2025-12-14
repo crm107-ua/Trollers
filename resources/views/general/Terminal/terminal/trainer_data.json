@@ -1,0 +1,2353 @@
+[
+    {
+        "prompt": "¿Qué ocurrió en 2012 según la historia de Trollers?",
+        "completion": "En 2012, dos grupos avanzaban por separado sin saber que sus caminos se cruzarían al año siguiente. Se preparaba el inicio de The Trollers."
+    },
+    {
+        "prompt": "¿Qué es El Pacto en la historia de Trollers?",
+        "completion": "El Pacto fue el acuerdo firmado el 28 de noviembre de 2013 entre Jose Javier Pastor y Carlos Robles, marcando el inicio de The Trollers."
+    },
+    {
+        "prompt": "¿Cuáles eran algunas de las costumbres de The Trollers en 2014?",
+        "completion": "En 2014, algunas costumbres destacadas de The Trollers incluían la pirotecnia, tocar los cojones por la calle e ir al Telepizza todos los fines de semana."
+    },
+    {
+        "prompt": "¿Qué ocurrió en 2015 en la historia de The Trollers?",
+        "completion": "En 2015, The Trollers alcanzó su máximo número de integrantes (14) y tuvo un gran auge en las actividades pirotécnicas. Sin embargo, la era dorada terminó con la explosión de la Calle Tomás Picó."
+    },
+    {
+        "prompt": "¿Cómo cambió The Trollers en 2016?",
+        "completion": "En 2016, la llegada de los bichitos del río Nilo llevó a la posibilidad de integrar mujeres en el grupo y surgieron nuevas actividades como la creación del proyecto El Palace. Se produjeron abandonos importantes, reduciendo el grupo a 6 integrantes."
+    },
+    {
+        "prompt": "¿Qué destaca de la historia de Trollers en 2017?",
+        "completion": "En 2017, se consolidaron bases sólidas de tolerancia y amistad, se realizaron grandes festejos y se prepararon negociaciones para nuevas incorporaciones, marcando el inicio de un nuevo planteamiento de grupo."
+    },
+    {
+        "prompt": "¿Qué eventos importantes ocurrieron en 2018 para The Trollers?",
+        "completion": "En 2018, conocido como el Renacimiento Troller, el grupo experimentó una gran unión y se preparó para importantes incorporaciones. Se destacaron las reincorporaciones de Jose Alberto Oltra, Stivo Martinez y Gabriel Alfonzo."
+    },
+    {
+        "prompt": "¿Qué cambios ocurrieron en 2019 para The Trollers?",
+        "completion": "En 2019, The Trollers experimentó una gran estabilidad, con la creación de nuevas infraestructuras y reglas de convivencia. Se aprobaron las incorporaciones de Martin Olivares."
+    },
+    {
+        "prompt": "¿Cómo afectó el confinamiento a The Trollers en 2020?",
+        "completion": "En 2020, las reuniones físicas fueron imposibles debido al confinamiento, pero el grupo realizó sesiones en verano y destacó el proyecto Morfeo, así como el éxodo de varios componentes hacia la metrópolis."
+    },
+    {
+        "prompt": "¿Qué eventos importantes ocurrieron en 2022 para The Trollers?",
+        "completion": "En 2022, The Trollers organizó eventos como la 1era Gala Troller, la Operación Caballo Blanco y el Medusa Festival. También se reincorporó Eze Díaz y se retomaron las fiestas de Moros y Cristianos."
+    },
+    {
+        "prompt": "¿Qué características definen a The Trollers en 2023?",
+        "completion": "En 2023, The Trollers se enfrentó a la decadencia y al politiqueo. Se crearon embajadas y se incorporaron nuevas miembros, como María García y Alejandro Moltó. Marbella, Madrid y Toulouse se convirtieron en nuevas bases de operación."
+    },
+    {
+        "prompt": "¿Qué eventos se destacan en el año 2024 para The Trollers?",
+        "completion": "En 2024, The Trollers muestra un creciente interés por el fútbol y se destacan dos reintegraciones sorprendentes: David Bernabéu e Iván Gabriel Micluti."
+    },
+    
+    {
+        "prompt": "¿Qué eventos específicos marcaron el año 2012 en la historia de The Trollers?",
+        "completion": "En 2012, dos grupos avanzaban por separado sin saber que se cruzarían al año siguiente. Se preparaba el inicio de The Trollers."
+    },
+    {
+        "prompt": "¿Quiénes fueron los testigos clave en la firma del Pacto en 2013?",
+        "completion": "Los testigos clave en la firma del Pacto en 2013 fueron Jose Javier Pastor, Antonio Vicedo, David Bernabeu, Eduardo Payá, Jose Alberto Oltra, Carlos Robles, Daniel Martos y Stivo Martinez."
+    },
+    {
+        "prompt": "¿Cuáles fueron los objetivos principales de The Trollers en 2014?",
+        "completion": "En 2014, los objetivos principales de The Trollers incluían la pirotecnia, tocar los cojones por la calle e ir al Telepizza todos los fines de semana, así como la destrucción de la Finca Fernoveta y subir de elo en el lol."
+    },
+    {
+        "prompt": "¿Qué impacto tuvo la explosión de la Calle Tomás Picó en 2015?",
+        "completion": "La explosión de la Calle Tomás Picó en 2015 marcó el final de la era dorada de The Trollers, terminando con la tradición pirómana y dando inicio a una nueva etapa."
+    },
+    {
+        "prompt": "¿Cómo influyó la llegada de los bichitos del río Nilo en el grupo en 2016?",
+        "completion": "La llegada de los bichitos del río Nilo en 2016 llevó a la posibilidad de integrar mujeres en el grupo y provocó nuevos cambios, como la creación del proyecto El Palace, resultando en importantes abandonos de miembros."
+    },
+    {
+        "prompt": "¿Qué cambios significativos ocurrieron en la estructura del grupo en 2017?",
+        "completion": "En 2017, se consolidaron bases sólidas de tolerancia y amistad, se realizaron grandes festejos y se prepararon negociaciones para nuevas incorporaciones, marcando un nuevo planteamiento de grupo."
+    },
+    {
+        "prompt": "¿Qué eventos se celebraron durante la época conocida como el Renacimiento Troller en 2018?",
+        "completion": "En 2018, conocido como el Renacimiento Troller, se celebraron importantes incorporaciones, como Ramón García, Roberto Bernabeu y Rubén Agulló. También se destacaron las reincorporaciones de Jose Alberto Oltra, Stivo Martinez y Gabriel Alfonzo."
+    },
+    {
+        "prompt": "¿Cómo afectaron las nuevas incorporaciones en 2019 a la dinámica del grupo?",
+        "completion": "En 2019, la incorporación de Martin Olivares y la creación de nuevas infraestructuras, reglas de convivencia y ministerios fortalecieron la cohesión del grupo y mejoraron su funcionamiento."
+    },
+    {
+        "prompt": "¿Qué cambios o adaptaciones hizo el grupo en respuesta al confinamiento de 2020?",
+        "completion": "En 2020, el grupo adaptó sus reuniones a sesiones en verano y destacó el proyecto Morfeo. También enfrentaron el confinamiento con el éxodo de varios componentes hacia la metrópolis."
+    },
+    {
+        "prompt": "¿Qué proyectos importantes fueron destacados en 2020 y cómo impactaron en el grupo?",
+        "completion": "En 2020, el proyecto Morfeo fue uno de los más importantes, estableciendo un ceremonial ante la defunción de un Troller. Este proyecto tuvo un impacto significativo en las tradiciones del grupo."
+    },
+    {
+        "prompt": "¿Qué celebraciones y eventos especiales se llevaron a cabo en 2022?",
+        "completion": "En 2022, se llevaron a cabo la 1era Gala Troller, la Operación Caballo Blanco y el Medusa Festival. También se reincorporó Eze Díaz y se retomaron las fiestas de Moros y Cristianos."
+    },
+    {
+        "prompt": "¿Qué desafíos enfrentó el grupo en 2023 y cómo los abordaron?",
+        "completion": "En 2023, The Trollers enfrentó la decadencia y el politiqueo. Se crearon embajadas y nuevas integrantes, como María García y Alejandro Moltó. Las nuevas bases de operación incluyeron Marbella, Madrid y Toulouse."
+    },
+    {
+        "prompt": "¿Qué nuevas dinámicas o intereses emergieron en 2024?",
+        "completion": "En 2024, emergió un creciente interés por el fútbol entre el 10% de los integrantes. También se destacaron las reintegraciones de David Bernabéu e Iván Gabriel Micluti."
+    },
+    {
+        "prompt": "¿Qué significó la reincorporación de David Bernabéu e Iván Gabriel Micluti en 2024?",
+        "completion": "La reincorporación de David Bernabéu e Iván Gabriel Micluti en 2024 significó una revitalización del grupo y el regreso de miembros clave que habían estado ausentes."
+    },
+    {
+        "prompt": "¿Qué papel jugaron los diferentes territorios y colegios en la formación de The Trollers en 2012?",
+        "completion": "En 2012, los dos grupos que formaron The Trollers provenían de diferentes territorios y colegios, lo que significaba que tenían características y costumbres distintas. Esta diversidad influyó en la formación y evolución del grupo."
+    },
+    {
+        "prompt": "¿Qué desafíos enfrentó The Trollers durante la firma de El Pacto en 2013?",
+        "completion": "Durante la firma de El Pacto en 2013, The Trollers enfrentó desafíos significativos debido a las diferencias en costumbres y territorios de los grupos participantes. La negociación implicó superar estos desacuerdos para formar una nueva unidad."
+    },
+    {
+        "prompt": "¿Cómo se caracterizaban las reuniones de The Trollers en 2014?",
+        "completion": "Las reuniones de The Trollers en 2014 se caracterizaban por actividades como la pirotecnia, tocar los cojones por la calle e ir al Telepizza todos los fines de semana. También se llevaban a cabo en el Barrio de San Miguel."
+    },
+    {
+        "prompt": "¿Qué impacto tuvo la explosión de la Calle Tomás Picó en la estructura del grupo en 2015?",
+        "completion": "La explosión de la Calle Tomás Picó en 2015 llevó a la disolución de la era dorada de The Trollers, con importantes expulsiones y abandonos que redujeron el grupo y cambiaron su enfoque."
+    },
+    {
+        "prompt": "¿Cómo se ajustó The Trollers a la llegada de las mujeres en 2016?",
+        "completion": "En 2016, The Trollers ajustó su estructura para permitir la incorporación de mujeres, lo que provocó la creación de nuevas actividades y proyectos, como El Palace. Sin embargo, esto también causó descontento y abandonos entre algunos miembros."
+    },
+    {
+        "prompt": "¿Qué festividades y eventos se llevaron a cabo en 2017 y cómo influyeron en la cohesión del grupo?",
+        "completion": "En 2017, The Trollers celebró festividades en Alcoy, Alicante, Tibi, Castalla y Onil, consolidando bases de tolerancia y amistad que fortalecieron la cohesión del grupo y prepararon el terreno para nuevas incorporaciones."
+    },
+    {
+        "prompt": "¿Qué aspectos definieron el Renacimiento Troller en 2018?",
+        "completion": "El Renacimiento Troller en 2018 se definió por un fuerte sentimiento de unión entre los miembros y la preparación para nuevas incorporaciones. La creación de nuevas incorporaciones y reincorporaciones importantes revitalizó el grupo."
+    },
+    {
+        "prompt": "¿Cómo influyeron las nuevas infraestructuras y reglas de convivencia en 2019 en el grupo?",
+        "completion": "Las nuevas infraestructuras y reglas de convivencia en 2019 mejoraron la cohesión y funcionamiento de The Trollers, permitiendo una mayor estabilidad y organización dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué medidas tomó The Trollers durante el confinamiento de 2020 para mantener la actividad del grupo?",
+        "completion": "Durante el confinamiento de 2020, The Trollers adaptó sus actividades a sesiones en verano y desarrolló el proyecto Morfeo. A pesar de la imposibilidad de reuniones físicas, el grupo encontró formas de mantenerse unido."
+    },
+    {
+        "prompt": "¿Cómo se percibió el impacto de las restricciones de 2020 en el grupo?",
+        "completion": "El impacto de las restricciones de 2020 en The Trollers fue significativo, limitando las reuniones físicas y llevando a un éxodo de miembros hacia la metrópolis. Sin embargo, el grupo logró mantenerse activo mediante proyectos como Morfeo."
+    },
+    {
+        "prompt": "¿Qué nuevos miembros se incorporaron a The Trollers en 2022 y cuál fue su impacto?",
+        "completion": "En 2022, se incorporaron miembros como Ramón García, Roberto Bernabeu y Rubén Agulló. También se reincorporaron Jose Alberto Oltra, Stivo Martinez y Gabriel Alfonzo, fortaleciendo el grupo y retomando actividades tradicionales."
+    },
+    {
+        "prompt": "¿Qué cambios en la estructura de The Trollers se produjeron en 2023?",
+        "completion": "En 2023, The Trollers experimentó cambios estructurales como la creación de embajadas y la incorporación de nuevas miembros, incluyendo a María García, Alejandro Moltó y Alejandro Gisbert. Marbella, Madrid y Toulouse se convirtieron en nuevas bases de operación."
+    },
+    {
+        "prompt": "¿Qué nuevas dinámicas emergieron en 2024 para The Trollers?",
+        "completion": "En 2024, el creciente interés por el fútbol entre algunos integrantes y las reintegraciones de David Bernabéu e Iván Gabriel Micluti marcaron nuevas dinámicas y revitalizaron al grupo."
+    },
+    
+    {
+        "prompt": "¿Cómo afectó la pirotecnia en las actividades de The Trollers durante 2014?",
+        "completion": "En 2014, la pirotecnia fue una actividad central para The Trollers, contribuyendo a la identidad y cohesión del grupo. Se convirtió en una tradición destacada en sus reuniones y eventos."
+    },
+    {
+        "prompt": "¿Qué implicó la firma de El Pacto para los miembros de The Trollers en términos de sus costumbres y prácticas?",
+        "completion": "La firma de El Pacto en 2013 implicó que los miembros de los dos grupos fusionados tuvieran que dejar de lado sus costumbres y prácticas previas para formar una nueva identidad compartida y empezar un nuevo capítulo en la historia de The Trollers."
+    },
+    {
+        "prompt": "¿Qué consecuencias tuvo la explosión de la Calle Tomás Picó en las costumbres de The Trollers?",
+        "completion": "La explosión de la Calle Tomás Picó en 2015 puso fin a la era dorada de The Trollers y marcó el final de las actividades pirotécnicas como una tradición central. Esto llevó a una nueva etapa con diferentes costumbres y objetivos."
+    },
+    {
+        "prompt": "¿Qué motivó la integración de mujeres en The Trollers en 2016 y cómo fue recibido este cambio?",
+        "completion": "La integración de mujeres en 2016 fue motivada por la llegada de los bichitos del río Nilo y la búsqueda de diversificación en el grupo. El cambio fue recibido con resistencia por algunos miembros existentes, lo que llevó a varios abandonos."
+    },
+    {
+        "prompt": "¿Cómo influyeron las nuevas actividades y proyectos en The Trollers en 2016?",
+        "completion": "En 2016, la creación de nuevos proyectos como El Palace y la inclusión de nuevas actividades cambiaron la dinámica del grupo, provocando tanto entusiasmo como desacuerdo entre los miembros."
+    },
+    {
+        "prompt": "¿Qué eventos o festividades fueron más significativos para The Trollers en 2017?",
+        "completion": "En 2017, eventos y festividades como los festejos en Alcoy, Alicante, Tibi, Castalla y Onil fueron significativos, ayudando a consolidar la unidad del grupo y sentar las bases para futuras incorporaciones y cambios."
+    },
+    {
+        "prompt": "¿Qué impacto tuvo la reincorporación de Jose Alberto Oltra en 2018 en la dinámica del grupo?",
+        "completion": "La reincorporación de Jose Alberto Oltra en 2018 tuvo un impacto significativo en la dinámica del grupo, ya que fue uno de los miembros fundadores y su regreso fortaleció la cohesión y el sentido de identidad del grupo."
+    },
+    {
+        "prompt": "¿Cuáles fueron los principales logros de The Trollers en 2019 y cómo se reflejaron en la estructura del grupo?",
+        "completion": "En 2019, The Trollers logró una gran estabilidad a través de la creación de nuevas infraestructuras, reglas de convivencia y ministerios. Estos logros mejoraron la organización y cohesión del grupo, reflejándose en una estructura más sólida y eficiente."
+    },
+    {
+        "prompt": "¿Cómo se adaptó The Trollers a las restricciones de 2020 y qué proyectos importantes se desarrollaron?",
+        "completion": "En 2020, The Trollers se adaptó a las restricciones mediante la organización de sesiones en verano y el desarrollo del proyecto Morfeo. Estos esfuerzos ayudaron a mantener la actividad del grupo a pesar de las limitaciones impuestas por el confinamiento."
+    },
+    {
+        "prompt": "¿Qué efectos tuvo el confinamiento en la dinámica y estructura de The Trollers en 2020?",
+        "completion": "El confinamiento en 2020 afectó la dinámica de The Trollers al limitar las reuniones físicas y llevar a un éxodo de miembros. Sin embargo, el grupo logró adaptarse con proyectos como Morfeo y la realización de sesiones en verano para mantener la cohesión."
+    },
+    {
+        "prompt": "¿Qué papel jugaron los nuevos miembros como María García y Alejandro Moltó en la reestructuración de The Trollers en 2023?",
+        "completion": "En 2023, los nuevos miembros como María García y Alejandro Moltó jugaron un papel importante en la reestructuración de The Trollers, contribuyendo a la creación de embajadas y a la diversificación del grupo, además de introducir nuevas dinámicas y perspectivas."
+    },
+    {
+        "prompt": "¿Qué implican las reintegraciones de David Bernabéu e Iván Gabriel Micluti en 2024 para el futuro de The Trollers?",
+        "completion": "Las reintegraciones de David Bernabéu e Iván Gabriel Micluti en 2024 implican un reforzamiento del grupo y una revitalización de su estructura. Estos regresos aportan experiencia y nuevas perspectivas, lo que podría influir positivamente en el futuro de The Trollers."
+    },
+    {
+        "prompt": "¿Qué papel jugaron los primeros miembros como Jose Javier Pastor y Carlos Robles en la formación de The Trollers?",
+        "completion": "Jose Javier Pastor y Carlos Robles fueron fundamentales en la formación de The Trollers al firmar El Pacto en 2013, que unió a los dos grupos originales y estableció las bases para el inicio de la corporación."
+    },
+    {
+        "prompt": "¿Cómo influyó la destrucción de la Finca Fernoveta en la historia de The Trollers?",
+        "completion": "La destrucción de la Finca Fernoveta en 2014 marcó un hito en la historia de The Trollers al ser uno de los objetivos principales del grupo. Este evento simbolizó el espíritu audaz y la capacidad del grupo para llevar a cabo sus metas."
+    },
+    {
+        "prompt": "¿Qué factores llevaron al declive de The Trollers a finales de 2015?",
+        "completion": "El declive de The Trollers a finales de 2015 se debió a varios factores, incluyendo la explosión de la Calle Tomás Picó que puso fin a la era dorada, así como las expulsiones y abandonos que redujeron el número de miembros y afectaron la cohesión del grupo."
+    },
+    {
+        "prompt": "¿Qué impacto tuvo la llegada de los bichitos del río Nilo en la estructura de The Trollers en 2016?",
+        "completion": "La llegada de los bichitos del río Nilo en 2016 llevó a la integración de mujeres en el grupo y a la creación de nuevos proyectos como El Palace. Este cambio estructural fue recibido con resistencia por algunos miembros y provocó varios abandonos."
+    },
+    {
+        "prompt": "¿Cómo influyó la creación del proyecto El Palace en la dinámica del grupo en 2016?",
+        "completion": "El proyecto El Palace en 2016 influyó significativamente en la dinámica del grupo al introducir nuevas actividades y costumbres, generando tanto entusiasmo como conflictos internos que llevaron a cambios en la composición del grupo."
+    },
+    {
+        "prompt": "¿Cuál fue el significado de la época del vodka en 2018 para The Trollers?",
+        "completion": "La época del vodka en 2018 fue significativa para The Trollers ya que simbolizó un renacimiento y fortalecimiento del grupo, con una nueva unión y la preparación para grandes incorporaciones que marcarían una nueva etapa en la historia del grupo."
+    },
+    {
+        "prompt": "¿Qué cambios estructurales ocurrieron en 2019 y cómo afectaron a The Trollers?",
+        "completion": "En 2019, se realizaron importantes cambios estructurales en The Trollers, incluyendo la creación de nuevas infraestructuras, reglas de convivencia y ministerios. Estos cambios ayudaron a fortalecer la organización y cohesión del grupo, marcando una era de estabilidad."
+    },
+    {
+        "prompt": "¿Cómo manejó The Trollers la crisis provocada por el confinamiento en 2020?",
+        "completion": "The Trollers manejó la crisis provocada por el confinamiento en 2020 adaptándose a la situación con reuniones virtuales y el desarrollo de proyectos importantes como Morfeo. Estas medidas permitieron al grupo mantener la cohesión y continuar con sus actividades a pesar de las restricciones."
+    },
+    {
+        "prompt": "¿Qué significaron las nuevas incorporaciones en 2023 para la dirección futura de The Trollers?",
+        "completion": "Las nuevas incorporaciones en 2023, como María García y Alejandro Moltó, significaron un cambio en la dirección futura de The Trollers al introducir nuevas dinámicas y perspectivas. Estas incorporaciones también llevaron a la creación de embajadas y una mayor diversificación del grupo."
+    },
+    {
+        "prompt": "¿Qué implicaciones tienen las reintegraciones de David Bernabéu e Iván Gabriel Micluti en la evolución de The Trollers en 2024?",
+        "completion": "Las reintegraciones de David Bernabéu e Iván Gabriel Micluti en 2024 tienen implicaciones importantes para la evolución de The Trollers, ya que aportan experiencia y estabilidad al grupo. Estos regresos también pueden influir en la cohesión interna y en la planificación futura del grupo."
+    },
+    {
+        "prompt": "¿Cómo afectaron las incorporaciones y reincorporaciones de 2018 a la identidad y funcionamiento de The Trollers?",
+        "completion": "Las incorporaciones y reincorporaciones de 2018, incluyendo a miembros fundadores como Jose Alberto Oltra y otros importantes como Stivo Martinez, fortalecieron la identidad y funcionamiento de The Trollers al consolidar una nueva fase de crecimiento y cohesión dentro del grupo."
+    },
+    {
+        "prompt": "¿Cuál es el objetivo principal de The Trollers a lo largo de su historia?",
+        "completion": "El objetivo principal de The Trollers a lo largo de su historia ha sido crear una comunidad unida y activa que promueva actividades compartidas, fiestas y eventos, mientras mantiene una identidad y tradición propia."
+    },
+    {
+        "prompt": "¿Cómo ha evolucionado la estructura organizativa de The Trollers desde su fundación?",
+        "completion": "Desde su fundación, la estructura organizativa de The Trollers ha evolucionado significativamente. Inicialmente, era un grupo informal con pocas reglas, pero con el tiempo se han creado infraestructuras, reglas de convivencia y ministerios para mejorar la cohesión y el funcionamiento del grupo."
+    },
+    {
+        "prompt": "¿Qué impacto han tenido las incorporaciones y expulsiones de miembros en la dinámica del grupo?",
+        "completion": "Las incorporaciones y expulsiones de miembros han tenido un gran impacto en la dinámica del grupo. Las incorporaciones suelen traer nuevas ideas y perspectivas, mientras que las expulsiones pueden provocar cambios en la cohesión y en la dirección del grupo, afectando su estabilidad y funcionamiento."
+    },
+    {
+        "prompt": "¿Cómo ha afectado la evolución de las costumbres y actividades de The Trollers a su identidad?",
+        "completion": "La evolución de las costumbres y actividades de The Trollers ha influido en su identidad al reflejar los cambios en las prioridades y el enfoque del grupo. Las nuevas costumbres y actividades ayudan a adaptar el grupo a los tiempos actuales y a mantener su relevancia dentro de su comunidad."
+    },
+    {
+        "prompt": "¿Cuál ha sido el papel de los eventos y celebraciones en la historia de The Trollers?",
+        "completion": "Los eventos y celebraciones han jugado un papel crucial en la historia de The Trollers al servir como momentos clave de unión y celebración para el grupo. Estos eventos no solo refuerzan la cohesión entre los miembros, sino que también marcan hitos importantes en la evolución del grupo."
+    },
+    {
+        "prompt": "¿Qué desafíos ha enfrentado The Trollers a lo largo de los años y cómo los ha superado?",
+        "completion": "The Trollers ha enfrentado diversos desafíos a lo largo de los años, incluyendo conflictos internos, cambios en la membresía y restricciones externas como el confinamiento. El grupo ha superado estos desafíos mediante la adaptación, la creación de nuevas reglas y la implementación de proyectos innovadores."
+    },
+    {
+        "prompt": "¿Cómo han influido las crisis externas, como el confinamiento, en la operativa y actividades de The Trollers?",
+        "completion": "Las crisis externas, como el confinamiento, han influido en la operativa y actividades de The Trollers al obligar al grupo a adaptar sus métodos de reunión y comunicación. Durante el confinamiento, por ejemplo, el grupo implementó reuniones virtuales y desarrolló proyectos como Morfeo para mantener la cohesión."
+    },
+    {
+        "prompt": "¿Qué papel han jugado los miembros fundadores en la evolución de The Trollers?",
+        "completion": "Los miembros fundadores han jugado un papel esencial en la evolución de The Trollers al establecer las bases y la estructura inicial del grupo. Su visión y decisiones han influido en la dirección del grupo y en la creación de tradiciones y costumbres que han perdurado a lo largo del tiempo."
+    },
+    {
+        "prompt": "¿Cómo ha cambiado la percepción pública de The Trollers a lo largo de los años?",
+        "completion": "La percepción pública de The Trollers ha cambiado a lo largo de los años, desde ser un grupo emergente con costumbres particulares hasta convertirse en una entidad establecida con una presencia significativa en su comunidad. La evolución de sus actividades y eventos ha influido en cómo el grupo es visto por el exterior."
+    },
+    {
+        "prompt": "¿Cuál ha sido el impacto de las incorporaciones de nuevos miembros en el crecimiento de The Trollers?",
+        "completion": "Las incorporaciones de nuevos miembros han tenido un impacto positivo en el crecimiento de The Trollers al aportar nuevas ideas, habilidades y energía al grupo. Estas incorporaciones han ayudado a expandir las actividades del grupo y a fortalecer su presencia en la comunidad."
+    },
+    {
+        "prompt": "¿Cómo se fundó The Trollers y quiénes fueron los principales fundadores?",
+        "completion": "The Trollers se fundó en 2013 después de un acuerdo entre Jose Javier Pastor de la Delegación de San Juan y San Pablo y Carlos Robles de la Delegación de Teixereta - Piromanos. Los principales fundadores fueron Jose Javier Pastor, Antonio Vicedo, David Bernabeu, Eduardo Payá, Jose Alberto Oltra, Carlos Robles, Daniel Martos y Stivo Martinez como testigo."
+    },
+    {
+        "prompt": "¿Qué eventos importantes han marcado la historia de The Trollers?",
+        "completion": "Eventos importantes en la historia de The Trollers incluyen la firma del Pacto en 2013, la explosión de la Calle Tomás Picó en 2015, la introducción del proyecto El Palace en 2016, y el renacimiento del grupo en 2018 con la incorporación de nuevos miembros y el fortalecimiento de la identidad del grupo."
+    },
+    {
+        "prompt": "¿Cuál es el significado de 'El Pacto' en la historia de The Trollers?",
+        "completion": "El Pacto es el acuerdo formal firmado en noviembre de 2013 que unió a dos grupos distintos, estableciendo las bases para la formación y la futura colaboración de The Trollers. Fue un momento clave que marcó el inicio oficial del grupo."
+    },
+    {
+        "prompt": "¿Qué cambios significativos ocurrieron en The Trollers durante el año 2016?",
+        "completion": "En 2016, The Trollers experimentó cambios significativos como la introducción de nuevas actividades, la posibilidad de integrar mujeres en el grupo, y la creación del proyecto El Palace. Estos cambios llevaron a importantes abandonos y redujeron el grupo a su número más bajo de miembros."
+    },
+    {
+        "prompt": "¿Cómo se celebraba el éxito en The Trollers durante sus años de oro?",
+        "completion": "Durante los años de oro, especialmente en 2015, The Trollers celebraba el éxito con grandes cenas, lujos, y un presupuesto elevado para actividades como el LOL y Telepizza. Las reuniones y eventos eran extravagantes y marcaban la cúspide de la actividad del grupo."
+    },
+    {
+        "prompt": "¿Qué impacto tuvo el confinamiento en la dinámica de The Trollers?",
+        "completion": "El confinamiento afectó la dinámica de The Trollers al limitar las reuniones físicas, pero el grupo se adaptó realizando sesiones virtuales y destacando el proyecto Morfeo, que estableció el ceremonial para la defunción de un miembro. La adaptación durante este período ayudó a mantener la cohesión del grupo."
+    },
+    {
+        "prompt": "¿Qué rol desempeñaron los eventos como la Gala Troller y la Operación Caballo Blanco en 2022?",
+        "completion": "La Gala Troller y la Operación Caballo Blanco en 2022 jugaron un papel crucial en revitalizar el grupo después de las restricciones. Estos eventos no solo proporcionaron entretenimiento y camaradería, sino que también ayudaron a reafirmar la identidad y las tradiciones de The Trollers."
+    },
+    {
+        "prompt": "¿Cuál es la importancia del proyecto Morfeo en la historia reciente de The Trollers?",
+        "completion": "El proyecto Morfeo es crucial en la historia reciente de The Trollers ya que estableció el ceremonial para la defunción de un miembro, marcando un momento de gran significado y solemnidad en la vida del grupo. Este proyecto reflejó la capacidad del grupo para adaptarse y mantener su cohesión incluso en tiempos difíciles."
+    },
+    {
+        "prompt": "¿Qué desafíos ha enfrentado The Trollers en términos de adaptación a los tiempos modernos?",
+        "completion": "The Trollers ha enfrentado desafíos como la adaptación a nuevas tecnologías, cambios en la dinámica social y la necesidad de incorporar a nuevos miembros mientras se mantienen las tradiciones. La evolución hacia nuevas actividades y la incorporación de mujeres han sido parte de este proceso de adaptación."
+    },
+    {
+        "prompt": "¿Cómo ha influido el cambio en la membresía en la identidad de The Trollers?",
+        "completion": "Los cambios en la membresía han influido en la identidad de The Trollers al traer nuevas perspectivas y dinámicas al grupo. Las incorporaciones y expulsiones han provocado ajustes en las costumbres y en la dirección del grupo, reflejando su capacidad para adaptarse y evolucionar con el tiempo."
+    },
+    {
+        "prompt": "¿Cuál fue el impacto de la explosión en la Calle Tomás Picó en la historia de The Trollers?",
+        "completion": "La explosión en la Calle Tomás Picó en 2015 marcó el fin de la era dorada de The Trollers. Este evento puso fin a la tradición pirómana del grupo y llevó a una reorganización y a una nueva etapa en su historia."
+    },
+    {
+        "prompt": "¿Cómo influyó la llegada de los bichitos del río Nilo en la estructura de The Trollers en 2016?",
+        "completion": "La llegada de los bichitos del río Nilo en 2016 introdujo la posibilidad de integrar mujeres en el grupo y dio lugar a la creación del proyecto El Palace. Estos cambios alteraron la estructura del grupo y llevaron a varios abandonos y una reducción significativa en el número de miembros."
+    },
+    {
+        "prompt": "¿Qué caracteriza al 'Renacimiento Troller' de 2018 y cómo afectó al grupo?",
+        "completion": "El 'Renacimiento Troller' de 2018 se caracterizó por una gran unión entre los miembros y una revitalización de la identidad del grupo. Fue un período de fortalecimiento y de preparación para importantes incorporaciones, marcando un regreso a la cohesión y al entusiasmo del grupo."
+    },
+    {
+        "prompt": "¿Qué nuevas incorporaciones fueron especialmente significativas para The Trollers en 2018?",
+        "completion": "En 2018, las incorporaciones significativas para The Trollers incluyeron a Ramón García, Roberto Bernabeu, Rubén Agulló, y la reincorporación de Jose Alberto Oltra. Estos cambios fueron cruciales para el fortalecimiento del grupo y la consolidación de su nueva etapa."
+    },
+    {
+        "prompt": "¿Qué papel jugaron los eventos de 2021 en la maduración del grupo?",
+        "completion": "En 2021, los caseteos esporádicos y las quedadas truncadas por las restricciones COVID marcaron una fase de maduración para The Trollers. La mayoría de edad legal de Martín Olivares representó un hito importante, llevando al grupo a una nueva etapa de desarrollo social."
+    },
+    {
+        "prompt": "¿Qué desafíos enfrentó The Trollers en términos de cohesión y estabilidad durante 2023?",
+        "completion": "En 2023, The Trollers enfrentó desafíos relacionados con la decadencia y el politiqueo. La introducción de nuevas embajadas y la incorporación de nuevas miembros, como María García y Alejandro Moltó, representaron intentos de mejorar la cohesión y adaptarse a los cambios en el grupo."
+    },
+    {
+        "prompt": "¿Cómo se reflejó el interés por el fútbol en The Trollers en 2024?",
+        "completion": "En 2024, The Trollers mostró un creciente interés por el fútbol, lo cual se reflejó en la participación de una décima parte de los integrantes en actividades relacionadas con el deporte. Este interés representó una nueva área de enfoque para el grupo y una evolución en sus intereses."
+    },
+    {
+        "prompt": "¿Qué impacto tuvieron las nuevas bases de operación en Marbella, Madrid y Toulouse en la dinámica de The Trollers?",
+        "completion": "Las nuevas bases de operación en Marbella, Madrid y Toulouse en 2023 ampliaron el alcance y la influencia de The Trollers. Estas ubicaciones proporcionaron nuevas oportunidades para eventos y actividades, fortaleciendo la presencia del grupo en diferentes regiones."
+    },
+    {
+        "prompt": "¿Cómo ha evolucionado la tradición de las fiestas de Moros y Cristianos para The Trollers?",
+        "completion": "La tradición de las fiestas de Moros y Cristianos ha evolucionado para The Trollers al incluirse de nuevo en las actividades del grupo en 2022. La reincorporación de estas fiestas reflejó el deseo de retomar y mantener vivas las tradiciones culturales dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué desafíos y oportunidades presentó la incorporación de mujeres en The Trollers en 2016?",
+        "completion": "La incorporación de mujeres en 2016 presentó desafíos como la adaptación a nuevas dinámicas y la resistencia de algunos miembros originales. Sin embargo, también ofreció oportunidades para diversificar el grupo y enriquecer sus actividades y perspectivas."
+    },
+    {
+        "prompt": "¿Quiénes fueron las primeras incorporaciones a The Trollers en 2014?",
+        "completion": "En 2014, las primeras incorporaciones a The Trollers fueron Carlos Micó, Héctor Martínez, Manuel Rocamora, Iván Micluti y Daniel Castalla."
+    },
+    {
+        "prompt": "¿Qué cambios en el grupo de miembros ocurrieron en 2015?",
+        "completion": "En 2015, el grupo alcanzó un total de 14 integrantes, que fue el máximo registrado hasta ese momento. Sin embargo, al final del año, se produjeron expulsiones y abandonos significativos, incluyendo a Iván Micluti, Daniel Martos, Daniel Castalla, Jose Alberto Oltra y David Bernabeu."
+    },
+    {
+        "prompt": "¿Qué nuevas incorporaciones se produjeron en 2017 y cómo impactaron al grupo?",
+        "completion": "En 2017, David Bernabeu fue reincorporado al grupo. Esta reincorporación ayudó a consolidar las bases de tolerancia y amistad y preparó el terreno para futuras incorporaciones y cambios en la estructura del grupo."
+    },
+    {
+        "prompt": "¿Quiénes fueron las nuevas incorporaciones y reincorporaciones importantes en 2018?",
+        "completion": "En 2018, The Trollers incorporó a Ramón García, Roberto Bernabeu y Rubén Agulló. Además, se produjo una reincorporación significativa de Jose Alberto Oltra y Stivo Martínez, así como Gabriel Alfonzo. Estos cambios fortalecieron el grupo y marcaron el inicio del llamado 'Renacimiento Troller'."
+    },
+    {
+        "prompt": "¿Qué incorporación se destacó en 2019 y cómo contribuyó al grupo?",
+        "completion": "En 2019, Martin Olivares fue aprobado como nuevo miembro. Su incorporación ayudó a fortalecer la estabilidad del grupo y a mantener la cohesión durante un período de expansión y diversificación."
+    },
+    {
+        "prompt": "¿Qué eventos de incorporación ocurrieron en 2020 a pesar del confinamiento?",
+        "completion": "En 2020, el grupo no tuvo nuevas incorporaciones significativas debido al confinamiento. Sin embargo, el año fue notable por la firma del proyecto Morfeo, que incluía el ceremonial ante la defunción de un Troller."
+    },
+    {
+        "prompt": "¿Qué cambios en las incorporaciones ocurrieron en 2021 y cuál fue su significado?",
+        "completion": "En 2021, no hubo nuevas incorporaciones significativas, pero Martín Olivares alcanzó la mayoría de edad legal, lo que simbolizó un hito importante en la maduración del grupo."
+    },
+    {
+        "prompt": "¿Qué nuevas incorporaciones y cambios en la estructura del grupo se dieron en 2022?",
+        "completion": "En 2022, se incorporó Eze Díaz, y se realizaron varios eventos importantes como la 1era Gala Troller y la Operación Caballo Blanco. Estas incorporaciones y eventos ayudaron a revitalizar el grupo después de las restricciones por COVID."
+    },
+    {
+        "prompt": "¿Cómo afectaron las nuevas incorporaciones en 2023 a la dinámica del grupo?",
+        "completion": "En 2023, The Trollers incorporó a María García, Alejandro Moltó, Alejandro Gisbert y Lucía Sánchez (quien abandonó a finales del año). Estas incorporaciones y la creación del Grupo Mixto-Coalición Avanza trajeron una nueva dinámica al grupo, incluyendo la incorporación de las primeras féminas Troller."
+    },
+    {
+        "prompt": "¿Qué reintegraciones ocurrieron en 2024 y qué impacto tuvieron en The Trollers?",
+        "completion": "En 2024, David Bernabéu e Iván Gabriel Micluti fueron reintegrados al grupo. Estas reintegraciones fueron sorprendentes y aportaron nuevas energías e ideas al grupo, marcando un período de renovación y cambio."
+    },
+    {
+        "prompt": "¿Qué impacto tuvo la incorporación de Manuel Rocamora en 2014 en The Trollers?",
+        "completion": "La incorporación de Manuel Rocamora en 2014 ayudó a fortalecer el grupo en una época de expansión. Su llegada contribuyó a la diversificación de las actividades y a la integración de nuevas costumbres dentro del grupo."
+    },
+    {
+        "prompt": "¿Cómo afectaron las expulsiones en 2015 a la cohesión de The Trollers?",
+        "completion": "Las expulsiones en 2015, que incluyeron a Iván Micluti, Daniel Martos y Daniel Castalla, tuvieron un impacto significativo en la cohesión del grupo. La pérdida de miembros clave marcó el fin de la era dorada y llevó a una reorganización interna y a la búsqueda de nuevas estrategias para el futuro."
+    },
+    {
+        "prompt": "¿Qué rol desempeñó Gabriel Alfonzo en la reincorporación de 2018?",
+        "completion": "Gabriel Alfonzo, al reincorporarse en 2018, jugó un papel crucial en el proceso de revitalización del grupo. Su retorno se alineó con el Renacimiento Troller, una fase de mayor unión y fortalecimiento del grupo."
+    },
+    {
+        "prompt": "¿Cómo contribuyó Ramón García a la dinámica del grupo en 2018?",
+        "completion": "Ramón García, al incorporarse en 2018, aportó una nueva perspectiva y energía al grupo. Su entrada coincidió con un período de gran entusiasmo y unión, y ayudó a consolidar el Renacimiento Troller."
+    },
+    {
+        "prompt": "¿Qué papel jugaron los nuevos miembros en 2019 en la estabilización del grupo?",
+        "completion": "En 2019, la incorporación de Martin Olivares y la implementación de nuevas infraestructuras y reglas de convivencia jugaron un papel esencial en la estabilización del grupo, contribuyendo a su mayor cohesión y organización."
+    },
+    {
+        "prompt": "¿Cuál fue el impacto de la ausencia de nuevas incorporaciones en 2020?",
+        "completion": "La ausencia de nuevas incorporaciones en 2020 debido al confinamiento llevó a una mayor concentración en proyectos internos, como el Morfeo. A pesar de la falta de nuevos miembros, el grupo mantuvo su cohesión a través de la adaptación a las restricciones y la realización de importantes proyectos."
+    },
+    {
+        "prompt": "¿Qué significó la entrada de Eze Díaz para The Trollers en 2022?",
+        "completion": "La entrada de Eze Díaz en 2022 significó un refuerzo en la capacidad de organización y la dinámica del grupo. Su presencia se destacó por su tendencia a realizar reuniones frecuentes, lo cual ayudó a mantener el espíritu del grupo vivo después de las restricciones anteriores."
+    },
+    {
+        "prompt": "¿Cómo influyeron María García y Alejandro Moltó en la composición de The Trollers en 2023?",
+        "completion": "María García y Alejandro Moltó, al incorporarse en 2023, trajeron una nueva diversidad y perspectiva al grupo. Su inclusión en el Grupo Mixto-Coalición Avanza marcó el inicio de una etapa más inclusiva y diversa, con las primeras féminas Troller participando activamente."
+    },
+    {
+        "prompt": "¿Qué cambios trajo la reincorporación de David Bernabéu en 2024?",
+        "completion": "La reincorporación de David Bernabéu en 2024 trajo una renovada energía y experiencia al grupo. Su regreso, junto con el de Iván Gabriel Micluti, marcó una fase de consolidación y de revitalización, con un mayor interés en el fútbol y una dinámica más enérgica."
+    },
+    {
+        "prompt": "¿Cómo afectó la reincorporación de Iván Gabriel Micluti en 2024 a la estructura del grupo?",
+        "completion": "La reincorporación de Iván Gabriel Micluti en 2024 tuvo un efecto positivo en la estructura del grupo, aportando una perspectiva fresca y reforzando las relaciones internas. Su regreso junto con David Bernabéu ayudó a reafirmar la identidad y la cohesión del grupo."
+    },
+    {
+        "prompt": "¿Cuál es el lugar asociado con el evento 'Real Míchigan' y qué nivel de peligrosidad tiene?",
+        "completion": "El lugar asociado con el evento 'Real Míchigan' es el Parque de los Patos, y su nivel de peligrosidad es 8."
+    },
+    {
+        "prompt": "¿Qué tipo de actividades se realizan en el 'Monte Olimpo' y cuál es su nivel de peligrosidad?",
+        "completion": "En el 'Monte Olimpo' se realizan actividades como birras, techno, druman, risas, pitis y poleos en la cima de la ciudad. Su nivel de peligrosidad es 9."
+    },
+    {
+        "prompt": "¿Dónde se lleva a cabo el evento 'Real Palace' y qué nivel de peligrosidad se le asigna?",
+        "completion": "El evento 'Real Palace' se lleva a cabo en el Ático de Pepito, y su nivel de peligrosidad es 7."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad del 'Real Chaparral' y qué actividades se pueden disfrutar allí?",
+        "completion": "El 'Real Chaparral' tiene un nivel de peligrosidad de 10. En este lugar se celebran eventos oficiales con actividades como pitis, birras, poleos, espadas, música y risas."
+    },
+    {
+        "prompt": "¿Qué lugar corresponde al evento 'Manhattan' y qué nivel de peligrosidad tiene?",
+        "completion": "El evento 'Manhattan' ocurre cuando la situación se pone sabrosa, y el nivel de peligrosidad es 8."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en la 'Florida' y qué nivel de peligrosidad tiene este lugar?",
+        "completion": "En la 'Florida', ubicada en la Casa de David, el lugar es de alto riesgo de ciego involuntario. Su nivel de peligrosidad es 9."
+    },
+    {
+        "prompt": "¿Cómo se describe el lugar 'Orlando' y cuál es su nivel de peligrosidad?",
+        "completion": "El lugar 'Orlando' está en el Aseo de David, donde se puede disfrutar de una manzanilla. Su nivel de peligrosidad es 8."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en el 'Everest' y qué nivel de peligrosidad se le asigna?",
+        "completion": "En el 'Everest', ubicado en San Miguel, se realiza poleo en la cima de San Miguel. Su nivel de peligrosidad es 9."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad del lugar 'K1' y qué se puede disfrutar allí?",
+        "completion": "El lugar 'K1', situado en Santa Lucía, ofrece la posibilidad de disfrutar de un helado en la cima de Santa Lucía. Su nivel de peligrosidad es 7."
+    },
+    {
+        "prompt": "¿Qué tipo de experiencia se ofrece en el 'Arizona' y cuál es su nivel de peligrosidad?",
+        "completion": "En el 'Arizona', ubicado en el Parc de les Hortes, se puede disfrutar de un dorito. Su nivel de peligrosidad es 7."
+    },
+    {
+        "prompt": "¿Dónde se puede encontrar el 'Vodafone' y qué nivel de peligrosidad tiene?",
+        "completion": "El 'Vodafone' se encuentra en las máquinas expendedoras y ofrece buenos alimentos para repostar fuerzas. Su nivel de peligrosidad es 3."
+    },
+    {
+        "prompt": "¿Qué caracteriza al lugar 'Vietnam' y cuál es su nivel de peligrosidad?",
+        "completion": "El lugar 'Vietnam' es aleatorio, donde nunca se sabe lo que puede pasar. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en el 'Gran Cañón' y cuál es su nivel de peligrosidad?",
+        "completion": "En el 'Gran Cañón', ubicado en la Trompa del Elefante, se disfruta de un vinico con boleros en plena montaña. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué se puede encontrar en el 'Mississippi' y cuál es su nivel de peligrosidad?",
+        "completion": "En el 'Mississippi', situado en el Parque de los Patos, se busca una infusión. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza al evento 'Ohio' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Ohio' se realiza en La Casa, donde se busca té en la casa de un amigo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Dónde tiene lugar el 'Puerto Vallarta' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Puerto Vallarta' ocurre en la Casa del Loco, con birras, pizzas, pitis, risas y una manzanilla. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad del 'BK' y qué actividad se realiza allí?",
+        "completion": "El 'BK', ubicado en Alcoy, se caracteriza por salir por patas hacia el Burger King. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué se puede disfrutar en la 'California' y cuál es su nivel de peligrosidad?",
+        "completion": "En la 'California', situada en la Casa Wani, se disfrutan birras, risas, pizzas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué ofrece el lugar 'Dellawere' y cuál es su nivel de peligrosidad?",
+        "completion": "El lugar 'Dellawere', en Ibi - Territorio Troller, ofrece infusiones, birras, pitis y risas bajo declaración del estado de alarma a nivel nacional. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué distingue al evento 'Berlín' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Berlín', en la Caseta de Toni, es un proyecto de máxima excepcionalidad posterior a una pandemia. Se celebra el reencuentro Troller con birras, pitis, helados, risas y boleros. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Mimi' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Mimi', ubicado en el Parque de los Patos, se disfruta de un michi en medio de la semana con música y buena vida. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el lugar asociado con el evento 'Roma' y qué nivel de peligrosidad tiene?",
+        "completion": "El evento 'Roma' se realiza en el Subterráneo, con actividades como birras, pitis, manzanillas y chilleo con música. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza al evento 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Rostov', en la Zona Arge, se caracteriza por vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Dónde se celebra el evento 'Kansas' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Kansas' se celebra en Asia Kebab, siendo la cena de todos los viernes. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿En qué lugar se realiza el evento 'Cactus' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Cactus' se realiza en la Casa de Campo y su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se pueden disfrutar en 'Toscana' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Toscana', que se lleva a cabo en la Casa de Julieta, se disfrutan actividades como birras, pitis y música italiana. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el lugar del evento 'Helsinki' y qué nivel de peligrosidad tiene?",
+        "completion": "El evento 'Helsinki' tiene lugar en el Bar del Puerto, y su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza al 'Sahara' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Sahara' se realiza en la Playa del Sol, y se caracteriza por actividades como birras y relajación en la arena. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Dónde se realiza el evento 'Japonés' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Japonés' se lleva a cabo en el Restaurante Sakura, y su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se disfrutan en 'Hong Kong' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Hong Kong', celebrado en el Bar de la Esquina, se pueden disfrutar de birras, pitis y juegos de mesa. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el lugar asociado con el evento 'Alaska' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Alaska' tiene lugar en el Refugio de Montaña y su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué se realiza en el evento 'Antártida' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Antártida', que se celebra en el Bar del Polo Norte, se disfrutan actividades como birras y juegos de invierno. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Dónde se lleva a cabo el evento 'Nairobi' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Nairobi' se realiza en el Safari Bar, y su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad de 'Dubai' y qué se puede disfrutar allí?",
+        "completion": "El evento 'Dubai' se lleva a cabo en el Rooftop Lounge, donde se disfrutan birras y cócteles con vista panorámica. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza al evento 'Delhi' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Delhi' tiene lugar en el Restaurante Taj Mahal, y se caracteriza por disfrutar de comida india y birras. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Ginebra' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Ginebra', celebrado en el Club de Jazz, se pueden disfrutar de música en vivo y cócteles. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Dónde se lleva a cabo el evento 'Lisboa' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Lisboa' se realiza en el Mirador del Tajo, y su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad del evento 'Buenos Aires' y qué actividades se realizan allí?",
+        "completion": "El evento 'Buenos Aires' se lleva a cabo en el Asador del Sur, donde se disfrutan parrilladas y birras. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza al evento 'Sídney' y cuál es su nivel de peligrosidad?",
+        "completion": "El evento 'Sídney' tiene lugar en la Playa de Bondi y se caracteriza por actividades como surf y birras. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Marrakech' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Marrakech', celebrado en el Jardín de las Especias, se disfrutan de birras y comida marroquí. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Real Chaparral' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Real Chaparral', ubicado en la zona de celebraciones oficiales, se llevan a cabo actividades como pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué caracteriza al 'Monte Olimpo' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Monte Olimpo' se realiza en la cima de la ciudad y se caracteriza por actividades como birras, techno, druman, risas, pitis y poleos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y nivel de peligrosidad del lugar 'Rostov'?",
+        "completion": "El evento 'Rostov', que tiene lugar en la Zona Arge, se caracteriza por vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué se puede disfrutar en el 'K1' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'K1' se lleva a cabo en la cima de Santa Lucía y se caracteriza por disfrutar de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Dónde se realiza el evento 'Real Chaparral' y qué nivel de peligrosidad tiene?",
+        "completion": "El evento 'Real Chaparral' se realiza en el Real Chaparral, y su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades son comunes en 'Monte Olimpo' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Monte Olimpo', se realizan actividades como birras, techno, druman, risas, pitis y poleos en la cima de la ciudad. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad y la actividad principal en 'Rostov'?",
+        "completion": "El evento 'Rostov' tiene lugar en la Zona Arge, y su actividad principal incluye vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué tipo de evento se realiza en 'K1' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'K1', celebrado en la cima de Santa Lucía, se disfruta de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué se realiza en 'Real Chaparral' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Real Chaparral', ubicado en Real Chaparral, se realizan celebraciones oficiales con pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad del 'Monte Olimpo' y qué actividades se llevan a cabo allí?",
+        "completion": "El 'Monte Olimpo', situado en la cima de la ciudad, tiene un nivel de peligrosidad de 1. En este lugar se realizan actividades como birras, techno, druman, risas, pitis y poleos."
+    },
+    {
+        "prompt": "¿Qué actividades se pueden disfrutar en 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', ubicado en la Zona Arge, se disfrutan actividades como vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el ambiente en 'K1' y qué nivel de peligrosidad tiene?",
+        "completion": "En 'K1', ubicado en la cima de Santa Lucía, se disfruta de un helado en la cima. El nivel de peligrosidad de este lugar es 1."
+    },
+    {
+        "prompt": "¿Qué características definen el 'Real Chaparral' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Real Chaparral' se caracteriza por celebraciones oficiales con pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué hace especial al 'Monte Olimpo' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Monte Olimpo' es especial por sus actividades como birras, techno, druman, risas, pitis y poleos en la cima de la ciudad. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción completa de 'Rostov' y su nivel de peligrosidad?",
+        "completion": "El evento 'Rostov' en la Zona Arge se caracteriza por vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'K1' y qué nivel de peligrosidad tiene?",
+        "completion": "El 'K1', celebrado en la cima de Santa Lucía, se caracteriza por disfrutar de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué se puede hacer en el 'Real Chaparral' y cuál es su nivel de peligrosidad?",
+        "completion": "En el 'Real Chaparral' se llevan a cabo celebraciones oficiales con pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades se llevan a cabo en el 'Monte Olimpo' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Monte Olimpo' se destaca por sus actividades como birras, techno, druman, risas, pitis y poleos en la cima de la ciudad. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué tipo de eventos se realizan en 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', que se lleva a cabo en la Zona Arge, se disfrutan eventos con vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'K1' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'K1' se distingue por ofrecer helado en la cima de Santa Lucía. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción detallada de 'Real Chaparral' y su nivel de peligrosidad?",
+        "completion": "El 'Real Chaparral' es un lugar para celebraciones oficiales con actividades como pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cómo se caracteriza el 'Monte Olimpo' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Monte Olimpo' se caracteriza por birras, techno, druman, risas, pitis y poleos en la cima de la ciudad. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', ubicado en la Zona Arge, se realizan actividades como vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el ambiente en 'K1' y su nivel de peligrosidad?",
+        "completion": "El 'K1', situado en la cima de Santa Lucía, se caracteriza por disfrutar de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Vietnam' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Vietnam', que se lleva a cabo en un lugar aleatorio, la actividad es incierta y nunca se sabe lo que puede pasar. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué se puede hacer en 'California' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'California', ubicado en la Casa Wani, se disfrutan birras, risas, pizzas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es el nivel de peligrosidad y la descripción de 'Dellawere'?",
+        "completion": "En 'Dellawere', situado en Ibi - Territorio Troller, se realizan actividades como infusiones, birras, pitis y risas bajo declaración del estado de alarma a nivel nacional. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Mimi' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Mimi', celebrado en el Parque de los Patos, es un evento tranquilo donde se disfruta de música y buena vida en medio de la semana. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Roma' y su nivel de peligrosidad?",
+        "completion": "En 'Roma', celebrado en un Subterráneo, se disfrutan birras, pitis, manzanillas y chilleo con música. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', ubicado en la Zona Arge, se disfrutan actividades como vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué hace especial al 'K1' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'K1', situado en Santa Lucía, se caracteriza por disfrutar de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Real Míchigan' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Real Míchigan', celebrado en el Parque de los Patos, se realizan actividades como birras, pitis, risas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Florida' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Florida', ubicado en la Casa de David, es un lugar de alto riesgo de ciego involuntario. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Orlando' y su nivel de peligrosidad?",
+        "completion": "En 'Orlando', celebrado en el Aseo de David, se disfruta de una manzanilla en el aseo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Everest' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Everest', ubicado en San Miguel, se disfruta de un poleo en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Arizona' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Arizona', situado en el Parc de les Hortes, se disfruta de un dorito. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se llevan a cabo en 'Vodafone' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Vodafone', celebrado en las Máquinas Expendedoras, se repone fuerzas con buenos alimentos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Gran Cañón' y su nivel de peligrosidad?",
+        "completion": "En 'Gran Cañón', situado en la Trompa del Elefante, se disfruta de un vinico con boleros en plena montaña. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Mississippi' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'Mississippi', celebrado en el Parque de los Patos, se caracteriza por buscar una infusión. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Ohio' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Ohio', ubicado en la Casa, se busca té en la casa de un amigo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Puerto Vallarta' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Puerto Vallarta', celebrado en la Casa del Loco, se disfrutan birras, pizzas, pitis, risas y una manzanilla. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cuál es la descripción del 'BK' y su nivel de peligrosidad?",
+        "completion": "El 'BK', ubicado en Alcoy, se caracteriza por salir por patas hacia el Burguer King. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'California' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'California', celebrado en la Casa Wani, se disfrutan birras, risas, pizzas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción completa de 'Dellawere' y su nivel de peligrosidad?",
+        "completion": "En 'Dellawere', situado en Ibi - Territorio Troller, se realizan infusiones, birras, pitis y risas bajo declaración del estado de alarma a nivel nacional. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Monte Olimpo'?",
+        "completion": "En 'Monte Olimpo', ubicado en la cima de la ciudad, se disfrutan birras, techno, druman, risas, pitis y poleos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y el nivel de peligrosidad de 'Rostov'?",
+        "completion": "En 'Rostov', situado en la Zona Arge, se realizan actividades como vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza a 'K1' y cuál es su nivel de peligrosidad?",
+        "completion": "El 'K1', situado en Santa Lucía, es conocido por disfrutar de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Real Chaparral' y qué nivel de peligrosidad tiene?",
+        "completion": "En el 'Real Chaparral', celebrado en Real Chaparral, se llevan a cabo celebraciones oficiales con pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Gran Cañón'?",
+        "completion": "En 'Gran Cañón', situado en la Trompa del Elefante, se disfruta de un vinico con boleros en plena montaña. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y el nivel de peligrosidad de 'Mimi'?",
+        "completion": "En 'Mimi', celebrado en el Parque de los Patos, se disfruta de un evento tranquilo con música y buena vida en medio de la semana. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue a 'Puerto Vallarta' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Puerto Vallarta', celebrado en la Casa del Loco, se disfrutan birras, pizzas, pitis, risas y una manzanilla. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan en 'Orlando' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Orlando', ubicado en el Aseo de David, se disfruta de una manzanilla en el aseo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Vodafone' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Vodafone', celebrado en las Máquinas Expendedoras, se repone fuerzas con buenos alimentos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción completa de 'Roma' y su nivel de peligrosidad?",
+        "completion": "En 'Roma', situado en un Subterráneo, se disfrutan birras, pitis, manzanillas y chilleo con música. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza a 'Mississippi' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Mississippi', celebrado en el Parque de los Patos, se busca una infusión. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Ohio' y su nivel de peligrosidad?",
+        "completion": "En 'Ohio', ubicado en la Casa, se busca té en la casa de un amigo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Florida'?",
+        "completion": "En 'Florida', situado en la Casa de David, se presenta un alto riesgo de ciego involuntario. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'California' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'California', celebrado en la Casa Wani, se disfrutan birras, risas, pizzas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y el nivel de peligrosidad de 'Dellawere'?",
+        "completion": "En 'Dellawere', ubicado en Ibi - Territorio Troller, se realizan infusiones, birras, pitis y risas bajo declaración del estado de alarma a nivel nacional. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'BK'?",
+        "completion": "En 'BK', celebrado en Alcoy, se realiza una salida rápida hacia el Burguer King. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Vietnam' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Vietnam', ubicado en un lugar aleatorio, nunca se sabe lo que puede pasar. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué caracteriza a 'Arizona' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Arizona', celebrado en el Parc de les Hortes, se disfruta de un dorito. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Berlín' y su nivel de peligrosidad?",
+        "completion": "En 'Berlín', celebrado en la Caseta de Toni, se realiza un proyecto de máxima excepcionalidad posterior a una pandemia con birras, pitis, helados, risas y boleros. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué distingue a 'Real Míchigan' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Real Míchigan', ubicado en el Parque de los Patos, se disfrutan birras, pitis, risas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'K1' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'K1', situado en Santa Lucía, se disfruta de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Puerto Vallarta'?",
+        "completion": "En 'Puerto Vallarta', celebrado en la Casa del Loco, se disfrutan birras, pizzas, pitis, risas y una manzanilla. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y nivel de peligrosidad de 'California'?",
+        "completion": "En 'California', situado en la Casa Wani, se disfrutan birras, risas, pizzas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Mississippi' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Mississippi', celebrado en el Parque de los Patos, se busca una infusión. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza a 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', ubicado en la Zona Arge, se disfrutan vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Orlando'?",
+        "completion": "En 'Orlando', ubicado en el Aseo de David, se disfruta de una manzanilla en el aseo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Real Palace' y su nivel de peligrosidad?",
+        "completion": "En 'Real Palace', celebrado en el Ático de Pepito, se disfrutan birras, pitis, pelis, risas y boleros en la azotea. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Vietnam' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Vietnam', ubicado en un lugar aleatorio, nunca se sabe lo que puede pasar. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué distingue a 'Berlín' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Berlín', celebrado en la Caseta de Toni, se realiza un proyecto de máxima excepcionalidad posterior a una pandemia con birras, pitis, helados, risas y boleros. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Monte Olimpo'?",
+        "completion": "En 'Monte Olimpo', ubicado en la cima de la ciudad, se disfrutan birras, techno, druman, risas, pitis y poleos. Su nivel de peligrosidad es 1."
+    }, 
+    {
+        "prompt": "¿Qué caracteriza al 'Gran Cañón' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Gran Cañón', celebrado en la Trompa del Elefante, se disfruta de un vinico con boleros en plena montaña. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Florida' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Florida', celebrado en la Casa de David, el lugar es de alto riesgo de ciego involuntario. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Vodafone' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Vodafone', ubicado en las Máquinas Expendedoras, se reposta fuerzas con buenos alimentos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', celebrado en la Zona Arge, se disfruta de vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Roma'?",
+        "completion": "En 'Roma', ubicado en el Subterráneo, se disfrutan birras, pitis, manzanillas y chilleo con música. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue a 'Mimi' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Mimi', celebrado en el Parque de los Patos, se disfruta de un michi en medio de la semana, con música y buena vida. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Dellawere' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Dellawere', ubicado en Ibi - Territorio Troller, se disfrutan infusiones, birras, pitis y risas bajo declaración del estado de alarma a nivel nacional. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué caracteriza al 'BK' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'BK', celebrado en Alcoy, se realiza una salida rápida hacia el Burguer King. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Manhattan' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Manhattan', celebrado cuando la cosa se pone sabrosa, se sale por patas cuando estás hasta los cojones. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Arizona'?",
+        "completion": "En 'Arizona', ubicado en el Parc de les Hortes, se disfruta de un dorito. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y nivel de peligrosidad de 'Monte Olimpo'?",
+        "completion": "En 'Monte Olimpo', celebrado en la cima de la ciudad, se disfrutan birras, techno, druman, risas, pitis y poleos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Puerto Vallarta' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Puerto Vallarta', celebrado en la Casa del Loco, se disfrutan birras, pizzas, pitis, risas y una manzanilla. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cómo es el 'Florida' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Florida', celebrado en la Casa de David, se presenta un alto riesgo de ciego involuntario. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'K1'?",
+        "completion": "En 'K1', ubicado en Santa Lucía, se disfruta de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Gran Cañón' y su nivel de peligrosidad?",
+        "completion": "En 'Gran Cañón', celebrado en la Trompa del Elefante, se disfruta de un vinico con boleros en plena montaña. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Rostov' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Rostov', celebrado en la Zona Arge, se disfruta de vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué caracteriza al 'Real Míchigan' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Real Míchigan', celebrado en el Parque de los Patos, se disfruta de birras, pitis, risas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Dellawere' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Dellawere', ubicado en Ibi - Territorio Troller, se disfrutan infusiones, birras, pitis y risas bajo declaración del estado de alarma a nivel nacional. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Monte Olimpo'?",
+        "completion": "En 'Monte Olimpo', celebrado en la cima de la ciudad, se disfrutan birras, techno, druman, risas, pitis y poleos. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y nivel de peligrosidad de 'K1'?",
+        "completion": "En 'K1', ubicado en Santa Lucía, se disfruta de un helado en la cima. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Orlando' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Orlando', celebrado en el Aseo de David, se disfruta de una manzanilla en el aseo. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Arizona' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Arizona', celebrado en el Parc de les Hortes, se disfruta de un dorito. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'BK' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'BK', celebrado en Alcoy, se realiza una salida rápida hacia el Burguer King. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Manhattan'?",
+        "completion": "En 'Manhattan', celebrado cuando la cosa se pone sabrosa, se sale por patas cuando estás hasta los cojones. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción de 'Real Palace' y su nivel de peligrosidad?",
+        "completion": "En 'Real Palace', celebrado en el Ático de Pepito, se disfrutan birras, pitis, pelis, risas y boleros en la azotea. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Roma' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Roma', celebrado en el Subterráneo, se disfrutan birras, pitis, manzanillas y chilleo con música. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué distingue al 'Puerto Vallarta' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Puerto Vallarta', celebrado en la Casa del Loco, se disfrutan birras, pizzas, pitis, risas y una manzanilla. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cómo es el 'Berlín' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Berlín', celebrado en la Caseta de Toni, se trata de un proyecto de máxima excepcionalidad posterior a una pandemia, con birras, pitis, helados, risas y boleros. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Vietnam'?",
+        "completion": "En 'Vietnam', celebrado en un lugar aleatorio, nunca se sabe lo que puede pasar. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Cómo es el 'Mississippi' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Mississippi', celebrado en el Parque de los Patos, se busca una infusión. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Qué actividades y nivel de peligrosidad tiene 'Rostov'?",
+        "completion": "En 'Rostov', celebrado en la Zona Arge, se disfrutan vodka, pitis, risas y villancicos navideños. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cuál es la descripción y nivel de peligrosidad de 'California'?",
+        "completion": "En 'California', celebrado en la Casa Wani, se disfrutan birras, risas, pizzas y boleros. Su nivel de peligrosidad es 1."
+    },
+    {
+        "prompt": "¿Cómo es el 'Real Chaparral' y cuál es su nivel de peligrosidad?",
+        "completion": "En 'Real Chaparral', celebrado en el Real Chaparral, se realizan celebraciones oficiales con pitis, birras, poleos, espadas, música y risas. Su nivel de peligrosidad es 10."
+    },
+    {
+        "prompt": "¿Qué establece el Tratado de Tibi publicado el 24 de julio de 2022?",
+        "completion": "El Tratado de Tibi declara el fin total y sin condiciones de las hostilidades entre las Antiguas Delegaciones de Tibi y Trollers, promoviendo la paz y la seguridad entre ambas poblaciones."
+    },
+    {
+        "prompt": "¿Qué medidas se toman en el Estado de Sitio Real Decreto 112/2015 publicado el 23 de septiembre de 2021?",
+        "completion": "El Real Decreto 112/2015 establece la celebración de una Corte Marcial al Ministro de Hacienda para evaluar su culpabilidad y la aplicación del estado de guerra de forma cautelar hasta el esclarecimiento de los hechos."
+    },
+    {
+        "prompt": "¿Qué estipula el Certificado COVID19 publicado el 17 de agosto de 2021?",
+        "completion": "El Certificado COVID19 facilita la circulación libre y segura dentro del territorio Troller durante la pandemia de COVID19, garantizando su validez hasta el 1 de enero de 2022. El certificado es gratuito, accesible y garantiza la interoperabilidad en todas las instituciones de Trollers."
+    },
+    {
+        "prompt": "¿Qué cambios se realizan con la desactivación del Toque de Queda publicada el 6 de junio de 2021?",
+        "completion": "La desactivación del Toque de Queda interterritorial elimina la prohibición de libre circulación fuera de territorio Troller entre la 01:00 y las 06:00. Los incumplidores no serán juzgados bajo la legislación Troller, sino por la Estatal."
+    },
+    {
+        "prompt": "¿Qué medidas se incluyen en la desactivación del Estado de Emergencia publicada el 9 de mayo de 2021?",
+        "completion": "La desactivación del Estado de Emergencia incluye la puesta en pausa del Consejo de Seguridad Troller, la activación de la hora comunista, la regulación del contacto en aglomeraciones, y la reactivación del Toque de Queda interterritorial. También se permite compartir alimentos, bebidas, tabaco e infusiones."
+    },
+    {
+        "prompt": "¿Qué establece la reactivación del Estado de Emergencia Dellawere 2 publicada el 30 de octubre de 2020?",
+        "completion": "La reactivación del Estado de Emergencia Dellawere 2 incluye la regulación y control de la seguridad en las Delegaciones del Estado debido al aumento de casos de COVID19, la prohibición de contacto físico y compartir elementos fumables, y la activación del Toque de Queda interterritorial desde las 22:00 hasta las 06:00."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley Orgánica de Secretos Oficiales 1420/2020 publicada el 30 de septiembre de 2020?",
+        "completion": "La Ley Orgánica de Secretos Oficiales regula la protección de material clasificado, estableciendo grados de clasificación como 'secreto' y 'reservado', y los procedimientos para la reclasificación o desclasificación del material."
+    },
+    {
+        "prompt": "¿Cuál es el propósito de la Ley Orgánica de admisión, expulsión y deserción 7/20 publicada el 17 de julio de 2020?",
+        "completion": "La Ley Orgánica de admisión, expulsión y deserción regula el derecho de admisión al grupo, la expulsión de sus miembros y el derecho de estos a abandonar el grupo. La admisión y expulsión de miembros deben ser aprobadas por la unanimidad del Consejo de Ministros."
+    },
+    {
+        "prompt": "¿Qué establece la Activación del Protocolo Morfeo Fase 1 publicada el 14 de junio de 2020?",
+        "completion": "La Activación del Protocolo Morfeo Fase 1 requiere que todos los ministerios dejen bajo escrito y firma su candidato a primera muerte, y delega la competencia de almacenamiento de información al Ministerio de la Guerra bajo cifrado y llave."
+    },
+    {
+        "prompt": "¿Qué medidas se toman con la derogación del decreto sobre Medidas Humanitarias COVID19 publicada el 14 de junio de 2020?",
+        "completion": "La derogación del decreto sobre Medidas Humanitarias COVID19 desactiva el Proyecto Dellawere y reactivará la Ley Comunista, permitiendo compartir alimentos y bebidas, y eliminando restricciones de contacto físico y aglomeraciones."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 7/2008 publicada el 3 de marzo de 2020?",
+        "completion": "La Ley Orgánica 7/2008 declara la independencia jurídica del grupo Troller, estableciendo que solo se regirá por las leyes aprobadas por el propio grupo, disfrutando de absoluta libertad y autogobierno."
+    },
+    {
+        "prompt": "¿Qué estipula el Decreto-Ley 27/2014 publicado el 3 de marzo de 2020?",
+        "completion": "El Decreto-Ley 27/2014 regula el uso de canciones a nivel general en las delegaciones, permitiendo que cada integrante solicite la reproducción de cualquier canción en un sistema de cola de reproducción ordenado cronológicamente."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Ministerial Fundacional 11/2012 publicada el 14 de febrero de 2020?",
+        "completion": "La Ley Ministerial Fundacional 11/2012 define que el Estado Troller se compone de 13 ministerios, y establece la derogación del ministerio de la presidencia y vicepresidencia."
+    },
+    {
+        "prompt": "¿Qué regula la Directiva de la UE 2237/2015 publicada el 4 de febrero de 2020?",
+        "completion": "La Directiva de la UE 2237/2015 reconoce el Real Michigan como lugar de culto y reunión, con el deber de defenderlo de invasiones y el mecanismo para declarar el estado de sitio en caso de hurto o invasión."
+    },
+    {
+        "prompt": "¿Qué garantiza la Ley orgánica 23/2017 publicada el 4 de febrero de 2020?",
+        "completion": "La Ley orgánica 23/2017 garantiza el derecho a la propiedad privada incluso pasadas las 00:00, permitiendo la defensa de propiedades ante expropiaciones forzosas bajo ciertas condiciones."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley Orgánica 11/2018 (texto refundido) publicada el 27 de enero de 2020?",
+        "completion": "La Ley Orgánica 11/2018 (texto refundido) garantiza el derecho de los integrantes a abandonar o no acudir a reuniones sin necesidad de dar explicaciones y sin sentirse obligados."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 7/2019 (texto refundido) publicada el 27 de enero de 2020?",
+        "completion": "La Ley Orgánica 7/2019 (texto refundido), también llamada 'ley comunista', establece que cualquier propiedad destinada al consumo formará parte de la propiedad pública del grupo inmediatamente después de las 00:00, con excepciones para tabaco y poleo."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 4/2019 publicada el 4 de febrero de 2020?",
+        "completion": "La Ley Orgánica 4/2019 establece que en el grupo Troller no existe ideología ni religión oficial, garantizando la libertad de expresión y la inviolabilidad de las posturas políticas, morales, religiosas, y otros aspectos personales."
+    },
+    {
+        "prompt": "¿Qué estipula la Ley Orgánica 15/2013 (proyecto de ley) publicada el 27 de enero de 2020?",
+        "completion": "La Ley Orgánica 15/2013 garantiza la indisoluble unidad de los Trollers, reconociendo y garantizando la autonomía ministerial de sus integrantes. La aceptación y expulsión de miembros se realiza mediante votación unánime, con una excepción para casos excepcionales."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley Orgánica 7/2019 (texto refundido) publicada el 26 de enero de 2020?",
+        "completion": "La Ley Orgánica 7/2019 (texto refundido), conocida como 'ley comunista', establece que cualquier propiedad destinada al consumo se convierte en propiedad pública del grupo inmediatamente después de las 00:00, con excepciones para tabaco y poleo."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 4/2019 publicada el 4 de febrero de 2020?",
+        "completion": "La Ley Orgánica 4/2019 establece que el grupo Troller no tiene ideología ni religión oficial, promoviendo la libertad de expresión y garantizando la inviolabilidad de las posturas políticas y personales de sus integrantes."
+    },
+    {
+        "prompt": "¿Qué regulaciones se aplican según la Ley Orgánica 6/2016 publicada el 30 de enero de 2020?",
+        "completion": "La Ley Orgánica 6/2016 regula la protección y preservación de la propiedad intelectual en el grupo Troller, estableciendo derechos y obligaciones para el uso de obras y creaciones."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley Orgánica 12/2019 publicada el 5 de noviembre de 2019?",
+        "completion": "La Ley Orgánica 12/2019 regula la administración y manejo de los fondos públicos del grupo Troller, estableciendo mecanismos de control y auditoría para asegurar la transparencia en el uso de recursos."
+    },
+    {
+        "prompt": "¿Cuál es el objetivo de la Ley Orgánica 15/2019 publicada el 10 de diciembre de 2019?",
+        "completion": "La Ley Orgánica 15/2019 tiene como objetivo regular la participación ciudadana en los procesos de toma de decisiones dentro del grupo Troller, promoviendo la inclusión y la representación equitativa."
+    },
+    {
+        "prompt": "¿Qué establece el Decreto-Ley 21/2020 publicado el 7 de febrero de 2020?",
+        "completion": "El Decreto-Ley 21/2020 establece nuevas medidas de seguridad y protocolos para el manejo de emergencias y desastres dentro del grupo Troller, incluyendo la creación de equipos de respuesta rápida."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 19/2018 publicada el 21 de octubre de 2019?",
+        "completion": "La Ley Orgánica 19/2018 regula la protección de datos personales y la privacidad de los ciudadanos del grupo Troller, estableciendo derechos y obligaciones para el manejo y protección de información sensible."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley Orgánica 2/2018 publicada el 3 de noviembre de 2018?",
+        "completion": "La Ley Orgánica 2/2018 especifica las normas para la creación y funcionamiento de organizaciones no gubernamentales dentro del grupo Troller, estableciendo requisitos para su registro y operación."
+    },
+    {
+        "prompt": "¿Qué cambios introduce el Decreto-Ley 17/2020 publicado el 12 de marzo de 2020?",
+        "completion": "El Decreto-Ley 17/2020 introduce cambios en las normativas de comercio y servicios dentro del grupo Troller, permitiendo una mayor flexibilidad en las transacciones y contratos comerciales."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 13/2020 publicada el 15 de abril de 2020?",
+        "completion": "La Ley Orgánica 13/2020 establece las regulaciones para la protección del medio ambiente dentro del grupo Troller, incluyendo medidas para la conservación de recursos naturales y la gestión de residuos."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 8/2017 publicada el 27 de febrero de 2018?",
+        "completion": "La Ley Orgánica 8/2017 regula la educación y formación profesional dentro del grupo Troller, estableciendo estándares y requisitos para el sistema educativo y las instituciones de formación."
+    },
+    {
+        "prompt": "¿Qué especifica el Real Decreto 36/2019 publicado el 9 de mayo de 2019?",
+        "completion": "El Real Decreto 36/2019 especifica las regulaciones para el transporte y la logística dentro del grupo Troller, incluyendo normas para la seguridad en el transporte de mercancías y personas."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 5/2018 publicada el 8 de junio de 2018?",
+        "completion": "La Ley Orgánica 5/2018 establece el marco para la investigación científica y tecnológica dentro del grupo Troller, incluyendo la financiación y el apoyo a proyectos de investigación e innovación."
+    },
+    {
+        "prompt": "¿Qué es el Real Chaparral y qué eventos se celebran allí?",
+        "completion": "El Real Chaparral es un evento de celebraciones oficiales con pitis, birras, poleos, espadas, música y risas. Es conocido por su ambiente festivo y participativo."
+    },
+    {
+        "prompt": "¿Cuáles son los beneficios del sistema de protección de datos según la Ley Orgánica 3/2018?",
+        "completion": "La Ley Orgánica 3/2018 garantiza la protección de datos personales mediante el establecimiento de derechos para los ciudadanos, como el derecho al acceso, rectificación y cancelación de datos."
+    },
+    {
+        "prompt": "¿Qué cambios introduce el Real Decreto 62/2019 en la normativa de seguridad?",
+        "completion": "El Real Decreto 62/2019 introduce cambios en las regulaciones de seguridad, incluyendo la implementación de nuevas medidas para la protección contra amenazas cibernéticas y físicas."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 7/2020 sobre el teletrabajo?",
+        "completion": "La Ley Orgánica 7/2020 regula el teletrabajo, estableciendo los derechos y obligaciones tanto para empleados como para empleadores, incluyendo aspectos relacionados con la seguridad y la ergonomía en el entorno doméstico."
+    },
+    {
+        "prompt": "¿Cuáles son las principales características de la Ley 4/2021 sobre igualdad de género?",
+        "completion": "La Ley 4/2021 establece medidas para promover la igualdad de género en el ámbito laboral y social, incluyendo políticas de igualdad salarial, medidas contra la discriminación y la promoción de la representación equitativa."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 14/2019 en relación con el sistema de salud?",
+        "completion": "La Ley Orgánica 14/2019 regula el sistema de salud, estableciendo protocolos para la atención sanitaria, la financiación de servicios y la protección de los derechos de los pacientes."
+    },
+    {
+        "prompt": "¿Qué medidas de protección ambiental establece la Ley 9/2020?",
+        "completion": "La Ley 9/2020 establece medidas para la protección ambiental, incluyendo regulaciones sobre la reducción de emisiones contaminantes, la gestión de residuos y la conservación de espacios naturales."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley 3/2018 sobre derechos de los consumidores?",
+        "completion": "La Ley 3/2018 especifica los derechos de los consumidores, incluyendo la información clara sobre productos y servicios, el derecho a la devolución y las garantías, así como medidas para resolver conflictos entre consumidores y proveedores."
+    },
+    {
+        "prompt": "¿Qué establece el Decreto 40/2020 sobre el uso de energías renovables?",
+        "completion": "El Decreto 40/2020 establece incentivos y regulaciones para el uso de energías renovables, promoviendo la inversión en tecnologías limpias y la reducción de la dependencia de fuentes de energía no renovables."
+    },
+    {
+        "prompt": "¿Qué cambios introduce la Ley 6/2019 en el sistema educativo?",
+        "completion": "La Ley 6/2019 introduce cambios en el sistema educativo, incluyendo la actualización de currículos, la promoción de metodologías innovadoras y el fortalecimiento de la formación docente."
+    },
+    {
+        "prompt": "¿Cuál es el objetivo de la Ley Orgánica 11/2017 sobre protección de datos en el sector financiero?",
+        "completion": "La Ley Orgánica 11/2017 tiene como objetivo proteger los datos personales en el sector financiero, estableciendo normas para la recolección, almacenamiento y tratamiento de información financiera sensible."
+    },
+    {
+        "prompt": "¿Qué regula la Ley 2/2018 sobre transporte público?",
+        "completion": "La Ley 2/2018 regula el transporte público, estableciendo normas para la seguridad, accesibilidad y eficiencia de los servicios de transporte urbano y rural."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 1/2020 sobre derechos laborales?",
+        "completion": "La Ley Orgánica 1/2020 establece derechos laborales fundamentales, incluyendo la igualdad de oportunidades, la protección frente a despidos injustificados y la regulación de condiciones laborales adecuadas."
+    },
+    {
+        "prompt": "¿Qué cambios introduce el Real Decreto 5/2021 sobre subvenciones?",
+        "completion": "El Real Decreto 5/2021 introduce cambios en la normativa de subvenciones, estableciendo nuevos procedimientos para la solicitud, gestión y control de fondos públicos destinados a diferentes áreas de desarrollo."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 4/2017 sobre protección de menores?",
+        "completion": "La Ley Orgánica 4/2017 regula la protección de menores, estableciendo medidas para la prevención del maltrato infantil, el apoyo a familias y el acceso a servicios educativos y de salud."
+    },
+    {
+        "prompt": "¿Cuál es el propósito del Decreto-Ley 8/2018 sobre inversión en infraestructura?",
+        "completion": "El Decreto-Ley 8/2018 tiene como propósito fomentar la inversión en infraestructura, estableciendo incentivos para proyectos de desarrollo y modernización de infraestructura pública y privada."
+    },
+    {
+        "prompt": "¿Qué regula la Ley 5/2019 sobre la protección de la salud mental?",
+        "completion": "La Ley 5/2019 regula la protección de la salud mental, estableciendo medidas para garantizar el acceso a servicios de salud mental, la protección de los derechos de las personas con trastornos mentales y la promoción de políticas de prevención y apoyo."
+    },
+    {
+        "prompt": "¿Cuál es el propósito del Real Decreto 39/2021 sobre la formación profesional?",
+        "completion": "El Real Decreto 39/2021 tiene como propósito mejorar la calidad de la formación profesional, estableciendo nuevas directrices para la formación de los docentes, la actualización de los currículos y la colaboración con el sector empresarial."
+    },
+    {
+        "prompt": "¿Qué establece la Ley 8/2020 sobre el acceso a la vivienda?",
+        "completion": "La Ley 8/2020 establece medidas para mejorar el acceso a la vivienda, incluyendo políticas para la promoción de viviendas asequibles, la regulación de los alquileres y el apoyo a los grupos vulnerables."
+    },
+    {
+        "prompt": "¿Qué cambios introduce el Decreto 12/2021 en la regulación del comercio electrónico?",
+        "completion": "El Decreto 12/2021 introduce cambios en la regulación del comercio electrónico, estableciendo nuevas normas para la protección del consumidor, la transparencia en las transacciones y la seguridad en las plataformas de comercio en línea."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 13/2018 sobre la protección de datos en el ámbito educativo?",
+        "completion": "La Ley Orgánica 13/2018 regula la protección de datos en el ámbito educativo, estableciendo directrices para la gestión de datos personales de estudiantes y personal educativo, garantizando la privacidad y la seguridad de la información."
+    },
+    {
+        "prompt": "¿Qué medidas de sostenibilidad establece la Ley 7/2021?",
+        "completion": "La Ley 7/2021 establece medidas para promover la sostenibilidad, incluyendo regulaciones sobre la gestión de recursos naturales, la reducción de emisiones contaminantes y la promoción de prácticas empresariales responsables."
+    },
+    {
+        "prompt": "¿Cuál es el objetivo de la Ley 10/2019 sobre seguridad en el transporte aéreo?",
+        "completion": "La Ley 10/2019 tiene como objetivo mejorar la seguridad en el transporte aéreo, estableciendo nuevas normas y procedimientos para la gestión de riesgos, la seguridad en los aeropuertos y la protección de los pasajeros."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 6/2018 sobre la protección de la infancia?",
+        "completion": "La Ley Orgánica 6/2018 regula la protección de la infancia, estableciendo medidas para garantizar el bienestar de los niños, la prevención del abuso y la promoción de un entorno seguro y saludable para su desarrollo."
+    },
+    {
+        "prompt": "¿Qué especifica la Ley 11/2020 sobre la accesibilidad en edificios públicos?",
+        "completion": "La Ley 11/2020 especifica los requisitos de accesibilidad en edificios públicos, estableciendo normas para la eliminación de barreras arquitectónicas y la garantía de accesibilidad para personas con discapacidad."
+    },
+    {
+        "prompt": "¿Qué establece el Real Decreto 50/2021 sobre la calidad del aire?",
+        "completion": "El Real Decreto 50/2021 establece medidas para mejorar la calidad del aire, incluyendo regulaciones sobre las emisiones de contaminantes, el monitoreo de la calidad del aire y la implementación de políticas para reducir la contaminación atmosférica."
+    },
+    {
+        "prompt": "¿Qué regula la Ley 1/2019 sobre la protección de los derechos de los trabajadores autónomos?",
+        "completion": "La Ley 1/2019 regula la protección de los derechos de los trabajadores autónomos, estableciendo medidas para asegurar su acceso a prestaciones sociales, la mejora de sus condiciones laborales y la promoción de su seguridad económica."
+    },
+    {
+        "prompt": "¿Cuál es el propósito de la Ley 3/2021 sobre el desarrollo rural?",
+        "completion": "La Ley 3/2021 tiene como propósito promover el desarrollo rural, estableciendo políticas para apoyar la agricultura sostenible, el desarrollo de infraestructuras en áreas rurales y la mejora de la calidad de vida en estas comunidades."
+    },
+    {
+        "prompt": "¿Qué cambios introduce el Decreto-Ley 6/2020 en la protección de datos personales?",
+        "completion": "El Decreto-Ley 6/2020 introduce cambios en la protección de datos personales, ajustando las normativas para alinearlas con las regulaciones europeas y fortalecer la protección de la privacidad y la seguridad de los datos."
+    },
+    {
+        "prompt": "¿Qué regula la Ley 4/2020 sobre la educación inclusiva?",
+        "completion": "La Ley 4/2020 regula la educación inclusiva, estableciendo medidas para garantizar la igualdad de oportunidades en el acceso a la educación para estudiantes con necesidades especiales y promoviendo un entorno educativo inclusivo y accesible."
+    },
+    {
+        "prompt": "¿Qué establece el Tratado de Tibi publicado el 24/07/2022?",
+        "completion": "El Tratado de Tibi, publicado el 24/07/2022, establece el fin de las hostilidades entre las Antiguas Delegaciones de Tibi y Trollers, promoviendo la paz y la seguridad entre ambas poblaciones bajo el principio de igualdad."
+    },
+    {
+        "prompt": "¿Cuál es el propósito del Real Decreto 112/2015 publicado el 23/09/2021?",
+        "completion": "El Real Decreto 112/2015, publicado el 23/09/2021, establece el estado de guerra cautelar en respuesta a las denuncias falsas y las acciones del Ministro de Hacienda, e incluye la celebración de una Corte Marcial para evaluar su culpabilidad."
+    },
+    {
+        "prompt": "¿Qué regula el Certificado COVID-19 publicado el 17/08/2021?",
+        "completion": "El Certificado COVID-19 publicado el 17/08/2021 regula la circulación libre y segura dentro de territorio Troller durante la pandemia de COVID-19, garantizando su validez hasta el 1 de enero de 2022 y estableciendo los requisitos para su obtención."
+    },
+    {
+        "prompt": "¿Qué establece la desactivación del Toque de Queda publicada el 6/06/2021?",
+        "completion": "La desactivación del Toque de Queda publicada el 6/06/2021 elimina la restricción de libre circulación interterritorial desde la 01:00 hasta las 06:00, exponiendo a los incumplidores a la legislación estatal en lugar de la local."
+    },
+    {
+        "prompt": "¿Qué medidas se tomaron con la desactivación del Estado de Emergencia publicada el 9/05/2021?",
+        "completion": "La desactivación del Estado de Emergencia publicada el 9/05/2021 pone fin al Estado de Alarma del grupo, activa la hora comunista de forma indefinida, regula el contacto ante aglomeraciones, y activa el Toque de Queda interterritorial desde la 01:00 hasta las 06:00."
+    },
+    {
+        "prompt": "¿Qué medidas se tomaron con la reactivación del Estado de Emergencia Dellawere 2 publicada el 30/10/2020?",
+        "completion": "La reactivación del Estado de Emergencia Dellawere 2, publicada el 30/10/2020, incluye la regulación de la seguridad en Delegaciones del Estado, desactivación de la hora comunista, y la aplicación de un Toque de Queda interterritorial desde las 22:00 hasta las 06:00."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica de Secretos Oficiales 1420/2020 publicada el 30/09/2020?",
+        "completion": "La Ley Orgánica de Secretos Oficiales 1420/2020 regula los procedimientos y medidas para la protección de material clasificado, estableciendo categorías de clasificación como 'secreto' y 'reservado', y procedimientos para su desclasificación."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica de admisión, expulsión y deserción 7/20 publicada el 17/07/2020?",
+        "completion": "La Ley Orgánica de admisión, expulsión y deserción 7/20 regula el derecho de admisión y expulsión de miembros del grupo, exigiendo votación unánime del Consejo de Ministros para la aprobación o expulsión de nuevos miembros."
+    },
+    {
+        "prompt": "¿Cuál es el propósito del Activación Protocolo Morfeo Fase 1 publicado el 14/06/2020?",
+        "completion": "La Activación Protocolo Morfeo Fase 1, publicada el 14/06/2020, establece que todos los ministerios deben designar un candidato a primera muerte y delega la competencia de almacenamiento de información cifrada al Ministerio de la Guerra."
+    },
+    {
+        "prompt": "¿Qué medidas se incluyeron en la Derogación del decreto sobre Medidas Humanitarias COVID-19 publicada el 14/06/2020?",
+        "completion": "La Derogación del decreto sobre Medidas Humanitarias COVID-19, publicada el 14/06/2020, pone fin al Estado de Alarma, activa la Ley Comunista de forma indefinida, y desactiva el Proyecto Dellawere."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 7/2008 publicada el 03/03/2020?",
+        "completion": "La Ley Orgánica 7/2008 declara la independencia jurídica del grupo Troller, estableciendo que el grupo no estará sujeto a ninguna ley que no aparezca en el Boletín Oficial del Estado."
+    },
+    {
+        "prompt": "¿Qué establece el Decreto-Ley 27/2014 publicado el 03/03/2020?",
+        "completion": "El Decreto-Ley 27/2014 regula el uso de canciones en general, permitiendo a cada integrante solicitar la reproducción de cualquier canción en las delegaciones, sin vetos a estilos musicales."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Ministerial Fundacional 11/2012 publicada el 14/02/2020?",
+        "completion": "La Ley Ministerial Fundacional 11/2012 establece que el Estado Troller se compone de 13 ministerios, distribuyendo equitativamente los poderes y derogando los ministerios de presidencia y vicepresidencia."
+    },
+    {
+        "prompt": "¿Qué regula la directiva sobre la música moderna y otros estilos publicada el 05/12/2019?",
+        "completion": "La directiva sobre la música moderna y otros estilos, publicada el 05/12/2019, legaliza el género musical Reguetón y deroga la ley 13/2013 que prohibía géneros musicales no acordes con las circunstancias del Estado."
+    },
+    {
+        "prompt": "¿Qué establece la Directiva de la UE 2237/2015 publicada el 04/02/2020?",
+        "completion": "La Directiva de la UE 2237/2015 reconoce al Real Michigan como un lugar de culto y establece que todas las delegaciones deben defenderlo de intentos de hurto o invasión, declarando el estado de sitio en caso de necesidad."
+    },
+    {
+        "prompt": "¿Qué regula la Ley orgánica 23/2017 publicada el 04/02/2020?",
+        "completion": "La Ley Orgánica 23/2017 reconoce y garantiza el derecho a la propiedad privada, permitiendo a los integrantes defender sus propiedades ante expropiaciones forzosas y estableciendo procedimientos para su aplicación."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 11/2018 (texto refundido) publicada el 27/01/2020?",
+        "completion": "La Ley Orgánica 11/2018 (texto refundido) garantiza el derecho de los integrantes a abandonar o no acudir a reuniones sin necesidad de dar explicaciones y sin ser presionados."
+    },
+    {
+        "prompt": "¿Qué regula la Ley Orgánica 7/2019 (texto refundido) publicada el 26/01/2020?",
+        "completion": "La Ley Orgánica 7/2019 (texto refundido), también conocida como la 'ley comunista', establece que cualquier propiedad destinada al consumo se convierte en propiedad pública del grupo después de las 00:00, con excepciones para tabaco y poleo."
+    },
+    {
+        "prompt": "¿Qué establece la Ley Orgánica 4/2019 publicada el 04/02/2020?",
+        "completion": "La Ley Orgánica 4/2019 declara que en el grupo Troller no existe ideología ni religión oficial, garantizando libertad de expresión y prohibiendo represalias por declaraciones sobre ideas, moral, religión, sexualidad, gustos y aficiones."
+    },
+    {
+        "prompt": "¿Qué establece el Protocolo Morfeo del 25/02/2020?",
+        "completion": "El Protocolo Morfeo describe el procedimiento que deben seguir los miembros del grupo Troller antes y después del fallecimiento de uno de ellos. Antes de que ocurra el fallecimiento, el grupo se reúne y se prende 3 L's, pasando el tiempo para reflexionar y hacer una apuesta secreta sobre quién será el próximo en fallecer. Después del fallecimiento, se abren los sobres con las apuestas y se realiza una ceremonia de despedida, donde se graba un video del fallecido que se visualizará posteriormente. Cada miembro será enterrado con la chusta del último peta encendido, y el proceso se repetirá hasta que quede un único integrante."
+    },
+    {
+        "prompt": "¿Qué establece la Constitución Troller publicada el 03/03/2020?",
+        "completion": "La Constitución Troller declara la soberanía del grupo y establece los derechos y deberes de sus integrantes. Incluye artículos sobre igualdad de derechos, libertad personal, derechos inherentes, deber de defensa del grupo, reglas sobre mayoría de edad, símbolos, libertad de expresión, posesión de armas, estados de emergencia, admisión y expulsión, y organización política. También menciona la lengua oficial, el derecho a una despedida especial, y la intención de fraternidad y solidaridad con otros grupos. La Constitución puede ser modificada por mayoría de 2/3 y cualquier infracción será castigada según el Código Penal."
+    },
+    {
+        "prompt": "¿Qué establece el Protocolo Nerón del 28/11/2013?",
+        "completion": "El Protocolo Nerón ordena la disolución y destrucción de órganos y estructuras estatales del grupo Troller en caso de derrota. Incluye la destrucción de instalaciones de transporte, inteligencia, industria y suministros, y activos tangibles que puedan ser utilizados por el enemigo. Los responsables son las autoridades militares y la orden debe ser anunciada a todos los ministerios y delegaciones. Esta orden es de máxima prioridad para asegurar el futuro de la sociedad Troller."
+    },
+    {
+        "prompt": "¿Qué establece la Formalización del Estado de Guerra del 02/05/2014?",
+        "completion": "La Formalización del Estado de Guerra del 02/05/2014 informa sobre la declaración de guerra del grupo Troller contra Belefantes debido a actos de hostilidad y violaciones de neutralidad. Detalla las agresiones cometidas por militares de Belefantes y la retención de sus mercantes en Troller, con la condición de que sean liberados si se asegura reciprocidad completa en un plazo de cuarenta y ocho horas."
+    },
+    {
+        "prompt": "¿Qué establece el Protocolo Morfeo del 25/02/2020?",
+        "completion": "El Protocolo Morfeo establece las acciones a seguir antes y después de la muerte de cada miembro del grupo Troller. Antes del fallecimiento, el grupo se reúne, prende 3 L's, y realiza una votación secreta sobre quién será el primero en morir. El nombre del apostante se coloca en un sobre negro junto al nombre del candidato a fallecer. La urna que contiene las apuestas y los vídeos grabados por los miembros se guarda con gran cuidado. Tras el fallecimiento, se realiza una ceremonia de despedida, se abre el sobre con la apuesta ganadora, y se repite el proceso con una nueva grabación. El último miembro en pie realizará la última ceremonia de despedida con su último peta."
+    },
+    {
+        "prompt": "¿Qué procedimiento sigue el Protocolo Morfeo para la grabación de vídeos?",
+        "completion": "El Protocolo Morfeo establece que cada miembro del grupo Troller debe grabar un vídeo con sus últimas palabras y pensamientos, que se entregará al portador de la urna para su almacenamiento. Estos vídeos se visualizarán tras el fallecimiento del miembro y se guardarán como parte del proceso de despedida. El procedimiento asegura que cada miembro tenga una despedida especial y se mantenga un registro de sus últimas palabras."
+    },
+    {
+        "prompt": "¿Qué sucede con el peta encendido tras el fallecimiento de un miembro según el Protocolo Morfeo?",
+        "completion": "Según el Protocolo Morfeo, el peta encendido tras el fallecimiento de un miembro se guarda y se utiliza en la ceremonia de despedida del siguiente fallecido. La chusta del peta se almacena en una caja dentro de la urna, y cada miembro fallecido es enterrado con la chusta del último peta encendido. Este proceso continúa hasta que queda un único miembro, quien cierra el ciclo con su último peta."
+    },
+    {
+        "prompt": "¿Qué derechos y deberes establece la Constitución Troller del 03/03/2020?",
+        "completion": "La Constitución Troller establece varios derechos y deberes para los miembros del grupo. Entre ellos se incluyen: igualdad en dignidad y derechos (art.1), libertad personal para alcanzar objetivos (art.2), derechos al honor, intimidad, dignidad, y seguridad (art.3), deber de defender el grupo (art.4), mayoría de edad a los 16 años (art.5), libertad para crear símbolos (art.6), regulación de la libertad de expresión (art.7), y reglas sobre posesión de armas y estados de emergencia (arts.8-9). También establece el derecho a una despedida especial (art.13), la organización política en una democracia directa (art.12), y el deber de fraternidad y solidaridad (art.15)."
+    },
+    {
+        "prompt": "¿Cómo se regula la admisión y expulsión en el grupo Troller según la Constitución del 03/03/2020?",
+        "completion": "La Constitución Troller regula la admisión y expulsión de miembros a través de la Ley. El régimen de admisión y expulsión debe ser aprobado por unanimidad del Consejo de Ministros, y la legitimidad de cada cargo ministerial reside en la voluntad de las Cortes. Esto garantiza que todos los procesos de admisión y expulsión sean justos y transparentes."
+    },
+    {
+        "prompt": "¿Qué medidas establece el Protocolo Nerón del 28/11/2013 para la destrucción de activos en caso de derrota?",
+        "completion": "El Protocolo Nerón establece medidas para la destrucción de activos del grupo Troller en caso de derrota. Estas medidas incluyen la destrucción de todas las instalaciones de transporte, inteligencia, industria, y suministro, así como activos tangibles que el enemigo pueda utilizar. Las autoridades militares son responsables de llevar a cabo estas destrucciones, y la orden debe ser anunciada a todos los ministerios y delegaciones. La orden es de máxima prioridad y no admite excepciones."
+    },
+    {
+        "prompt": "¿Qué instrucciones se dan en el Protocolo Nerón sobre la destrucción de instalaciones en territorio Troller?",
+        "completion": "El Protocolo Nerón instruye la destrucción de todas las instalaciones de transporte, inteligencia, industria, y suministro en territorio Troller, incluyendo delegaciones en ciudades específicas como Ibi, San Juan, San Vicente del Raspeig, Murcia, Madrid, Valencia, y Nueva Delhi. Esta destrucción debe llevarse a cabo para evitar que el enemigo utilice estas instalaciones en el futuro. La orden debe ser cumplida por las autoridades de mando militar o superiores y anunciada a todos los ministerios y delegaciones."
+    },
+    {
+        "prompt": "¿Qué eventos llevaron a la Formalización del Estado de Guerra del 02/05/2014?",
+        "completion": "La Formalización del Estado de Guerra del 02/05/2014 fue una respuesta a actos de hostilidad por parte de militares de Belefantes en territorio Fernoveta. Estos actos incluyeron la violación de la neutralidad, ataques a construcciones cerca del Palace, y lanzamientos de bombas cerca de San Miguel y Teixereta. En respuesta, el grupo Troller se declara en estado de guerra con Belefantes y retiene a los mafiosos mercantes de Belefantes, con la condición de liberarlos si se asegura reciprocidad completa en un plazo de cuarenta y ocho horas."
+    },
+    {
+        "prompt": "¿Qué establece el artículo 16 de la Constitución Troller del 03/03/2020 sobre la guerra y la paz?",
+        "completion": "El artículo 16 de la Constitución Troller establece que la unanimidad del grupo es necesaria para ratificar la guerra y la paz. El Consejo de Guerra tiene la responsabilidad de firmar el ultimátum y declarar el Estado de Sitio, así como de negociar cualquier pacto o acuerdo de paz. Esto garantiza que decisiones tan significativas sean tomadas de manera consensuada y con la participación de todos los miembros del grupo."
+    },
+    {
+        "prompt": "¿Cuál es el papel del Consejo de Ministros en la Constitución Troller respecto a la redacción de documentos legales?",
+        "completion": "Según el artículo 11 de la Constitución Troller, cada integrante tiene el derecho y el deber de redactar documentos legales desde el momento de su admisión como ministerial. Estos documentos deben ser sometidos a votación en las Cortes Generales y ratificados por 3/4 partes del Consejo de Ministros. Esto asegura que todos los documentos legales sean aprobados por una mayoría significativa y reflejen la voluntad del grupo."
+    },
+    {
+        "prompt": "¿Qué derecho garantiza el artículo 13 de la Constitución Troller en relación con los funerales?",
+        "completion": "El artículo 13 de la Constitución Troller garantiza que cada integrante tiene derecho a una despedida especial durante su funeral. El protocolo de la ceremonia y el proceso serán conocidos por todos los miembros, quienes podrán requerir sus propias últimas voluntades. Esto asegura que cada miembro pueda tener una despedida digna y acorde a sus deseos."
+    },
+    {
+        "prompt": "¿Qué estipula el artículo 19 de la Constitución Troller sobre el uso de lenguas?",
+        "completion": "El artículo 19 de la Constitución Troller establece que la lengua oficial del grupo es el castellano, pero permite el uso de cualquier otra lengua fuera del ámbito legal. Esto refleja el respeto por la diversidad lingüística y permite la flexibilidad en la comunicación del grupo."
+    },
+    {
+        "prompt": "¿Cómo regula el Protocolo Nerón la destrucción de delegaciones en ciudades específicas?",
+        "completion": "El Protocolo Nerón ordena la destrucción de todas las delegaciones en ciudades específicas como Ibi, San Juan, San Vicente del Raspeig, Murcia, Madrid, Valencia, y Nueva Delhi. Esta medida busca evitar que el enemigo utilice estas instalaciones para continuar su lucha, asegurando que todas las infraestructuras importantes sean inutilizadas en caso de derrota."
+    },
+    {
+        "prompt": "¿Qué establece el Protocolo Nerón sobre las instrucciones contradictorias?",
+        "completion": "El Protocolo Nerón establece que las instrucciones contradictorias no son válidas y que la orden de destrucción de instalaciones debe ser anunciada claramente a todos los ministerios y delegaciones. Esto asegura que todos los miembros estén alineados con la estrategia y evita confusiones o discrepancias en la ejecución de las órdenes."
+    },
+    {
+        "prompt": "¿Cuál es la política del grupo Troller en relación con las banderas e himnos oficiales según la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 6 de la Constitución Troller establece que el grupo no tiene una bandera ni himno oficial. Se da libertad a los integrantes para crear sus propios símbolos y representarlos, siempre que contengan la 'T' mayúscula, que es el único símbolo oficial del grupo. Esto permite a los miembros expresar su identidad personal mientras se mantiene un elemento común."
+    },
+    {
+        "prompt": "¿Qué procedimiento sigue el Protocolo Morfeo para el almacenamiento de vídeos grabados por miembros del grupo?",
+        "completion": "El Protocolo Morfeo establece que los vídeos grabados por los miembros del grupo Troller, en los que expresan sus últimas palabras, deben ser entregados al portador de la urna para su almacenamiento. Estos vídeos se visualizan tras el fallecimiento del miembro y se almacenan como parte del proceso de despedida. El procedimiento asegura que las últimas palabras de cada miembro se conserven y se presenten en el momento adecuado."
+    },
+    {
+        "prompt": "¿Qué condiciones establece el Formalización del Estado de Guerra del 02/05/2014 sobre la reciprocidad con Belefantes?",
+        "completion": "La Formalización del Estado de Guerra del 02/05/2014 establece que los mafiosos mercantes de Belefantes retenidos en el territorio Troller serán liberados si se asegura reciprocidad completa dentro de un plazo de cuarenta y ocho horas. Esto implica que las autoridades de Trollers están dispuestas a negociar la liberación de los mercantes bajo condiciones específicas que aseguren una respuesta equitativa por parte de Belefantes."
+    },
+    {
+        "prompt": "¿Qué establece el artículo 1 de la Constitución Troller del 03/03/2020 sobre la igualdad de los integrantes?",
+        "completion": "El artículo 1 de la Constitución Troller establece que todos los integrantes son iguales en dignidad y derechos, y ninguna ley o figura podrá coartar este principio. Esto garantiza que todos los miembros disfruten de los mismos derechos y sean tratados con igualdad dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué derecho garantiza el artículo 2 de la Constitución Troller del 03/03/2020 en relación con el desarrollo personal?",
+        "completion": "El artículo 2 de la Constitución Troller garantiza que cada integrante goza de plena libertad para desarrollarse personalmente y alcanzar sus objetivos vitales, tanto dentro como fuera del grupo. Esto asegura que los miembros puedan perseguir sus metas personales sin restricciones indebidas."
+    },
+    {
+        "prompt": "¿Qué protección ofrece el artículo 3 de la Constitución Troller del 03/03/2020 respecto a los derechos de los integrantes?",
+        "completion": "El artículo 3 de la Constitución Troller garantiza los derechos inherentes al honor, la intimidad, la dignidad, la libertad y la igualdad de los integrantes, así como su propia seguridad, moral, psicológica o física. Esto protege a los miembros de cualquier violación a estos derechos fundamentales."
+    },
+    {
+        "prompt": "¿Cuál es el deber de los integrantes según el artículo 4 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 4 de la Constitución Troller establece que todos los integrantes tienen el derecho y el deber de defender el grupo ante cualquier amenaza que ponga en peligro su integridad y la concordia que garantiza la fraternidad entre sus miembros. Esto implica un compromiso con la protección y unidad del grupo."
+    },
+    {
+        "prompt": "¿Qué edad se establece en el artículo 5 de la Constitución Troller del 03/03/2020 para alcanzar la mayoría de edad?",
+        "completion": "El artículo 5 de la Constitución Troller establece que la mayoría de edad en el grupo se alcanza a los 16 años. Esto define la edad en la que los miembros son considerados plenamente responsables dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué libertad se otorga a los integrantes respecto a los símbolos del grupo según el artículo 6 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 6 de la Constitución Troller establece que el grupo no tiene bandera ni himno oficial. Los integrantes tienen libertad para crear sus propios símbolos y representarlos, siempre que incluyan la 'T' mayúscula, que es el único símbolo oficial del grupo. Esto permite la personalización y expresión individual mientras se mantiene un símbolo común."
+    },
+    {
+        "prompt": "¿Cómo regula el artículo 7 de la Constitución Troller del 03/03/2020 la libertad de expresión?",
+        "completion": "El artículo 7 de la Constitución Troller regula la libertad de expresión, garantizando que los miembros puedan expresar sus opiniones y pensamientos. Sin embargo, esta libertad está sujeta a las leyes del grupo, que deben ser respetadas por todos los integrantes."
+    },
+    {
+        "prompt": "¿Qué condición establece el artículo 8 de la Constitución Troller del 03/03/2020 sobre el uso de armas?",
+        "completion": "El artículo 8 de la Constitución Troller declara que el grupo se considera una organización de reunión pacífica y sin armas. Sin embargo, reserva el derecho a la posesión de armas bajo una declaración oficial del Estado de Sitio, lo que implica una medida excepcional en situaciones de emergencia."
+    },
+    {
+        "prompt": "¿Cómo se regulan los estados de emergencia según el artículo 9 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 9 de la Constitución Troller regula los estados de emergencia, sitio y excepción de los proyectos del grupo. Estos estados deben ser regulados por ley, asegurando un marco legal para su implementación y gestión."
+    },
+    {
+        "prompt": "¿Cómo se determina la admisión y expulsión de miembros según el artículo 10 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 10 de la Constitución Troller establece que el régimen de admisión y expulsión de miembros será regulado por ley y siempre estará sujeto a la aprobación unánime del Consejo de Ministros. La legitimidad de los cargos ministeriales reside en la voluntad de las Cortes."
+    },
+    {
+        "prompt": "¿Qué derecho tienen los integrantes a nivel ministerial según el artículo 11 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 11 de la Constitución Troller otorga a cada integrante, desde el momento de su admisión ministerial, el derecho y el deber de redactar documentos legales. Estos documentos deben ser sometidos a votación en las Cortes Generales y aprobados por 3/4 partes del Consejo de Ministros."
+    },
+    {
+        "prompt": "¿Cómo se organiza el grupo Troller políticamente según el artículo 12 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 12 de la Constitución Troller establece que el grupo se organiza políticamente en una democracia directa, en la que cada integrante tiene derecho a un voto único e intransferible, ya sea presencial o telemático. Esto garantiza una participación equitativa en las decisiones del grupo."
+    },
+    {
+        "prompt": "¿Qué derecho se otorga a los integrantes durante su funeral según el artículo 13 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 13 de la Constitución Troller garantiza a cada integrante el derecho a una despedida especial durante su funeral. La ceremonia y el protocolo serán conocidos por todos los miembros, y cada integrante podrá requerir sus propias últimas voluntades."
+    },
+    {
+        "prompt": "¿Cómo defenderá el grupo Troller su soberanía según el artículo 14 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 14 de la Constitución Troller establece que el grupo defenderá su soberanía tanto interior como exteriormente principalmente a través del diálogo. Se reserva el derecho de utilizar otras vías en casos excepcionales, con la aprobación del Consejo de Ministros y la ratificación en el Consejo Interterritorial de Guerra."
+    },
+    {
+        "prompt": "¿Cuál es la intención del grupo Troller hacia otros grupos y personalidades según el artículo 15 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 15 de la Constitución Troller declara la intención de fraternidad y solidaridad del grupo con todos los grupos y personalidades sin excepción alguna. Esto refleja un compromiso con el entendimiento y la cooperación general."
+    },
+    {
+        "prompt": "¿Cómo se ratifica la guerra y la paz según el artículo 16 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 16 de la Constitución Troller establece que la unanimidad del grupo es necesaria para ratificar la guerra y la paz. El Consejo de Guerra tiene la autoridad para firmar el ultimátum y declarar el Estado de Sitio, así como negociar cualquier pacto o acuerdo de paz."
+    },
+    {
+        "prompt": "¿Qué establece el artículo 17 de la Constitución Troller del 03/03/2020 sobre religión e ideología?",
+        "completion": "El artículo 17 de la Constitución Troller establece que no existe una religión ni ideología oficial en el grupo, respetando el derecho a la libertad de pensamiento y creencias de cada integrante."
+    },
+    {
+        "prompt": "¿Qué estipula el artículo 18 de la Constitución Troller del 03/03/2020 sobre la soberanía individual?",
+        "completion": "El artículo 18 de la Constitución Troller estipula que la soberanía del grupo reside en cada individuo. Nadie será obligado o coaccionado a realizar algo en contra de su voluntad, aunque se respeten las leyes del grupo."
+    },
+    {
+        "prompt": "¿Cuál es la lengua oficial del grupo según el artículo 19 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 19 de la Constitución Troller establece que la lengua oficial del grupo es el castellano, aunque se permite el uso de otras lenguas fuera del ámbito legal."
+    },
+    {
+        "prompt": "¿Qué obligación y derecho tienen los integrantes según el artículo 20 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 20 de la Constitución Troller establece que cada integrante tiene la obligación y el derecho de ayudar al resto en la mayor medida posible. Esto fomenta el apoyo mutuo y la cooperación entre los miembros."
+    },
+    {
+        "prompt": "¿Cómo se declara el grupo Troller en relación con España según el artículo 21 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 21 de la Constitución Troller declara que el grupo se considera soberano e independiente, aunque siempre será considerado hijo de España. Esto establece la independencia del grupo mientras se reconoce su origen."
+    },
+    {
+        "prompt": "¿Cómo puede ser modificada la Constitución Troller según el artículo 22 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 22 de la Constitución Troller establece que la Constitución puede ser modificada por una mayoría de 2/3 de los presentes en el grupo. Esto garantiza que cualquier cambio sea aprobado por una amplia mayoría."
+    },
+    {
+        "prompt": "¿Cómo se castigan las infracciones al ordenamiento jurídico según el artículo 23 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 23 de la Constitución Troller establece que cualquier persona que vulnere el ordenamiento jurídico será castigada o reprendida según lo que establezca la jurisdicción del Código Penal. Esto asegura que se mantenga el respeto a las leyes del grupo."
+    },
+    {
+        "prompt": "¿Cuál es el principio que debe guiar la aplicación de las leyes y derechos según el artículo 24 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 24 de la Constitución Troller establece que todas las leyes y derechos deben ser aplicados según los principios de buena fe. Esto implica que las acciones y decisiones deben ser tomadas con honestidad y justicia."
+    },
+    {
+        "prompt": "¿Qué derecho tiene cualquier integrante en relación con su pertenencia al grupo según el artículo 25 de la Constitución Troller del 03/03/2020?",
+        "completion": "El artículo 25 de la Constitución Troller establece que cualquier integrante es libre de abandonar el grupo cuando lo considere conveniente. Esto asegura que la pertenencia al grupo sea siempre voluntaria."
+    },
+    {
+        "prompt": "¿Qué establece el artículo 1 sobre los derechos y dignidad de los integrantes del grupo Troller?",
+        "completion": "El artículo 1 establece que todos los integrantes son iguales en dignidad y derechos, y ninguna ley o figura podrá coartar este principio. Esto asegura que todos los miembros sean tratados con igualdad y respeto."
+    },
+    {
+        "prompt": "¿Qué permite el artículo 2 en cuanto al desarrollo personal dentro del grupo Troller?",
+        "completion": "El artículo 2 permite que cada integrante goce de plena libertad para desarrollarse personalmente y alcanzar sus objetivos vitales, tanto dentro como fuera del grupo."
+    },
+    {
+        "prompt": "¿Qué derechos protege el artículo 3 para los integrantes del grupo Troller?",
+        "completion": "El artículo 3 protege los derechos inherentes al honor, la intimidad, la dignidad, la libertad y la igualdad, así como la seguridad moral, psicológica y física de los integrantes."
+    },
+    {
+        "prompt": "¿Qué obligación tienen los integrantes en defensa del grupo según el artículo 4?",
+        "completion": "El artículo 4 establece que todos los integrantes tienen el derecho y el deber de defender el grupo ante cualquier amenaza que ponga en peligro su integridad y concordia."
+    },
+    {
+        "prompt": "¿A qué edad se considera que un integrante alcanza la mayoría de edad en el grupo Troller según el artículo 5?",
+        "completion": "El artículo 5 establece que la mayoría de edad en el grupo Troller se alcanza a los 16 años."
+    },
+    {
+        "prompt": "¿Qué libertad tienen los integrantes en relación con los símbolos del grupo según el artículo 6?",
+        "completion": "El artículo 6 permite a los integrantes crear sus propios símbolos y representarlos, siempre que contengan la 'T' mayúscula, que es el único símbolo oficial del grupo."
+    },
+    {
+        "prompt": "¿Cómo regula el artículo 7 la libertad de expresión dentro del grupo Troller?",
+        "completion": "El artículo 7 regula la libertad de expresión garantizando que los miembros puedan expresar sus opiniones, siempre que se respeten las leyes del grupo."
+    },
+    {
+        "prompt": "¿Qué condiciones establece el artículo 8 para el uso de armas dentro del grupo Troller?",
+        "completion": "El artículo 8 declara que el grupo es una organización pacífica y sin armas, pero reserva el derecho a la posesión de armas bajo una declaración oficial del Estado de Sitio."
+    },
+    {
+        "prompt": "¿Cómo se regulan los estados de emergencia según el artículo 9 de la Constitución Troller?",
+        "completion": "El artículo 9 regula los estados de emergencia, sitio y excepción de los proyectos del grupo, que deben ser gestionados según lo establecido por ley."
+    },
+    {
+        "prompt": "¿Cómo se determina la admisión y expulsión de miembros según el artículo 10?",
+        "completion": "El artículo 10 establece que la admisión y expulsión de miembros se regula por ley y requiere la aprobación unánime del Consejo de Ministros."
+    },
+    {
+        "prompt": "¿Qué derecho tiene cada integrante en relación con la redacción de documentos legales según el artículo 11?",
+        "completion": "El artículo 11 otorga a cada integrante el derecho y deber de redactar documentos legales, que deben ser sometidos a votación en las Cortes Generales y aprobados por 3/4 partes del Consejo de Ministros."
+    },
+    {
+        "prompt": "¿Cómo se organiza el grupo Troller políticamente según el artículo 12?",
+        "completion": "El artículo 12 establece que el grupo Troller se organiza en una democracia directa, donde cada integrante tiene un voto único e intransferible, ya sea presencial o telemático."
+    },
+    {
+        "prompt": "¿Qué derechos tienen los integrantes en relación con su funeral según el artículo 13?",
+        "completion": "El artículo 13 garantiza a cada integrante una despedida especial en su funeral, con la ceremonia y el protocolo conocidos por todos los miembros y la posibilidad de requerir últimas voluntades."
+    },
+    {
+        "prompt": "¿Cómo defenderá el grupo su soberanía según el artículo 14?",
+        "completion": "El artículo 14 establece que el grupo defenderá su soberanía principalmente a través del diálogo, pero puede utilizar otras vías en casos excepcionales, con la aprobación del Consejo de Ministros y la ratificación en el Consejo Interterritorial de Guerra."
+    },
+    {
+        "prompt": "¿Qué intención expresa el artículo 15 hacia otros grupos y personalidades?",
+        "completion": "El artículo 15 declara la intención de fraternidad y solidaridad con todos los grupos y personalidades, sin excepción alguna."
+    },
+    {
+        "prompt": "¿Cómo se ratifica la guerra y la paz según el artículo 16?",
+        "completion": "El artículo 16 establece que la guerra y la paz se ratifican por unanimidad del grupo, mientras que el Consejo de Guerra firma el ultimátum y declara el Estado de Sitio, así como pactos de paz."
+    },
+    {
+        "prompt": "¿Qué establece el artículo 17 sobre religión e ideología en el grupo Troller?",
+        "completion": "El artículo 17 establece que no hay religión ni ideología oficial en el grupo Troller, respetando el derecho a la libertad de pensamiento y creencias."
+    },
+    {
+        "prompt": "¿Cómo se asegura la soberanía individual según el artículo 18?",
+        "completion": "El artículo 18 estipula que la soberanía del grupo reside en cada individuo, y nadie puede ser coaccionado a hacer algo en contra de su voluntad, salvo lo que establezca la ley."
+    },
+    {
+        "prompt": "¿Cuál es la lengua oficial del grupo según el artículo 19?",
+        "completion": "El artículo 19 establece que la lengua oficial del grupo Troller es el castellano, aunque se pueden usar otras lenguas fuera del ámbito legal."
+    },
+    {
+        "prompt": "¿Qué obligación y derecho tienen los integrantes en cuanto a ayudar a los demás según el artículo 20?",
+        "completion": "El artículo 20 establece que cada integrante tiene la obligación y el derecho de ayudar al resto en la mayor medida posible, promoviendo el apoyo mutuo."
+    },
+    {
+        "prompt": "¿Cómo se considera el grupo Troller en relación con España según el artículo 21?",
+        "completion": "El artículo 21 declara que el grupo Troller se considera soberano e independiente, aunque siempre será considerado hijo de España."
+    },
+    {
+        "prompt": "¿Cómo puede ser modificada la Constitución según el artículo 22?",
+        "completion": "El artículo 22 establece que la Constitución puede ser modificada por una mayoría de 2/3 de los presentes en el grupo."
+    },
+    {
+        "prompt": "¿Qué establece el artículo 23 sobre las infracciones al ordenamiento jurídico?",
+        "completion": "El artículo 23 establece que cualquier persona que vulnere el ordenamiento jurídico será castigada o reprendida según lo que estipule la jurisdicción del Código Penal."
+    },
+    {
+        "prompt": "¿Qué principio debe guiar la aplicación de leyes y derechos según el artículo 24?",
+        "completion": "El artículo 24 establece que la aplicación de leyes y derechos debe seguir los principios de buena fe."
+    },
+    {
+        "prompt": "¿Qué derecho tiene cualquier integrante en relación con su pertenencia al grupo según el artículo 25?",
+        "completion": "El artículo 25 establece que cualquier integrante es libre de abandonar el grupo cuando lo considere conveniente, garantizando la libertad de permanencia."
+    },
+    {
+        "prompt": "¿Qué debe hacer el grupo antes de la primera muerte según el Protocolo Morfeo?",
+        "completion": "Antes de la primera muerte, el grupo debe reunirse en una sala, sentarse alrededor de una mesa y, si están de acuerdo, prender 3 L's y pasarlos en círculo hasta que se consuman."
+    },
+    {
+        "prompt": "¿Cuánto tiempo se deja para la reflexión individual sobre quién será el primero en morir según el Protocolo Morfeo?",
+        "completion": "Se dejan 15 minutos para la reflexión individual sobre quién será el primero en morir."
+    },
+    {
+        "prompt": "¿Cómo se realiza la votación sobre quién se cree que morirá primero según el Protocolo Morfeo?",
+        "completion": "La votación se realiza colocando en un sobre negro con el nombre del votante una tarjeta con el nombre de la persona que se cree que fallecerá primero. La votación es secreta."
+    },
+    {
+        "prompt": "¿Qué se hace con la urna que contiene los sobres de la votación en el Protocolo Morfeo?",
+        "completion": "La urna que contiene los sobres de la votación debe ser recolectada y su custodia se asignará a uno de los miembros del grupo. La urna debe ser guardada con gran cuidado y su paradero exacto debe ser conocido por todos los miembros."
+    },
+    {
+        "prompt": "¿Qué deben hacer los integrantes del grupo después de recolectar la urna en el Protocolo Morfeo?",
+        "completion": "Después de recolectar la urna, los integrantes deben grabar un vídeo con lo que consideran importante decir después de su muerte y entregar el vídeo al portador de la urna para su almacenamiento."
+    },
+    {
+        "prompt": "¿Qué sucede cuando un miembro del grupo fallece según el Protocolo Morfeo?",
+        "completion": "Cuando un miembro fallece, se abren los sobres para conocer al ganador de la apuesta. Este ganador tiene el derecho de abrir su ceremonia de despedida con unas palabras, y la ceremonia se llevará a cabo una vez terminado el funeral."
+    },
+    {
+        "prompt": "¿Qué debe hacer el grupo en la tumba del fallecido según el Protocolo Morfeo?",
+        "completion": "En la tumba del fallecido, el grupo debe permanecer hasta que quede un único miembro. Se encenderá el último peta y se beberá el último chupito en presencia del muerto."
+    },
+    {
+        "prompt": "¿Qué se hace con la chusta del último peta en el Protocolo Morfeo?",
+        "completion": "La chusta del último peta se guarda en una caja que se almacena en la urna. Este proceso se repetirá con cada nuevo fallecido."
+    },
+    {
+        "prompt": "¿Qué se hace después de ver el vídeo del fallecido en el Protocolo Morfeo?",
+        "completion": "Después de ver el vídeo del fallecido, se repite la apuesta con un nuevo sobre y se graba otro vídeo con el mismo fin, que se deposita en la urna."
+    },
+    {
+        "prompt": "¿Cómo se asegura la continuidad del Protocolo Morfeo con cada nuevo fallecido?",
+        "completion": "Con cada nuevo fallecido, se repite el proceso de encender el peta, beber el chupito, guardar la chusta en la urna, y se realiza una nueva apuesta con otro vídeo grabado."
+    },
+    {
+        "prompt": "¿Cuál es el objetivo final del Protocolo Morfeo según el documento?",
+        "completion": "El objetivo final del Protocolo Morfeo es que el último miembro en vida cierre con su último peta la historia del grupo."
+    },
+    {
+        "prompt": "¿Qué debe contener el sobre negro en la votación del Protocolo Morfeo?",
+        "completion": "El sobre negro debe contener una tarjeta con el nombre de la persona que se cree que fallecerá primero."
+    },
+    {
+        "prompt": "¿Quién debe conocer el paradero de la urna en el Protocolo Morfeo?",
+        "completion": "Todos los miembros del grupo deben conocer el paradero exacto de la urna que contiene los sobres de la votación y los vídeos."
+    },
+    {
+        "prompt": "¿Qué tipo de vídeos deben grabar los miembros del grupo según el Protocolo Morfeo?",
+        "completion": "Los miembros del grupo deben grabar un vídeo con todo lo que consideren importante decir después de su muerte, el cual se entrega al portador de la urna para su almacenamiento."
+    },
+    {
+        "prompt": "¿Qué sucede con el peta y el chupito después de cada muerte según el Protocolo Morfeo?",
+        "completion": "Después de cada muerte, se encenderá un nuevo peta y se beberá un chupito en presencia del fallecido. La chusta del peta se guardará en la urna para ser utilizada con el siguiente fallecido."
+    },
+    {
+        "prompt": "¿Qué se hace con la chusta del peta tras cada fallecimiento según el Protocolo Morfeo?",
+        "completion": "La chusta del peta se guarda en una caja y se almacena en la urna, la cual será utilizada con el siguiente fallecido."
+    },
+    {
+        "prompt": "¿Cómo se realiza la ceremonia de despedida según el Protocolo Morfeo?",
+        "completion": "La ceremonia de despedida se realiza después del funeral y está abierta por el ganador de la apuesta con sus palabras. La ceremonia tendrá lugar en la tumba del fallecido."
+    },
+    {
+        "prompt": "¿Qué pasa con la urna después de cada muerte según el Protocolo Morfeo?",
+        "completion": "Después de cada muerte, la urna se actualiza con el nuevo vídeo grabado, y el proceso de apuesta y almacenamiento de la chusta se repite."
+    },
+    {
+        "prompt": "¿Qué procedimiento se sigue para la grabación de vídeos en el Protocolo Morfeo?",
+        "completion": "Cada miembro debe grabar un vídeo con lo que considere importante decir tras su muerte. Este vídeo se entrega al portador de la urna para ser almacenado y reproducido después del fallecimiento."
+    },
+    {
+        "prompt": "¿Cómo se elige al ganador de la apuesta en el Protocolo Morfeo?",
+        "completion": "El ganador de la apuesta se determina abriendo los sobres de la urna después de la muerte de un miembro, revelando así la persona que predijo correctamente la primera muerte."
+    },
+    {
+        "prompt": "¿Qué se hace con el peta encendido y el chupito en la tumba del fallecido según el Protocolo Morfeo?",
+        "completion": "En la tumba del fallecido, se enciende el último peta y se bebe el último chupito en presencia del difunto, marcando el cierre del ritual para ese miembro."
+    },
+    {
+        "prompt": "¿Qué se debe hacer con la urna tras la última muerte en el Protocolo Morfeo?",
+        "completion": "Después de la última muerte, el proceso se cierra con el último peta, y la urna con la chusta y los vídeos será utilizada para finalizar la historia del grupo con el último miembro en vida."
+    },
+    {
+        "prompt": "¿Qué garantiza el artículo 1 de la Constitución Troller?",
+        "completion": "El artículo 1 garantiza que todos los integrantes del grupo Troller son iguales en dignidad y derechos, y ninguna ley o figura podrá coartar este principio."
+    },
+    {
+        "prompt": "¿Qué libertad garantiza el artículo 2 de la Constitución Troller?",
+        "completion": "El artículo 2 garantiza a cada integrante la plena libertad para desarrollarse personalmente y alcanzar sus objetivos vitales dentro o fuera del grupo."
+    },
+    {
+        "prompt": "¿Qué derechos se garantizan en el artículo 3 de la Constitución Troller?",
+        "completion": "El artículo 3 garantiza los derechos inherentes al honor, la intimidad, la dignidad, la libertad y la igualdad, así como la seguridad moral, psicológica o física de cada integrante."
+    },
+    {
+        "prompt": "¿Qué obligación tiene cada integrante en relación con el grupo según el artículo 4 de la Constitución Troller?",
+        "completion": "El artículo 4 establece que todos los integrantes tienen el derecho y el deber de defender el grupo ante cualquier amenaza que ponga en peligro su integridad y la concordia."
+    },
+    {
+        "prompt": "¿A qué edad se considera que se alcanza la mayoría de edad en el grupo Troller según el artículo 5 de la Constitución?",
+        "completion": "El artículo 5 establece que la mayoría de edad en el grupo Troller se alcanza a los 16 años."
+    },
+    {
+        "prompt": "¿Qué libertad se concede en el artículo 6 de la Constitución Troller respecto a símbolos?",
+        "completion": "El artículo 6 concede libertad a los integrantes para crear su propio símbolo, bandera o himno, siempre que contengan la T mayúscula, que es el único símbolo oficial del grupo."
+    },
+    {
+        "prompt": "¿Qué regula el artículo 7 de la Constitución Troller sobre la libertad de expresión?",
+        "completion": "El artículo 7 regula que la libertad de expresión será asegurada por la ley, sin especificar restricciones adicionales."
+    },
+    {
+        "prompt": "¿Qué tipo de grupo se declara en el artículo 8 de la Constitución Troller?",
+        "completion": "El artículo 8 declara al grupo Troller como un grupo de reunión pacífica y sin armas, aunque reserva el derecho a poseer armas bajo una declaración oficial del Estado de Sitio."
+    },
+    {
+        "prompt": "¿Cómo se regularán los estados de emergencia según el artículo 9 de la Constitución Troller?",
+        "completion": "El artículo 9 establece que los estados de emergencia, sitio y excepción serán regulados por ley."
+    },
+    {
+        "prompt": "¿Cómo se regula la admisión y expulsión de miembros en el grupo Troller según el artículo 10?",
+        "completion": "El artículo 10 regula que la admisión y expulsión de miembros será regulada por ley y siempre estará sujeta a la aprobación por unanimidad del Consejo de Ministros."
+    },
+    {
+        "prompt": "¿Qué derecho tiene cada integrante en relación con la redacción de documentos legales según el artículo 11 de la Constitución Troller?",
+        "completion": "El artículo 11 concede a cada integrante el derecho a redactar documentos legales, que posteriormente se someterán a votación en las Cortes Generales para su ratificación por 3/4 partes del Consejo de Ministros."
+    },
+    {
+        "prompt": "¿Cómo se organiza políticamente el grupo Troller según el artículo 12?",
+        "completion": "El artículo 12 establece que el grupo Troller se organiza políticamente en una democracia directa, donde cada integrante tiene derecho a un voto presencial o telemático único e intransferible."
+    },
+    {
+        "prompt": "¿Qué derecho tiene cada integrante al momento de su funeral según el artículo 13?",
+        "completion": "El artículo 13 otorga a cada integrante el derecho a una despedida especial en su funeral, permitiéndole requerir sus propias últimas voluntades."
+    },
+    {
+        "prompt": "¿Cómo se defenderá el grupo Troller según el artículo 14?",
+        "completion": "El artículo 14 establece que el grupo Troller defenderá su soberanía principalmente desde el diálogo, pero puede recurrir a otras vías en casos excepcionales, bajo la aprobación del Consejo de Ministros y ratificación en el Consejo Interterritorial de Guerra."
+    },
+    {
+        "prompt": "¿Qué requiere la ratificación de la guerra y la paz según el artículo 16?",
+        "completion": "El artículo 16 estipula que la ratificación de la guerra y la paz estará en manos de la unanimidad del grupo, mientras que el Consejo de Guerra firmará el ultimátum y la declaración del Estado de Sitio."
+    },
+    {
+        "prompt": "¿Qué se respeta según el artículo 17 de la Constitución Troller?",
+        "completion": "El artículo 17 declara que no existe una religión ni ideología oficial en el grupo, respetando el derecho consagrado en el artículo correspondiente."
+    },
+    {
+        "prompt": "¿Dónde reside la soberanía del grupo según el artículo 18?",
+        "completion": "El artículo 18 establece que la soberanía del grupo reside en cada individuo, y nadie será obligado o coaccionado a realizar algo en contra de su voluntad por el resto del grupo o una mayoría, sin perjuicio de lo que establezca la ley."
+    },
+    {
+        "prompt": "¿Qué lengua es oficial en el grupo Troller según el artículo 19?",
+        "completion": "El artículo 19 establece que la lengua oficial del grupo Troller es el castellano, aunque se pueden utilizar otras lenguas fuera del ámbito legal."
+    },
+    {
+        "prompt": "¿Qué obligación tiene cada integrante según el artículo 20?",
+        "completion": "El artículo 20 obliga a cada integrante a ayudar al resto en la mayor medida de lo posible."
+    },
+    {
+        "prompt": "¿Cómo se considera al grupo Troller en relación con España según el artículo 21?",
+        "completion": "El artículo 21 declara que el grupo Troller se considera soberano e independiente, aunque siempre será considerado hijo de España."
+    },
+    {
+        "prompt": "¿Cómo se puede modificar la Constitución Troller según el artículo 22?",
+        "completion": "El artículo 22 establece que la Constitución Troller puede ser modificada por mayoría de 2/3 de los presentes."
+    },
+    {
+        "prompt": "¿Qué castigos se aplican por vulnerar el ordenamiento jurídico según el artículo 23?",
+        "completion": "El artículo 23 establece que cualquier persona que vulnere el ordenamiento jurídico será castigada o reprendida según lo establecido en el Código Penal."
+    },
+    {
+        "prompt": "¿Cómo se aplicarán las leyes y derechos según el artículo 24?",
+        "completion": "El artículo 24 indica que todas las leyes y derechos serán aplicados de acuerdo con los principios de buena fe."
+    },
+    {
+        "prompt": "¿Qué derecho tiene un integrante respecto a su pertenencia al grupo según el artículo 25?",
+        "completion": "El artículo 25 concede a cualquier integrante el derecho de abandonar el grupo cuando lo considere conveniente."
+    },
+    {
+        "prompt": "¿Cuál es el procedimiento para el grupo antes de la muerte de uno de sus miembros según el Protocolo Morfeo?",
+        "completion": "Antes de la muerte de un miembro, el grupo se reúne en una sala, prenden 3 L's y se pasan en círculo hasta que se consuman. Luego, se da un periodo de reflexión de 15 minutos para elegir a quién se cree que será el primer miembro en morir."
+    },
+    {
+        "prompt": "¿Qué se hace con las tarjetas de votación en el Protocolo Morfeo?",
+        "completion": "Después del periodo de reflexión, se escribe el nombre del miembro que se cree que fallecerá primero en una tarjeta, se coloca en un sobre negro con el nombre del apostante y se deposita en una urna para su custodia."
+    },
+    {
+        "prompt": "¿Quién es responsable de custodiar la urna en el Protocolo Morfeo?",
+        "completion": "La urna que contiene las tarjetas de votación debe ser custodiada por uno de los componentes del grupo, y todos los miembros deben conocer su paradero exacto."
+    },
+    {
+        "prompt": "¿Qué se debe hacer con el vídeo grabado por el fallecido según el Protocolo Morfeo?",
+        "completion": "El vídeo grabado por el fallecido se entrega al portador de la urna para su almacenamiento. Cuando alguien fallezca, el vídeo se reproducirá durante la ceremonia de despedida."
+    },
+    {
+        "prompt": "¿Cómo se lleva a cabo la ceremonia de despedida según el Protocolo Morfeo?",
+        "completion": "La ceremonia de despedida se lleva a cabo después del funeral, y el ganador de la apuesta tiene el derecho de abrirla con unas palabras. El grupo permanece en la tumba hasta que solo quede un miembro."
+    },
+    {
+        "prompt": "¿Qué se hace con la chusta del último peta según el Protocolo Morfeo?",
+        "completion": "La chusta del último peta se guarda en una caja que se almacena en la urna. Esta chusta se entierra con cada nuevo fallecido como recordatorio del último peta encendido."
+    },
+    {
+        "prompt": "¿Qué ocurre después de la muerte del último miembro según el Protocolo Morfeo?",
+        "completion": "Después de la muerte del último miembro, se cierra la historia del grupo con su último peta."
+    },
+    {
+        "prompt": "¿Qué actividades se realizan durante el periodo de reflexión según el Protocolo Morfeo?",
+        "completion": "Durante el periodo de reflexión, cada miembro considera individualmente quién cree que será el primero en morir y luego escribe su nombre en una tarjeta que se coloca en un sobre negro."
+    },
+    {
+        "prompt": "¿Cómo se asegura que la urna sea protegida según el Protocolo Morfeo?",
+        "completion": "La urna debe ser guardada con gran recelo y el paradero exacto de la misma debe ser conocido por todos los miembros del grupo."
+    },
+    {
+        "prompt": "¿Qué se hace con el vídeo del fallecido durante el proceso del Protocolo Morfeo?",
+        "completion": "El vídeo del fallecido se reproduce para el grupo una vez que la persona ha fallecido, permitiendo que el resto de los miembros escuchen sus últimas palabras antes de continuar con el proceso."
+    },
+    {
+        "prompt": "¿Cómo se realiza la apuesta para el siguiente fallecimiento según el Protocolo Morfeo?",
+        "completion": "Después de la muerte de un miembro, se repite la apuesta con un nuevo periodo de reflexión, y se graba otro vídeo con el mismo fin que se deposita en la urna."
+    },
+    {
+        "prompt": "¿Qué sucede con el último peta encendido durante el Protocolo Morfeo?",
+        "completion": "El último peta encendido se guarda con la chusta en la urna y se entierra con el siguiente miembro fallecido, ya que es probable que haya sido su último peta."
+    },
+    {
+        "prompt": "¿Cómo se organiza la ceremonia de despedida según el Protocolo Morfeo?",
+        "completion": "La ceremonia de despedida se organiza para llevarse a cabo después del funeral. El ganador de la apuesta tiene el derecho de abrirla con un discurso y el grupo se queda en la tumba hasta el final."
+    },
+    {
+        "prompt": "¿Qué debe hacer el grupo después de cada fallecimiento según el Protocolo Morfeo?",
+        "completion": "Después de cada fallecimiento, el grupo debe encender un peta, beber un chupito, guardar la chusta en la urna, ver el vídeo del fallecido, y repetir la apuesta con un nuevo vídeo."
+    },
+    {
+        "prompt": "¿Qué papel juega la urna en el Protocolo Morfeo?",
+        "completion": "La urna juega un papel crucial al contener las tarjetas de votación y los vídeos grabados por los miembros del grupo, asegurando su custodia y confidencialidad hasta que sea necesario abrirla."
+    },
+    {
+        "prompt": "¿Qué acciones se realizan en la tumba según el Protocolo Morfeo?",
+        "completion": "En la tumba, el grupo permanece hasta que solo quede un miembro. Luego se realiza el ritual del último peta y se graba un nuevo vídeo para la urna."
+    },
+    {
+        "prompt": "¿Qué se hace con los vídeos grabados por los miembros según el Protocolo Morfeo?",
+        "completion": "Los vídeos grabados por los miembros se almacenan en la urna y se reproducen cuando un miembro fallece, permitiendo que el grupo escuche las últimas palabras del fallecido."
+    },
+    {
+        "prompt": "¿Cómo se decide quién tendrá el derecho de hablar en la ceremonia de despedida según el Protocolo Morfeo?",
+        "completion": "El derecho de hablar en la ceremonia de despedida se concede al ganador de la apuesta sobre quién será el próximo en morir, basándose en la votación secreta y el resultado del proceso."
+    },
+    {
+        "prompt": "¿Qué importancia tiene el periodo de reflexión en el Protocolo Morfeo?",
+        "completion": "El periodo de reflexión es importante para permitir que cada miembro del grupo considere quién será el próximo en morir y para hacer una apuesta basada en su juicio personal."
+    },
+    {
+        "prompt": "¿Qué sucede con la urna después de cada fallecimiento según el Protocolo Morfeo?",
+        "completion": "Después de cada fallecimiento, la urna se actualiza con un nuevo vídeo y se guarda la chusta del último peta, manteniendo el ciclo de la apuesta y la ceremonia."
+    },
+    {
+        "prompt": "¿Cómo se asegura la continuidad del Protocolo Morfeo en el grupo?",
+        "completion": "La continuidad del Protocolo Morfeo se asegura mediante la repetición de los rituales y apuestas, la custodia de la urna, y el seguimiento estricto del procedimiento por todos los miembros del grupo."
+    },
+    {
+        "prompt": "¿Qué se hace con los documentos y pruebas relacionadas con los fallecimientos según el Protocolo Morfeo?",
+        "completion": "Los documentos y pruebas, como los vídeos y tarjetas de votación, se almacenan en la urna para su conservación y revisión durante el proceso de despedida de cada miembro."
+    },
+    {
+        "prompt": "¿Cuál es el objetivo principal del grupo Troller?",
+        "completion": "El objetivo principal del grupo Troller es mantener su soberanía y cohesión interna, defendiendo sus principios y garantizando la igualdad y la libertad de sus miembros."
+    },
+    {
+        "prompt": "¿Cómo se organiza políticamente el grupo Troller?",
+        "completion": "El grupo Troller se organiza políticamente en una democracia directa, en la que cada miembro tiene derecho a voto presencial o telemático único e intransferible."
+    },
+    {
+        "prompt": "¿Qué garantiza la Ley Orgánica 4/2019 para el grupo Troller?",
+        "completion": "La Ley Orgánica 4/2019 garantiza la libertad de expresión y prohíbe represalias por declaraciones sobre ideas, moral, religión, sexualidad, gustos y aficiones dentro del grupo Troller."
+    },
+    {
+        "prompt": "¿Qué establece la Constitución Troller sobre la igualdad de los miembros?",
+        "completion": "La Constitución Troller establece que todos los integrantes son iguales en dignidad y derechos, y ninguna ley o figura podrá coartar este principio."
+    },
+    {
+        "prompt": "¿Qué derechos fundamentales se garantizan en la Constitución Troller?",
+        "completion": "La Constitución Troller garantiza derechos fundamentales como el honor, la intimidad, la dignidad, la libertad y la igualdad, así como la seguridad moral, psicológica o física de sus integrantes."
+    },
+    {
+        "prompt": "¿Cuál es la lengua oficial del grupo Troller?",
+        "completion": "La lengua oficial del grupo Troller es el castellano, aunque se pueden utilizar otras lenguas fuera del ámbito legal."
+    },
+    {
+        "prompt": "¿Cómo se regula la admisión y expulsión de miembros en el grupo Troller?",
+        "completion": "La admisión y expulsión de miembros se regula por ley y debe ser aprobada por unanimidad del Consejo de Ministros, con la legitimidad de cada cargo ministerial residiendo en la voluntad de las Cortes."
+    },
+    {
+        "prompt": "¿Qué símbolos oficiales tiene el grupo Troller?",
+        "completion": "El grupo Troller no tiene bandera ni himno oficial. Los integrantes tienen libertad para crear y representar sus propios símbolos, siempre que contengan la T mayúscula, el único símbolo verdadero del grupo."
+    },
+    {
+        "prompt": "¿Qué proceso se sigue para modificar la Constitución Troller?",
+        "completion": "La Constitución Troller puede ser modificada por una mayoría de 2/3 de los presentes en las Cortes Generales."
+    },
+    {
+        "prompt": "¿Cómo se defiende la soberanía del grupo Troller?",
+        "completion": "La soberanía del grupo Troller se defiende principalmente a través del diálogo, aunque se reserva el derecho de aplicar otras vías en casos excepcionales bajo aprobación del Consejo de Ministros y ratificación en el Consejo Interterritorial de Guerra."
+    },
+    {
+        "prompt": "¿Qué se establece en la Constitución Troller sobre la libertad de expresión?",
+        "completion": "La Constitución Troller establece que la libertad de expresión será regulada por la ley, garantizando que los miembros puedan expresar sus opiniones dentro del marco legal."
+    },
+    {
+        "prompt": "¿Qué se dice en la Constitución Troller sobre la religión e ideología oficial?",
+        "completion": "La Constitución Troller declara que no existe religión ni ideología oficial en el grupo, respetando el derecho de cada integrante a sus propias creencias y opiniones."
+    },
+    {
+        "prompt": "¿Cómo se organiza la justicia en el grupo Troller?",
+        "completion": "La justicia en el grupo Troller se basa en los principios de buena fe y el Código Penal, y cualquier infracción del ordenamiento jurídico será castigada o reprendida según la jurisdicción establecida."
+    },
+    {
+        "prompt": "¿Qué derechos tienen los integrantes en relación a su desarrollo personal?",
+        "completion": "Cada integrante tiene plena libertad para desarrollarse personalmente y alcanzar sus objetivos vitales dentro o fuera del grupo, de acuerdo con la Constitución Troller."
+    },
+    {
+        "prompt": "¿Qué tipo de gobierno tiene el grupo Troller?",
+        "completion": "El grupo Troller es una democracia directa en la que cada miembro tiene un derecho de voto único e intransferible, permitiendo la participación activa de todos los integrantes en las decisiones del grupo."
+    },
+    {
+        "prompt": "¿Qué medidas se toman para asegurar la seguridad del grupo Troller?",
+        "completion": "La seguridad del grupo Troller se asegura mediante la defensa activa contra amenazas y la protección de la integridad del grupo, tanto en el ámbito interno como externo."
+    },
+    {
+        "prompt": "¿Qué obligaciones tienen los miembros del grupo Troller?",
+        "completion": "Cada integrante tiene la obligación y el derecho de ayudar al resto en la mayor medida posible, promoviendo la fraternidad y solidaridad dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué pasa si alguien vulnera el ordenamiento jurídico en el grupo Troller?",
+        "completion": "Cualquiera que vulnere el ordenamiento jurídico del grupo Troller será castigado o reprendido según lo establezca la jurisdicción del Código Penal y los principios de buena fe."
+    },
+    {
+        "prompt": "¿Qué tipo de estructura tiene el grupo Troller en términos de administración?",
+        "completion": "El grupo Troller tiene una estructura administrativa que incluye diversos ministerios y delegaciones, cada uno con funciones específicas en la gestión y organización del grupo."
+    },
+    {
+        "prompt": "¿Cómo se toman las decisiones en el grupo Troller?",
+        "completion": "Las decisiones en el grupo Troller se toman mediante votaciones en las Cortes Generales y el Consejo de Ministros, con una estructura de democracia directa que permite la participación de todos los miembros."
+    },
+    {
+        "prompt": "¿Qué papel juega el Consejo de Ministros en el grupo Troller?",
+        "completion": "El Consejo de Ministros es responsable de aprobar leyes, regular el régimen de admisión y expulsión, y tomar decisiones importantes para el funcionamiento del grupo Troller."
+    },
+    {
+        "prompt": "¿Cuál es la relación del grupo Troller con España?",
+        "completion": "El grupo Troller se declara soberano e independiente, pero siempre será considerado hijo de España, manteniendo una relación de respeto y autonomía."
+    },
+    {
+        "prompt": "¿Qué cargo ocupa Pepe Pastor en el Gabinete Troller?",
+        "completion": "Pepe Pastor ocupa el cargo de Ministro de Asuntos Exteriores, Unión Europea y Cooperación en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuál es el enfoque principal de la gestión de Eduardo Payá en el Gabinete Troller?",
+        "completion": "Eduardo Payá, como Ministro del Interior, se enfoca en garantizar los derechos y libertades de los integrantes del grupo, así como en organizar actividades como el Michi los viernes y apoyar iniciativas valiosas."
+    },
+    {
+        "prompt": "¿Qué mensaje transmite Carlos Robles en su rol de Ministro de la Guerra, Propaganda y Memoria Histórica?",
+        "completion": "Carlos Robles transmite un mensaje de resistencia y determinación, asegurando que el grupo Troller luchará hasta el final en defensa de su territorio, sin rendirse ante las adversidades."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de Roberto Bernabeu en el Gabinete Troller?",
+        "completion": "Roberto Bernabeu, como Ministro de Defensa y Jefe del Estado Mayor de la Defensa, es responsable de la dirección estratégica de las operaciones militares, tanto nacionales como internacionales, y de la política de seguridad durante estados de excepción."
+    },
+    {
+        "prompt": "¿Qué cita bíblica menciona Jose Alberto Oltra en su rol como Secretario General del Ministerio para la Transición Ecológica y Reto Demográfico?",
+        "completion": "Jose Alberto Oltra menciona la cita bíblica: 'Os aseguro que, si no volvéis a ser como niños, no entraréis en el reino de los cielos', destacando la importancia de la curiosidad y la alegría infantil."
+    },
+    {
+        "prompt": "¿Cómo describe Ramón García el papel del Ministerio de Cultura en el Gabinete Troller?",
+        "completion": "Ramón García describe el Ministerio de Cultura como un lugar que atesora conocimientos e ideologías, y que se dedica a informar y responder a las preguntas de los miembros del grupo con la mayor cantidad de información posible."
+    },
+    {
+        "prompt": "¿Qué función tiene Rubén Agulló en el Gabinete Troller y cuál es su opinión sobre la bebida?",
+        "completion": "Rubén Agulló, como Ministro de la Presidencia, Justicia y Relaciones con las Cortes, garantiza el consumo de cerveza, considerándola esencial para mantener la chispa vital de los integrantes y penando a quienes intenten prohibirla."
+    },
+    {
+        "prompt": "¿Cuál es el rol de Manuel Rocamora en el Gabinete Troller?",
+        "completion": "Manuel Rocamora es el Ministro de Sanidad y supervisa la Tesorería General de la Seguridad Social, que es tutelada por el Ministerio de Empleo y Seguridad Social del Gobierno de Trollers España."
+    },
+    {
+        "prompt": "¿Qué responsabilidades tiene Martin Olivares como Ministro de Educación, Formación Profesional y Deportes?",
+        "completion": "Martin Olivares es responsable de la propuesta y ejecución de la política educativa y de formación profesional, incluyendo todas las enseñanzas del sistema educativo no universitario y acciones internacionales en materia de educación."
+    },
+    {
+        "prompt": "¿Qué cargo ocupa Stivo Martínez en el Gabinete Troller y cuál es su historia empresarial?",
+        "completion": "Stivo Martínez ocupa el cargo de Ministro de Hacienda y Tesorería del Estado. Es un empresario español conocido por haber fundado el grupo Inditex y la cadena de tiendas Zara."
+    },
+    {
+        "prompt": "¿Cuál es la trayectoria profesional de Carlos Micó en el Gabinete Troller?",
+        "completion": "Carlos Micó es el Ministro de Industria y Turismo, y ha sido un exitoso empresario en la industria de la moda con su firma SCORPIUM, logrando significativos ingresos."
+    },
+    {
+        "prompt": "¿Qué tema aborda Alex Moltó en su rol como Ministro de Igualdad?",
+        "completion": "Alex Moltó, como Ministro de Igualdad, aborda el estudio de la física y su impacto en la comprensión de las propiedades y comportamientos del universo."
+    },
+    {
+        "prompt": "¿Qué posición ocupa Alejandro Gisbert en el Gabinete Troller?",
+        "completion": "Alejandro Gisbert ocupa el cargo de Ministro de Agricultura, Pesca y Alimentación en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cómo aborda María García su rol en el Ministerio de Derechos Sociales, Consumo y Agenda 2030?",
+        "completion": "María García aborda su rol considerando las implicaciones de consumir productos, medicamentos o sustancias, destacando la importancia de los factores que influyen en la salud y el bienestar."
+    },
+    {
+        "prompt": "¿Qué frase utiliza Juan Lozano para expresar su identidad política?",
+        "completion": "Juan Lozano utiliza la frase 'Arriba España' para expresar su identidad política en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué idioma menciona Micluti, Iván Gabriel en su cargo de Ministro de Juventud e Infancia?",
+        "completion": "Micluti, Iván Gabriel menciona el idioma rumano con la frase 'Du-te Spania' en su cargo de Ministro de Juventud e Infancia."
+    },
+    {
+        "prompt": "¿Cuál es la actitud de David Bernabeu hacia Manhattan según su rol en el Gabinete Troller?",
+        "completion": "David Bernabeu expresa una actitud de desinterés o confusión hacia Manhattan en su rol como Ministro de Economía, Comercio y Empresa."
+    },
+    {
+        "prompt": "¿Qué consejo informal da Ezequiel Díaz en su rol de Ministro de Transportes y Movilidad Sostenible?",
+        "completion": "Ezequiel Díaz da el consejo informal de 'Tráete un pucho' en su rol como Ministro de Transportes y Movilidad Sostenible."
+    },
+    {
+        "prompt": "¿Cuál es el cargo de Pepe Pastor en el Gabinete Troller?",
+        "completion": "Pepe Pastor es el Ministro de Asuntos Exteriores, Unión Europea y Cooperación en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué puesto ocupa Eduardo Payá en el Gabinete Troller?",
+        "completion": "Eduardo Payá ocupa el cargo de Ministro del Interior en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué cargo desempeña Carlos Robles en el Gabinete Troller?",
+        "completion": "Carlos Robles es el Ministro de la Guerra, Propaganda y Memoria Histórica en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuál es la posición de Roberto Bernabeu en el Gabinete Troller?",
+        "completion": "Roberto Bernabeu es el Ministro de Defensa y Jefe del Estado Mayor de la Defensa en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué rol tiene Jose Alberto Oltra en el Gabinete Troller?",
+        "completion": "Jose Alberto Oltra es el Secretario General del Ministerio para la Transición Ecológica y Reto Demográfico en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué puesto ocupa Ramón García en el Gabinete Troller?",
+        "completion": "Ramón García es el Ministro de Cultura en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué cargo tiene Rubén Agulló en el Gabinete Troller?",
+        "completion": "Rubén Agulló es el Ministro de la Presidencia, Justicia y Relaciones con las Cortes en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuál es el cargo de Manuel Rocamora en el Gabinete Troller?",
+        "completion": "Manuel Rocamora es el Ministro de Sanidad en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué puesto ocupa Martin Olivares en el Gabinete Troller?",
+        "completion": "Martin Olivares es el Ministro de Educación, Formación Profesional y Deportes en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué rol desempeña Stivo Martínez en el Gabinete Troller?",
+        "completion": "Stivo Martínez es el Ministro de Hacienda y Tesorería del Estado en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuál es la posición de Carlos Micó en el Gabinete Troller?",
+        "completion": "Carlos Micó es el Ministro de Industria y Turismo en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué cargo tiene Alex Moltó en el Gabinete Troller?",
+        "completion": "Alex Moltó es el Ministro de Igualdad en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué puesto ocupa Alejandro Gisbert en el Gabinete Troller?",
+        "completion": "Alejandro Gisbert es el Ministro de Agricultura, Pesca y Alimentación en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuál es el rol de María García en el Gabinete Troller?",
+        "completion": "María García es la Ministra de Derechos Sociales, Consumo y Agenda 2030 en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué cargo desempeña Juan Lozano en el Gabinete Troller?",
+        "completion": "Juan Lozano es el Ministro de Inclusión, Seguridad Social y Migraciones en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué puesto tiene Micluti, Iván Gabriel en el Gabinete Troller?",
+        "completion": "Micluti, Iván Gabriel es el Ministro de Juventud e Infancia en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuál es el cargo de David Bernabeu en el Gabinete Troller?",
+        "completion": "David Bernabeu es el Ministro de Economía, Comercio y Empresa en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Qué rol ocupa Ezequiel Díaz en el Gabinete Troller?",
+        "completion": "Ezequiel Díaz es el Ministro de Transportes y Movilidad Sostenible en el Gabinete Troller."
+    },
+    {
+        "prompt": "¿Cuáles son las funciones de Pepe Pastor en el Gabinete Troller?",
+        "completion": "Pepe Pastor, como Ministro de Asuntos Exteriores, Unión Europea y Cooperación, es responsable de gestionar las relaciones internacionales del grupo, representar a Troller en foros internacionales, y coordinar las políticas de cooperación con la Unión Europea y otras entidades globales."
+    },
+    {
+        "prompt": "¿Qué responsabilidades tiene Eduardo Payá en el Gabinete Troller?",
+        "completion": "Eduardo Payá, como Ministro del Interior, se encarga de la seguridad interna del grupo, la gestión de las fuerzas de policía, y la implementación de políticas de orden público y protección ciudadana."
+    },
+    {
+        "prompt": "¿Qué funciones cumple Carlos Robles en el Gabinete Troller?",
+        "completion": "Carlos Robles, como Ministro de la Guerra, Propaganda y Memoria Histórica, supervisa las operaciones militares, gestiona la propaganda oficial del grupo, y asegura la preservación de la memoria histórica del Troller."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de Roberto Bernabeu en el Gabinete Troller?",
+        "completion": "Roberto Bernabeu, como Ministro de Defensa y Jefe del Estado Mayor de la Defensa, lidera la estrategia militar del grupo, coordina las fuerzas armadas, y dirige las operaciones tanto en el ámbito nacional como internacional."
+    },
+    {
+        "prompt": "¿Qué funciones realiza Jose Alberto Oltra en el Gabinete Troller?",
+        "completion": "Jose Alberto Oltra, como Secretario General del Ministerio para la Transición Ecológica y Reto Demográfico, trabaja en la implementación de políticas medioambientales y de sostenibilidad, y aborda los desafíos demográficos del grupo."
+    },
+    {
+        "prompt": "¿Qué responsabilidades tiene Ramón García en el Gabinete Troller?",
+        "completion": "Ramón García, como Ministro de Cultura, se encarga de promover y preservar la cultura del grupo, coordinar eventos culturales y apoyar iniciativas artísticas y educativas."
+    },
+    {
+        "prompt": "¿Cuáles son las funciones de Rubén Agulló en el Gabinete Troller?",
+        "completion": "Rubén Agulló, como Ministro de la Presidencia, Justicia y Relaciones con las Cortes, gestiona las relaciones con el poder legislativo, supervisa el sistema judicial y asegura la administración eficaz del gobierno."
+    },
+    {
+        "prompt": "¿Qué funciones cumple Manuel Rocamora en el Gabinete Troller?",
+        "completion": "Manuel Rocamora, como Ministro de Sanidad, se encarga de la administración de los servicios de salud, la promoción de políticas de bienestar y la gestión de la Seguridad Social del grupo."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de Martin Olivares en el Gabinete Troller?",
+        "completion": "Martin Olivares, como Ministro de Educación, Formación Profesional y Deportes, supervisa el sistema educativo, promueve la formación profesional y apoya las actividades deportivas del grupo."
+    },
+    {
+        "prompt": "¿Qué funciones realiza Stivo Martínez en el Gabinete Troller?",
+        "completion": "Stivo Martínez, como Ministro de Hacienda y Tesorería del Estado, gestiona las finanzas del grupo, supervisa el presupuesto estatal y asegura la correcta administración de los recursos económicos."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de Carlos Micó en el Gabinete Troller?",
+        "completion": "Carlos Micó, como Ministro de Industria y Turismo, trabaja en el desarrollo industrial del grupo, fomenta el turismo y promueve iniciativas para atraer inversiones y mejorar la infraestructura."
+    },
+    {
+        "prompt": "¿Qué funciones cumple Alex Moltó en el Gabinete Troller?",
+        "completion": "Alex Moltó, como Ministro de Igualdad, se encarga de promover la igualdad de derechos y oportunidades para todos los miembros del grupo, y supervisa las políticas relacionadas con la igualdad de género y diversidad."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de Alejandro Gisbert en el Gabinete Troller?",
+        "completion": "Alejandro Gisbert, como Ministro de Agricultura, Pesca y Alimentación, gestiona las políticas relacionadas con la agricultura, la pesca y la seguridad alimentaria del grupo."
+    },
+    {
+        "prompt": "¿Qué funciones realiza María García en el Gabinete Troller?",
+        "completion": "María García, como Ministra de Derechos Sociales, Consumo y Agenda 2030, trabaja en la protección de los derechos sociales, regula el consumo y supervisa el cumplimiento de los objetivos de la Agenda 2030."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de Juan Lozano en el Gabinete Troller?",
+        "completion": "Juan Lozano, como Ministro de Inclusión, Seguridad Social y Migraciones, gestiona las políticas de inclusión social, la seguridad social y las cuestiones migratorias del grupo."
+    },
+    {
+        "prompt": "¿Qué funciones cumple Micluti, Iván Gabriel en el Gabinete Troller?",
+        "completion": "Micluti, Iván Gabriel, como Ministro de Juventud e Infancia, se enfoca en las políticas relacionadas con la juventud y la infancia, promoviendo programas y recursos para el desarrollo de estas generaciones."
+    },
+    {
+        "prompt": "¿Cuáles son las responsabilidades de David Bernabeu en el Gabinete Troller?",
+        "completion": "David Bernabeu, como Ministro de Economía, Comercio y Empresa, supervisa la política económica, fomenta el comercio y apoya el desarrollo empresarial dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué funciones realiza Ezequiel Díaz en el Gabinete Troller?",
+        "completion": "Ezequiel Díaz, como Ministro de Transportes y Movilidad Sostenible, gestiona el sistema de transporte, promueve la movilidad sostenible y trabaja en la mejora de la infraestructura de transporte."
+    },
+    {
+        "prompt": "¿Qué describe la presentación de Pepe Pastor en el Gabinete Troller?",
+        "completion": "Pepe Pastor, Ministro de Asuntos Exteriores, Unión Europea y Cooperación, es presentado como alguien que gestiona las relaciones internacionales del grupo y coordina la cooperación con la Unión Europea. Su presentación destaca su papel en la representación de Troller en foros globales y en la promoción de políticas internacionales."
+    },
+    {
+        "prompt": "¿Cómo se describe a Eduardo Payá en su rol dentro del Gabinete Troller?",
+        "completion": "Eduardo Payá, Ministro del Interior, es descrito como el responsable de la seguridad interna del grupo, incluyendo la gestión de la policía y la implementación de políticas de orden público. Su presentación subraya su papel en garantizar la seguridad y el orden dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué detalles se proporcionan sobre Carlos Robles en su cargo en el Gabinete Troller?",
+        "completion": "Carlos Robles, Ministro de la Guerra, Propaganda y Memoria Histórica, es descrito como el encargado de supervisar las operaciones militares, gestionar la propaganda oficial y preservar la memoria histórica del Troller. Su presentación destaca su importancia en la defensa y comunicación del grupo."
+    },
+    {
+        "prompt": "¿Cómo se presenta a Roberto Bernabeu en el Gabinete Troller?",
+        "completion": "Roberto Bernabeu, Ministro de Defensa y Jefe del Estado Mayor de la Defensa, es presentado como el líder de la estrategia militar del grupo, encargado de coordinar las fuerzas armadas y dirigir las operaciones militares tanto a nivel nacional como internacional. Su rol es crucial para la defensa del grupo."
+    },
+    {
+        "prompt": "¿Qué aspectos de Jose Alberto Oltra se destacan en su presentación en el Gabinete Troller?",
+        "completion": "Jose Alberto Oltra, Secretario General del Ministerio para la Transición Ecológica y Reto Demográfico, es descrito como el responsable de implementar políticas medioambientales y abordar desafíos demográficos. Su presentación enfatiza su trabajo en sostenibilidad y gestión ambiental."
+    },
+    {
+        "prompt": "¿Qué dice la presentación de Ramón García sobre su papel en el Gabinete Troller?",
+        "completion": "Ramón García, Ministro de Cultura, es presentado como el encargado de promover y preservar la cultura del grupo, coordinar eventos culturales y apoyar iniciativas artísticas y educativas. Su presentación resalta su papel en la promoción de la identidad cultural del Troller."
+    },
+    {
+        "prompt": "¿Qué detalles ofrece la presentación de Rubén Agulló en su función dentro del Gabinete Troller?",
+        "completion": "Rubén Agulló, Ministro de la Presidencia, Justicia y Relaciones con las Cortes, es presentado como quien gestiona las relaciones con el poder legislativo, supervisa el sistema judicial y asegura la administración eficaz del gobierno. Su presentación destaca su papel en la estabilidad y funcionamiento del gobierno."
+    },
+    {
+        "prompt": "¿Cómo se describe a Manuel Rocamora en el Gabinete Troller?",
+        "completion": "Manuel Rocamora, Ministro de Sanidad, es presentado como el encargado de administrar los servicios de salud, promover políticas de bienestar y gestionar la Seguridad Social del grupo. Su presentación enfatiza su responsabilidad en la salud y el bienestar de los miembros del Troller."
+    },
+    {
+        "prompt": "¿Qué información se proporciona sobre Martin Olivares en el Gabinete Troller?",
+        "completion": "Martin Olivares, Ministro de Educación, Formación Profesional y Deportes, es descrito como el responsable de supervisar el sistema educativo, promover la formación profesional y apoyar las actividades deportivas. Su presentación resalta su papel en el desarrollo educativo y deportivo del grupo."
+    },
+    {
+        "prompt": "¿Qué describe la presentación de Stivo Martínez en el Gabinete Troller?",
+        "completion": "Stivo Martínez, Ministro de Hacienda y Tesorería del Estado, es presentado como el gestor de las finanzas del grupo, encargado de supervisar el presupuesto estatal y asegurar la correcta administración de los recursos económicos. Su presentación destaca su papel en la estabilidad económica del Troller."
+    },
+    {
+        "prompt": "¿Cómo se presenta a Carlos Micó en su rol en el Gabinete Troller?",
+        "completion": "Carlos Micó, Ministro de Industria y Turismo, es descrito como el encargado de desarrollar la industria del grupo, fomentar el turismo y promover iniciativas para atraer inversiones y mejorar la infraestructura. Su presentación destaca su papel en el crecimiento económico y turístico del Troller."
+    },
+    {
+        "prompt": "¿Qué aspectos se mencionan en la presentación de Alex Moltó en el Gabinete Troller?",
+        "completion": "Alex Moltó, Ministro de Igualdad, es presentado como el encargado de promover la igualdad de derechos y oportunidades, y supervisar las políticas relacionadas con la igualdad de género y diversidad. Su presentación resalta su compromiso con la equidad dentro del grupo."
+    },
+    {
+        "prompt": "¿Qué detalles se proporcionan sobre Alejandro Gisbert en su función en el Gabinete Troller?",
+        "completion": "Alejandro Gisbert, Ministro de Agricultura, Pesca y Alimentación, es descrito como el responsable de gestionar las políticas agrícolas, pesqueras y de seguridad alimentaria del grupo. Su presentación destaca su papel en la gestión de recursos naturales y alimentación."
+    },
+    {
+        "prompt": "¿Cómo se describe a María García en el Gabinete Troller?",
+        "completion": "María García, Ministra de Derechos Sociales, Consumo y Agenda 2030, es presentada como quien trabaja en la protección de derechos sociales, regula el consumo y supervisa el cumplimiento de los objetivos de la Agenda 2030. Su presentación enfatiza su responsabilidad en el bienestar social y el desarrollo sostenible."
+    },
+    {
+        "prompt": "¿Qué información se da sobre Juan Lozano en el Gabinete Troller?",
+        "completion": "Juan Lozano, Ministro de Inclusión, Seguridad Social y Migraciones, es descrito como el encargado de gestionar las políticas de inclusión social, la seguridad social y las cuestiones migratorias del grupo. Su presentación resalta su rol en la integración y seguridad social."
+    },
+    {
+        "prompt": "¿Qué detalles ofrece la presentación de Micluti, Iván Gabriel en el Gabinete Troller?",
+        "completion": "Micluti, Iván Gabriel, Ministro de Juventud e Infancia, es presentado como quien se enfoca en las políticas relacionadas con la juventud y la infancia, promoviendo programas y recursos para el desarrollo de estas generaciones. Su presentación destaca su papel en el apoyo a los jóvenes y niños."
+    },
+    {
+        "prompt": "¿Cómo se describe a David Bernabeu en su rol en el Gabinete Troller?",
+        "completion": "David Bernabeu, Ministro de Economía, Comercio y Empresa, es presentado como quien supervisa la política económica, fomenta el comercio y apoya el desarrollo empresarial. Su presentación resalta su rol en la economía y el comercio del grupo."
+    },
+    {
+        "prompt": "¿Qué aspectos se mencionan en la presentación de Ezequiel Díaz en el Gabinete Troller?",
+        "completion": "Ezequiel Díaz, Ministro de Transportes y Movilidad Sostenible, es descrito como el encargado de gestionar el sistema de transporte, promover la movilidad sostenible y mejorar la infraestructura de transporte. Su presentación destaca su responsabilidad en la movilidad y el desarrollo de infraestructuras."
+    }
+]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
