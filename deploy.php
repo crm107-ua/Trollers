@@ -7,9 +7,9 @@ require 'contrib/npm.php';
 
 set('application', 'Trollers');
 set('repository', 'https://github.com/crm107-ua/Trollers.git');
-set('branch', 'main');
+set('branch', 'master');
 
-set('php_fpm_version', '8.3');
+set('php_fpm_version', '8.5');
 
 set('bin/php', '/usr/bin/php');
 set('bin/composer', '{{bin/php}} /usr/local/bin/composer');
