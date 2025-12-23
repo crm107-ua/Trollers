@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route; 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NotificationsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProyectoController;
@@ -21,6 +21,7 @@ use App\Http\Controllers\Biblioteca;
 use App\Http\Controllers\WebrtcStreamingController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\MinijuegoController;
+use App\Http\Controllers\StoryController;
 
 
 /*
@@ -139,6 +140,16 @@ Route::get('/timeline', [HomeController::class, 'timeline']);
 Route::get('/hits-trollers', [SpotifyController::class, 'getHitsTrollers']);
 
 Route::get('/minijuego', [MinijuegoController::class, 'index']);
+
+// Stories routes
+Route::get('/stories/create', [StoryController::class, 'create'])->name('stories.create');
+Route::post('/stories', [StoryController::class, 'store'])->name('stories.store');
+Route::get('/stories/{id}', [StoryController::class, 'show'])->name('stories.show');
+Route::delete('/stories/{id}', [StoryController::class, 'destroy'])->name('stories.destroy');
+Route::delete('/stories-delete-all', [StoryController::class, 'deleteAll'])->middleware('auth')->middleware('admin')->name('stories.deleteAll');
+Route::post('/stories/{id}/view', [StoryController::class, 'markAsViewed'])->name('stories.markAsViewed');
+Route::get('/stories/{id}/comments', [StoryController::class, 'getComments'])->name('stories.getComments');
+Route::post('/stories/{id}/comments', [StoryController::class, 'addComment'])->name('stories.addComment');
 
 Route::get('/test', [TestController::class, 'index']);
 Route::get('/congreso-warera', [TestController::class, 'congreso'])->name('congreso');

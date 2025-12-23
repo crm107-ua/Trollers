@@ -17,21 +17,24 @@ set('php_fpm_version', '8.2');
 
 // Shared files/dirs between deploys 
 add('shared_files', []);
-add('shared_dirs', ["public/images","public/archivos"]);
+add('shared_dirs', ["public/images", "public/archivos"]);
 
 // Writable dirs by web server 
-add('writable_dirs', 
+add(
+    'writable_dirs',
     [
         "public/images/fotos",
         "public/images/perfiles",
-        "public/images/mw3"
-    ]);
+        "public/images/mw3",
+        "public/images/stories",
+    ]
+);
 
 // Indicamos el usuario de despliegue en el servidor
 host('trollers.server')
     ->set('remote_user', 'deploy')
     // ->set('port', '4851')
-    ->set('identity_file','~/deploy')
+    ->set('identity_file', '~/deploy')
     ->set('deploy_path', '/var/www/html/trollers');
 
 // Tareas del despliegue

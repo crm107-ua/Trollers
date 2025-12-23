@@ -17,20 +17,10 @@
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
       <li><a href="/minijuego">Minijuego</a></li>
-      <style>
-          @media (min-width: 9000px) {
-              .hits-trollers-link {
-                  display: none;
-              }
-          }
-      </style>
-      {{-- <li class="hits-trollers-link"><a href="/hits-trollers">Hits Trollers</a></li> --}}
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
-      {{-- <li><a href="/congreso-warera">Congreso WarEra</a></li> --}}
       <li><a href="/calendario">{{trans('messages.calendar')}}</a></li>
       <li><a href="https://tv.trollers.es" target="_blank">Trollers TV</a></li>
-      {{-- <li><a href="/trollers-gpt">Trollers GPT</a></li> --}}
       <li><a href="/spotify">Spotify Wrapped</a></li>
       <li><a href="/boe">BOE</a></li>
       <li><a href="/mw3">MW3</a></li>
@@ -48,12 +38,20 @@
       @if(Auth::user()->rol==1)
       <li><a href="/manager">Manager Pro</a></li>
       <li><a href="/crear-evento">{{trans('messages.addev')}}</a></li>
-      <!-- <li><a href="/galeria-privada">{{trans('messages.gap')}}</a></li> -->
       <li><a href="/imagen">{{trans('messages.addimg')}}</a></li>
       <li><a href="/eliminar">{{trans('messages.delimg')}}</a></li>
       <li><a href="/crear-boe">{{trans('messages.adda')}}</a></li>
       <li><a href="/proyecto">{{trans('messages.addpr')}}</a></li>
       <li><a href="/crear-protocolo">{{trans('messages.addpro')}}</a></li>
+      <li>
+        <a href="#" onclick="event.preventDefault(); document.getElementById('delete-all-stories-form').submit();" style="color: #ff4444;">
+          Eliminar Stories
+        </a>
+      </li>
+      <form id="delete-all-stories-form" action="{{ route('stories.deleteAll') }}" method="POST" style="display: none;">
+        @csrf
+        @method('DELETE')
+      </form>
       @endif
       <li><a href="/pagos">{{trans('messages.pay')}}</a></li>
       @endif
@@ -61,7 +59,6 @@
       <br><br><br><br>
       @include('general.Login.login')
       @else
-      <!-- <a href="/cuenta"><img src="../images/perfiles/{{ Auth::user()->imagen }}" style="border-radius: 50%;" height="40" width="40"></a> -->
       <li href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
         <span style="color:white; cursor: pointer;">{{ trans('messages.cs') }}</span>
       </li>

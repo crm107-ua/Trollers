@@ -15,9 +15,10 @@
     </div>
 
     <?php echo $__env->make('general.Header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+    
     <main class="main-content">
       <div class="container-fluid photos">
-        <div class="row pt-4 mb-5 text-center">
+        <div class="row pt-4 text-center">
           <div class="col-12">
             <?php if(!$isLive): ?>
              <!--  <h2 class="text-white mb-2" id="header">Bienvenid<span style="background: linear-gradient(45deg, #F6E58D, #FF7979, #FFD93D, #FFA8A1); background-size: 400%; animation: gradientAnimationHome 5s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@</span>
@@ -58,7 +59,10 @@
                 <?php echo $__env->make('general.Home.minecraft', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
             <?php endif; ?>
           </div>
+
         </div>
+
+        <?php echo $__env->make('general.Stories.stories-circles', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
         <div class="row align-items-stretch">
 

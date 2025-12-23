@@ -38,6 +38,9 @@ class HomeController extends Controller
      */
     public function show()
     {
+        // Clean stories older than 24 hours
+        \App\Http\Controllers\StoryController::cleanOldStories();
+
         $imagenes = Image::orderBy('id', 'DESC')->get();
         $alerta = Alerta::orderBy('id', 'DESC')->first();
         $edit = false;
@@ -117,8 +120,8 @@ class HomeController extends Controller
 
             return [
                 'version' => $data[2],
-                'players' => (int)$data[4],
-                'maxPlayers' => (int)$data[5],
+                'players' => (int) $data[4],
+                'maxPlayers' => (int) $data[5],
                 'ping' => $ping,
                 'online' => true
             ];

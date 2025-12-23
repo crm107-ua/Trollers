@@ -17,20 +17,10 @@
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
       <li><a href="/minijuego">Minijuego</a></li>
-      <style>
-          @media (min-width: 9000px) {
-              .hits-trollers-link {
-                  display: none;
-              }
-          }
-      </style>
-      
       <li><a href="/proyectos"><?php echo e(trans('messages.pr')); ?></a></li>
       <li><a href="/formacion"><?php echo e(trans('messages.for')); ?></a></li>
-      
       <li><a href="/calendario"><?php echo e(trans('messages.calendar')); ?></a></li>
       <li><a href="https://tv.trollers.es" target="_blank">Trollers TV</a></li>
-      
       <li><a href="/spotify">Spotify Wrapped</a></li>
       <li><a href="/boe">BOE</a></li>
       <li><a href="/mw3">MW3</a></li>
@@ -48,12 +38,20 @@
       <?php if(Auth::user()->rol==1): ?>
       <li><a href="/manager">Manager Pro</a></li>
       <li><a href="/crear-evento"><?php echo e(trans('messages.addev')); ?></a></li>
-      <!-- <li><a href="/galeria-privada"><?php echo e(trans('messages.gap')); ?></a></li> -->
       <li><a href="/imagen"><?php echo e(trans('messages.addimg')); ?></a></li>
       <li><a href="/eliminar"><?php echo e(trans('messages.delimg')); ?></a></li>
       <li><a href="/crear-boe"><?php echo e(trans('messages.adda')); ?></a></li>
       <li><a href="/proyecto"><?php echo e(trans('messages.addpr')); ?></a></li>
       <li><a href="/crear-protocolo"><?php echo e(trans('messages.addpro')); ?></a></li>
+      <li>
+        <a href="#" onclick="event.preventDefault(); document.getElementById('delete-all-stories-form').submit();" style="color: #ff4444;">
+          Eliminar Stories
+        </a>
+      </li>
+      <form id="delete-all-stories-form" action="<?php echo e(route('stories.deleteAll')); ?>" method="POST" style="display: none;">
+        <?php echo csrf_field(); ?>
+        <?php echo method_field('DELETE'); ?>
+      </form>
       <?php endif; ?>
       <li><a href="/pagos"><?php echo e(trans('messages.pay')); ?></a></li>
       <?php endif; ?>
@@ -61,7 +59,6 @@
       <br><br><br><br>
       <?php echo $__env->make('general.Login.login', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
       <?php else: ?>
-      <!-- <a href="/cuenta"><img src="../images/perfiles/<?php echo e(Auth::user()->imagen); ?>" style="border-radius: 50%;" height="40" width="40"></a> -->
       <li href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
         <span style="color:white; cursor: pointer;"><?php echo e(trans('messages.cs')); ?></span>
       </li>
