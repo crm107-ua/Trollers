@@ -90,9 +90,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const file = imageInput.files[0];
         if (!file) return;
 
-        // Validate file size (50MB)
-        if (file.size > 50 * 1024 * 1024) {
-            alert('El archivo es demasiado grande. Máximo 50MB');
+        // Validate file size (200MB)
+        if (file.size > 200 * 1024 * 1024) {
+            alert('El archivo es demasiado grande. Máximo 200MB');
             return;
         }
 
