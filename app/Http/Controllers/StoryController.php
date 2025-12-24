@@ -63,7 +63,15 @@ class StoryController extends Controller
 
         // Process Video for HLS
         if ($mediaType === 'video') {
-            \App\Jobs\ProcessStoryVideo::dispatch($story, $filename);
+            // Use background execution via exec() to avoid timeout
+            // This detaches the process from the HTTP request
+            $artisan = base_path('artisan');
+            $logOutput = storage_path('logs/video-processing.log');
+
+            // Build command: php artisan story:process-video {id} {filename} > /dev/null 2>&1 &
+            $command = "php " . escapeshellarg($artisan) . " story:process-video " . $story->id . " " . escapeshellarg($filename) . " > /dev/null 2>&1 &";
+
+            exec($command);
         }
 
         if ($request->wantsJson()) {
