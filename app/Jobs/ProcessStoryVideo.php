@@ -30,24 +30,47 @@ class ProcessStoryVideo implements ShouldQueue
         $midBitrate = (new X264)->setKiloBitrate(1500); // 720p approx
         $highBitrate = (new X264)->setKiloBitrate(3000); // 1080p
 
+        // Paths
+        $diskRoot = config('filesystems.disks.stories.root'); // public_path('images/stories')
+        $inputPath = $diskRoot . '/' . $this->originalFilename;
+        $cleanFilename = 'clean_' . $this->originalFilename;
+        $cleanPath = $diskRoot . '/' . $cleanFilename;
+
+        // 1. Sanitize: Create a temporary copy with ONLY the supported streams (Video + 1st Audio)
+        // discarding the problematic 'apac' stream from iPhone 17 (Future Metadata!).
+        // -map 0:v -> Map all video streams
+        // -map 0:a:0 -> Map ONLY the first audio stream (usually AAC)
+        // -c copy -> Stream copy (no re-encoding yet, fast)
+        // -y -> Overwrite
+        $cmd = "ffmpeg -y -i " . escapeshellarg($inputPath) . " -map 0:v -map 0:a:0 -c copy " . escapeshellarg($cleanPath);
+
+        // Execute the cleaning command
+        exec($cmd . ' 2>&1', $output, $returnCode);
+
+        // If cleaning fails (e.g. no audio stream?), fall back to original
+        $fileToProcess = ($returnCode === 0 && file_exists($cleanPath)) ? $cleanFilename : $this->originalFilename;
+
         // Create a subfolder for the story ID to keep chunks organized
         $hlsPath = "{$this->story->id}/playlist.m3u8";
 
-        FFMpeg::fromDisk('stories')
-            ->open($this->originalFilename)
-            ->exportForHLS()
-            ->addFormat($lowBitrate)
-            ->addFormat($midBitrate)
-            ->addFormat($highBitrate)
-            ->save($hlsPath);
+        try {
+            FFMpeg::fromDisk('stories')
+                ->open($fileToProcess)
+                ->exportForHLS()
+                ->addFormat($lowBitrate)
+                ->addFormat($midBitrate)
+                ->addFormat($highBitrate)
+                ->save($hlsPath);
 
-        // Update the story record to point to the playlist
-        // We store "ID/playlist.m3u8" as the image_path
-        $this->story->image_path = $hlsPath;
-        $this->story->save();
+            // Update the story record to point to the playlist
+            $this->story->image_path = $hlsPath;
+            $this->story->save();
 
-        // Optional: Delete original large file? 
-        // For now, let's keep it or delete it. User complained about size, so deleting is good.
-        // unlink(public_path('images/stories/' . $this->originalFilename));
+        } finally {
+            // Cleanup: Delete the temporary clean file
+            if ($fileToProcess === $cleanFilename && file_exists($cleanPath)) {
+                @unlink($cleanPath);
+            }
+        }
     }
 }
