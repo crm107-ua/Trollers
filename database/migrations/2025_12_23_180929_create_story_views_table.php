@@ -14,13 +14,15 @@ return new class extends Migration {
             $table->id();
             $table->unsignedBigInteger('user_id')->nullable();
             $table->unsignedBigInteger('story_id');
+            $table->string('ip_address', 45)->nullable();
+            $table->string('user_agent')->nullable();
             $table->timestamp('viewed_at')->useCurrent();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('story_id')->references('id')->on('stories')->onDelete('cascade');
 
-            // Prevent duplicate views
-            $table->unique(['user_id', 'story_id']);
+            // Unique view per story per IP (to prevent spam from same device)
+            $table->unique(['story_id', 'ip_address']);
         });
     }
 

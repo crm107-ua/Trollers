@@ -13,6 +13,7 @@
   <div class="main-menu">
     <ul class="js-clone-nav">
       <li><a href="/"><?php echo e(trans('messages.home')); ?></a></li>
+      <li><a href="/trollers-gpt">Trollers AI</a></li>
       <li><a href="/test">Test</a></li>
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>

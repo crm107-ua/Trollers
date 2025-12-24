@@ -151,12 +151,27 @@ class StoryController extends Controller
     public function markAsViewed(Request $request, $id)
     {
         $userId = auth()->id();
+        $ip = $request->ip();
+        $userAgent = $request->header('User-Agent');
 
-        // Create or update view record
-        \App\Models\StoryView::updateOrCreate(
-            ['user_id' => $userId, 'story_id' => $id],
-            ['viewed_at' => now()]
-        );
+        // Logic: specific view per IP per Story.
+        // We use firstOrCreate to avoid updating the timestamp if it already exists (so we know when they FIRST viewed it)
+        // Or updateOrCreate if we want "last viewed". Usually "first viewed" is better for stats, or just "exists".
+
+        // Check uniqueness by Story + IP
+        $view = \App\Models\StoryView::where('story_id', $id)
+            ->where('ip_address', $ip)
+            ->first();
+
+        if (!$view) {
+            \App\Models\StoryView::create([
+                'user_id' => $userId,
+                'story_id' => $id,
+                'ip_address' => $ip,
+                'user_agent' => $userAgent,
+                'viewed_at' => now()
+            ]);
+        }
 
         return response()->json(['success' => true]);
     }

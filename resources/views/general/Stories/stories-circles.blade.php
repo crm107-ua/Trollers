@@ -930,11 +930,24 @@
                 </div>
                 <span class="story-user-name" id="story-username"></span>
                 <span class="story-time" id="story-time" style="margin-left: 10px; opacity: 0.7; font-size: 0.9em; margin-top: 3px;"></span>
+                <!-- View Count -->
+                <span class="story-views" style="margin-left: 10px; opacity: 0.7; font-size: 0.9em; margin-top: 3px; display: flex; align-items: center; gap: 4px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <span id="story-views-count">0</span>
+                </span>
             </div>
         </div>
         
         <img class="story-media" id="story-image" src="" alt="Story" style="display: none;">
         <video class="story-media" id="story-video" controls style="display: none;"></video>
+        <!-- ... -->
+
+    <!-- ... inside script ... -->
+
+
         
         <button class="story-pause-btn" id="story-pause-btn" onclick="togglePause()">
             <svg id="pause-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1083,13 +1096,37 @@
         const story = storiesData[currentStoryIndex];
         if (!story) return;
 
-        // Mark as viewed
+        // Local read mark (blue ring)
         markStoryAsViewed(story.id);
+
+        // Server-side view counting (IP/UA)
+        fetch(`/stories/${story.id}/view`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')?.content || '{{ csrf_token() }}'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                if (!story._viewIncremented) {
+                    if (!story.views) story.views = [];
+                    story.views.push({ dummy: true }); 
+                    story._viewIncremented = true; 
+                    
+                    const viewsCountElement = document.getElementById('story-views-count');
+                    if (viewsCountElement) {
+                         viewsCountElement.textContent = story.views.length;
+                    }
+                }
+            }
+        })
+        .catch(err => console.error('Error tracking view:', err));
 
         const storyImage = document.getElementById('story-image');
         const storyVideo = document.getElementById('story-video');
         
-        // Update user info
         // Update user info
         document.getElementById('story-username').textContent = story.user ? story.user.name : story.user_name;
         
@@ -1098,11 +1135,21 @@
         if (timeElement) {
             timeElement.textContent = timeAgo(story.created_at);
         }
+
+        // Update Avatar - RESTORED
         const avatarImg = document.getElementById('story-avatar-img');
         if (story.user && story.user.imagen) {
             avatarImg.src = '/images/perfiles/' + story.user.imagen;
         } else {
             avatarImg.src = '/images/perfiles/default-avatar.png';
+        }
+        
+        // Update View Count (Initial Load)
+        const viewsCountElement = document.getElementById('story-views-count');
+        if (viewsCountElement) {
+             // Handle case where views might be null
+             const count = story.views ? story.views.length : 0;
+             viewsCountElement.textContent = count;
         }
         
         // Show appropriate media

@@ -17,6 +17,7 @@
       <li><a href="/enigma">Enigma</a></li>
       <li><a href="/timeline">Timeline</a></li>
       <li><a href="/minijuego">Minijuego</a></li>
+      <li><a href="/trollers-gpt">Trollers GPT</a></li>
       <li><a href="/proyectos">{{trans('messages.pr')}}</a></li>
       <li><a href="/formacion">{{trans('messages.for')}}</a></li>
       <li><a href="/calendario">{{trans('messages.calendar')}}</a></li>
