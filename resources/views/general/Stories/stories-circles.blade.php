@@ -1172,12 +1172,41 @@
                     if (window.hls) {
                         window.hls.destroy();
                     }
-                    window.hls = new Hls();
+                    // Aggressive buffering config
+                    window.hls = new Hls({
+                        maxBufferLength: 30, // Keep 30s in buffer
+                        maxMaxBufferLength: 600, // Allow buffering up to 10 mins
+                        maxBufferSize: 60 * 1000 * 1000, // 60MB max buffer size
+                        enableWorker: true,
+                        lowLatencyMode: false,
+                        startLevel: -1 // Auto select quality
+                    });
+                    
                     window.hls.loadSource(videoPath);
                     window.hls.attachMedia(storyVideo);
                     window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
                         storyVideo.play();
                     });
+                    
+                    // Error handling to recover from network barriers
+                    window.hls.on(Hls.Events.ERROR, function(event, data) {
+                        if (data.fatal) {
+                            switch (data.type) {
+                                case Hls.ErrorTypes.NETWORK_ERROR:
+                                    console.log('Network error, trying to recover...');
+                                    window.hls.startLoad();
+                                    break;
+                                case Hls.ErrorTypes.MEDIA_ERROR:
+                                    console.log('Media error, trying to recover...');
+                                    window.hls.recoverMediaError();
+                                    break;
+                                default:
+                                    window.hls.destroy();
+                                    break;
+                            }
+                        }
+                    });
+                    
                 } else if (storyVideo.canPlayType('application/vnd.apple.mpegurl')) {
                     // Safari Native HLS
                     storyVideo.src = videoPath;

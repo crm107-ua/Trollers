@@ -99,13 +99,18 @@
                     <div class="form-actions">
                         <button type="submit" class="btn-submit" id="submit-btn">
                             <span id="submit-text">Publicar Story</span>
-                            <span id="submit-loading" style="display: none;">
+                            <span id="submit-loading" style="display: none; align-items: center; gap: 8px;">
                                 <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
                                     <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="3"/>
                                 </svg>
-                                Subiendo...
+                                <span id="loading-text">Subiendo... 0%</span>
                             </span>
                         </button>
+                        
+                        <!-- Progress Bar -->
+                        <div id="upload-progress-container" style="display: none; width: 100%; height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; margin-top: 10px; overflow: hidden;">
+                            <div id="upload-progress-bar" style="width: 0%; height: 100%; background: #2563eb; transition: width 0.2s ease;"></div>
+                        </div>
                     </div>
                 </form>
             </div>

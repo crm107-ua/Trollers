@@ -57,6 +57,7 @@ class ProcessStoryVideo implements ShouldQueue
             FFMpeg::fromDisk('stories')
                 ->open($fileToProcess)
                 ->exportForHLS()
+                ->setSegmentLength(4) // 4s segments for better adaptability
                 ->addFormat($lowBitrate)
                 ->addFormat($midBitrate)
                 ->addFormat($highBitrate)

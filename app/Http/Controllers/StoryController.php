@@ -66,6 +66,14 @@ class StoryController extends Controller
             \App\Jobs\ProcessStoryVideo::dispatch($story, $filename);
         }
 
+        if ($request->wantsJson()) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Story publicada! El video se está procesando...',
+                'redirect_url' => route('home')
+            ]);
+        }
+
         return redirect()->route('home')->with('success', 'Story publicada! El video se está procesando...');
     }
 

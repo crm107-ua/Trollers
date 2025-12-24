@@ -199,13 +199,14 @@ document.addEventListener('DOMContentLoaded', function() {
         img.src = base64Image;
     }
 
-    // Form submit
+    // Form submit with AJAX
     form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
         // Validate
         if (currentFileType === 'video') {
             const duration = parseInt(durationInput.value);
             if (duration > 120) {
-                e.preventDefault();
                 alert('El video es demasiado largo. Máximo 2 minutos');
                 return;
             }
@@ -215,6 +216,67 @@ document.addEventListener('DOMContentLoaded', function() {
         submitBtn.disabled = true;
         submitText.style.display = 'none';
         submitLoading.style.display = 'inline-flex';
+        
+        const progressBar = document.getElementById('upload-progress-bar');
+        const progressContainer = document.getElementById('upload-progress-container');
+        const loadingText = document.getElementById('loading-text');
+        
+        progressContainer.style.display = 'block';
+
+        // Prepare data
+        const formData = new FormData(form);
+        const xhr = new XMLHttpRequest();
+
+        xhr.open('POST', form.action, true);
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        
+        // Upload progress
+        xhr.upload.onprogress = function(e) {
+            if (e.lengthComputable) {
+                const percent = Math.round((e.loaded / e.total) * 100);
+                progressBar.style.width = percent + '%';
+                loadingText.textContent = 'Subiendo... ' + percent + '%';
+                
+                if (percent === 100) {
+                   loadingText.textContent = 'Procesando...';
+                }
+            }
+        };
+
+        // Response handler
+        xhr.onload = function() {
+            if (xhr.status === 200 || xhr.status === 201) {
+                try {
+                    const response = JSON.parse(xhr.responseText);
+                    if (response.success) {
+                        window.location.href = response.redirect_url;
+                    } else {
+                         // Fallback for non-JSON or weird success
+                         window.location.href = '/'; 
+                    }
+                } catch (e) {
+                     // If response is not JSON (maybe simple redirect HTML), just go home
+                     window.location.href = '/';
+                }
+            } else {
+                alert('Error al subir la story. Inténtalo de nuevo.');
+                resetFormState();
+            }
+        };
+
+        xhr.onerror = function() {
+            alert('Error de conexión.');
+            resetFormState();
+        };
+
+        xhr.send(formData);
     });
+
+    function resetFormState() {
+        submitBtn.disabled = false;
+        submitText.style.display = 'block';
+        submitLoading.style.display = 'none';
+        document.getElementById('upload-progress-container').style.display = 'none';
+    }
 });
 </script>
