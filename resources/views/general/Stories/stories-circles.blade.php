@@ -18,6 +18,8 @@
     }
 @endphp
 
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
 <style>
     .stories-container {
         background: #000;
@@ -1089,6 +1091,11 @@
         if (video) {
             video.pause();
             video.currentTime = 0;
+            // Destroy HLS instance if exists
+            if (window.hls) {
+                window.hls.destroy();
+                window.hls = null;
+            }
         }
     }
 
@@ -1156,17 +1163,62 @@
         if (story.media_type === 'video') {
             storyImage.style.display = 'none';
             storyVideo.style.display = 'block';
-            storyVideo.src = '/images/stories/' + story.image_path;
-            storyVideo.load();
-            storyVideo.play();
+            
+            const videoPath = '/images/stories/' + story.image_path;
+            
+            // HLS Support
+            if (videoPath.endsWith('.m3u8')) {
+                if (Hls.isSupported()) {
+                    if (window.hls) {
+                        window.hls.destroy();
+                    }
+                    window.hls = new Hls();
+                    window.hls.loadSource(videoPath);
+                    window.hls.attachMedia(storyVideo);
+                    window.hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                        storyVideo.play();
+                    });
+                } else if (storyVideo.canPlayType('application/vnd.apple.mpegurl')) {
+                    // Safari Native HLS
+                    storyVideo.src = videoPath;
+                    storyVideo.addEventListener('loadedmetadata', function() {
+                        storyVideo.play();
+                    });
+                }
+            } else {
+                // Determine if we need to clean up HLS
+                if (window.hls) {
+                    window.hls.destroy();
+                    window.hls = null;
+                }
+                // Standard MP4
+                storyVideo.src = videoPath;
+                storyVideo.load();
+                storyVideo.play();
+            }
             
             // Use video duration for progress
-            const duration = (story.duration || 5) * 1000;
-            updateProgressBars(duration);
+            // Note: HLS might not have duration immediately available until metadata loads
+            storyVideo.onloadedmetadata = function() {
+                 let dur = storyVideo.duration;
+                 if (!dur || dur === Infinity) dur = story.duration || 15; // Fallback
+                 updateProgressBars(dur * 1000);
+            };
+            
+            // If already loaded (cached), trigger manually
+            if (storyVideo.duration && storyVideo.duration !== Infinity) {
+                updateProgressBars(storyVideo.duration * 1000);
+            }
             
             // Auto advance when video ends
             storyVideo.onended = () => nextStory();
         } else {
+            // Clean HLS if switching to image
+            if (window.hls) {
+                window.hls.destroy();
+                window.hls = null;
+            }
+            
             storyVideo.style.display = 'none';
             storyImage.style.display = 'block';
             storyImage.src = '/images/stories/' + story.image_path;

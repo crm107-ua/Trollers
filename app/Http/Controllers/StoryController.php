@@ -53,15 +53,20 @@ class StoryController extends Controller
         $user = User::find($request->user_id);
 
         // Create story record
-        Story::create([
+        $story = Story::create([
             'user_id' => $request->user_id,
-            'user_name' => $user->name, // Keep for backward compatibility
+            'user_name' => $user->name,
             'image_path' => $filename,
             'media_type' => $mediaType,
             'duration' => $request->duration
         ]);
 
-        return redirect()->route('home')->with('success', 'Story publicada correctamente!');
+        // Process Video for HLS
+        if ($mediaType === 'video') {
+            \App\Jobs\ProcessStoryVideo::dispatch($story, $filename);
+        }
+
+        return redirect()->route('home')->with('success', 'Story publicada! El video se está procesando...');
     }
 
     /**
