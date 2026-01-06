@@ -1,12 +1,12 @@
-(function() {
+(function () {
     const second = 1000,
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
 
-    let birthday = "Jan 1, 2026 00:00:00",
+    let birthday = "Jan 1, 2027 00:00:00",
         countDown = new Date(birthday).getTime(),
-        x = setInterval(function() {
+        x = setInterval(function () {
 
             let now = new Date().getTime(),
                 distance = countDown - now;
@@ -22,7 +22,7 @@
                     countdown = document.getElementById("countdown"),
                     content = document.getElementById("content");
 
-                headline.innerText = "¡Feliz 2026!";
+                headline.innerText = "¡Feliz 2027!";
                 countdown.style.display = "none";
                 content.style.display = "block";
 

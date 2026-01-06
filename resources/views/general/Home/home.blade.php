@@ -51,7 +51,7 @@
               </style>
           </h2>                  
             @endif
-                @include('general.Home.countdown')
+                {{-- @include('general.Home.countdown') --}}
             @if($alerta->alternative)
               @include('general.Home.info.index')
             @endif
