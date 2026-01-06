@@ -51,7 +51,7 @@
               </style>
           </h2>                  
             <?php endif; ?>
-                <?php echo $__env->make('general.Home.countdown', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                
             <?php if($alerta->alternative): ?>
               <?php echo $__env->make('general.Home.info.index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
             <?php endif; ?>
